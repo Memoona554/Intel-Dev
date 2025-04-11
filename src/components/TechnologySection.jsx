@@ -127,7 +127,7 @@ const TechnologiesSection = () => {
                       <img
                         src={img.src}
                         alt={img.alt}
-                        className="max-h-24 max-w-full object-contain"
+                        className="max-h-14 max-w-full object-contain"
                         loading="lazy"
                       />
                     </div>
