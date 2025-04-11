@@ -1,0 +1,57 @@
+import React from "react";
+
+const DiscoverSection = () => {
+    return (
+        <section className="w-full px-4 bg-white py-16">
+        <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="flex flex-col justify-center space-y-6 px-6 lg:px-0">
+                <h2 className="text-3xl  text-gray-900">
+                    <strong>Discover the Essence</strong>
+                    <br />
+                    of Who We Are
+                </h2>
+                <p className="text-lg text-gray-700">
+                    Vaival Technologies is the partner of choice for entrepreneurs, SMEs, and major corporations. Since 2010, we’ve helped many businesses enhance their potential via custom software development, web3 & blockchain, dev-ops, design innovation, and IT consulting services.
+                </p>
+            </div>
+    
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16">
+                <div className="flex items-center flex-col gap-4 justify-center space-x-6">
+                    <img
+                        src="https://www.vaival.com/wp-content/uploads/2023/11/Rectangle-813.webp"
+                        alt="software development services"
+                        className="lg:w-full w-82 h-auto object-cover"
+                    />
+                    <p className=" text-2xl mb-5 text-gray-900">
+                        <span className=" text-4xl text-blue-500 font-semibold">250+</span>
+                        <br />
+                        Skilled <br />&amp; Dedicated
+                        <br />
+                        Staff
+                    </p>
+                </div>
+    
+                <div className="flex items-center flex-col gap-4 justify-center space-x-6">
+                    <p className="text-2xl mt-4  text-gray-900">
+                        <span className=" text-4xl text-blue-500 font-semibold">300+</span>
+                        <br />
+                        Completed
+                        <br />
+                        Projects
+                    </p>
+                    <img
+                        src="https://www.vaival.com/wp-content/uploads/2023/11/Rectangle-816_1.webp"
+                        alt="software development"
+                        className="lg:w-full w-82 h-auto object-cover"
+                    />
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    );
+};
+
+export default DiscoverSection;

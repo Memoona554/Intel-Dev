@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --px-theme-rgb: 7, 136, 255;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+#root {
+  overflow: hidden;
+}
+swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  display: block;
+}
+.swiper-slide {
+  text-align: start;
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
