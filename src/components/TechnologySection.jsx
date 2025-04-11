@@ -62,7 +62,7 @@ const TechnologiesSection = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-16">
+    <div className="container mx-auto px-4 py-16" data-aos="fade-up" data-aos-delay="100">
       <div className="w-full">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold mb-4">Technologies</h2>
@@ -71,7 +71,6 @@ const TechnologiesSection = () => {
           </p>
         </div>
 
-        {/* Desktop Tabs */}
         <div className="hidden md:block">
           <div className="flex justify-center mb-8">
             <div className="flex flex-wrap justify-center gap-2" role="tablist">
@@ -115,7 +114,6 @@ const TechnologiesSection = () => {
           </div>
         </div>
 
-        {/* Mobile View - Show all categories in a vertical layout */}
         <div className="md:hidden">
           <div className="space-y-8">
             {tabs.map((tab) => (

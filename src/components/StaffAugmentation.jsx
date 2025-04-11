@@ -2,9 +2,9 @@ import React from 'react';
 
 const StaffAugmentation = () => {
   return (
-    <section className="w-full px-5 py-16 bg-white">
-      <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <div className="flex flex-col justify-center space-y-6 px-6 lg:px-0">
+    <section className="w-full px-5 py-16 bg-white" >
+      <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8" data-aos="fade-up" data-aos-delay="100">
+        <div className="flex flex-col justify-center space-y-6 px-6 lg:px-0" data-aos="fade-right" data-aos-delay="200">
           <h2 className="text-3xl font-bold text-gray-900">
             <strong>Staff Augmentation</strong>
             <br />
@@ -26,7 +26,7 @@ const StaffAugmentation = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center" data-aos="fade-left" data-aos-delay="300">
           <div className="w-full">
             <img
               src="https://www.vaival.com/wp-content/uploads/2023/11/Group-15417-1.webp"

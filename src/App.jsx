@@ -1,23 +1,19 @@
 import './App.css'
-import Header from './components/Header'
-import HeroSection from './components/HeroSection'
-import DiscoverSection from './components/DiscoverSection'
-import StaffAugmentation from './components/StaffAugmentation'
-import SoftwareDevelopmentSection from './components/SoftwareDevelopmentSection'
-import TechnologiesSection from './components/TechnologySection'
-import IndustriesSection from './components/Industries'
-
+import { Route, Routes } from "react-router-dom";
+import Home from './pages/Home'
+import Contact from './pages/Contact';
+import Industry from './pages/Industry';
+import About from './pages/About';
 function App() {
 
   return (
     <>
-      <Header/>
-      <HeroSection/>
-      <DiscoverSection/>
-      <StaffAugmentation/>
-      <SoftwareDevelopmentSection/>
-      <TechnologiesSection/>
-      <IndustriesSection/>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/contact-us' element={<Contact></Contact>}></Route>
+        <Route path='/industries' element={<Industry></Industry>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
+      </Routes>
     </>
   )
 }

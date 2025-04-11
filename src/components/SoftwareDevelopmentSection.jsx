@@ -3,8 +3,8 @@ import React from 'react';
 const SoftwareDevelopmentSection = () => {
     return (
         <section className="w-full px-5 py-16 bg-white">
-            <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div className="flex items-center justify-center">
+            <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8" data-aos="fade-up" data-aos-delay="100">
+            <div className="flex items-center justify-center" data-aos="fade-up" data-aos-delay="200">
                     <div className="w-full">
                         <img
                             src="https://www.vaival.com/wp-content/uploads/2024/07/Group-1000004277-1024x947.webp"
@@ -13,7 +13,7 @@ const SoftwareDevelopmentSection = () => {
                         />
                     </div>
                 </div>
-                <div className="flex flex-col justify-center space-y-6 px-6 lg:px-0">
+                <div className="flex flex-col justify-center space-y-6 px-6 lg:px-0" data-aos="fade-up" data-aos-delay="300">
                     <h2 className="text-3xl font-bold text-gray-900">
                         <strong> Software Development</strong> as a Service (SDAAS)
                     </h2>
