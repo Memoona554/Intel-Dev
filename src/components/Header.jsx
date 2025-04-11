@@ -137,7 +137,6 @@ function Header() {
                                             {item.name === "Services" ? (
                                                 item.dropdown.map((subItem) => (
                                                     <div key={subItem.name} className="flex flex-col items-center">
-                                                        {/* Service Name with Link */}
                                                         <a
                                                             href={subItem.href}
                                                             onClick={(e) => {
@@ -149,7 +148,6 @@ function Header() {
                                                         >
                                                             {subItem.name}
                                                         </a>
-                                                        {/* Service Image */}
                                                         <img
                                                             src="https://www.vaival.com/wp-content/uploads/2024/05/Group-1000004334.png"
                                                             alt={`Image for ${subItem.name}`}
@@ -215,54 +213,80 @@ function Header() {
                 <div className={`lg:hidden absolute top-full left-0 right-0 transform transition-transform duration-300 flex flex-col bg-gray-100 border-t border-white/20 shadow-md px-5 py-4 z-40 text-white space-y-4  ${menuOpen ? "translate-y-0" : "-translate-y-full"} `}>
                     {navItems.map((item) => (
                         <div key={item.name}>
-                            <button
-                                onClick={() =>
-                                    setOpenDropdown(openDropdown === item.name ? null : item.name)
-                                }
-                                className="w-full text-black text-left flex justify-between items-center py-2"
-                            >
-                                <span>{item.name}</span>
-                                {item.dropdown && (
-                                    <span>
-                                        {openDropdown === item.name ? <FaChevronUp /> : <FaChevronDown />}
-                                    </span>
-                                )}
-                            </button>
+                            {item.dropdown ? (
+                                <>
+                                    <button
+                                        onClick={() =>
+                                            setOpenDropdown(openDropdown === item.name ? null : item.name)
+                                        }
+                                        className="w-full text-black text-left flex justify-between items-center py-2"
+                                    >
+                                        <span>{item.name}</span>
+                                        <span>
+                                            {openDropdown === item.name ? <FaChevronUp /> : <FaChevronDown />}
+                                        </span>
+                                    </button>
 
-                            {item.dropdown && openDropdown === item.name && (
-                                <div className="ml-4 border-l text-black border-white/30 pl-4 space-y-2">
-                                    {item.dropdown.map((subItem) => (
-                                        subItem.href.startsWith("/") ? (
-                                            <Link
-                                                to={subItem.href}
-                                                onClick={() => {
-                                                    setMenuOpen(false);
-                                                    setOpenDropdown(null);
-                                                }}
-                                                className="block hover:text-blue-400"
-                                            >
-                                                {subItem.name}
-                                            </Link>
-                                        ) : (
-                                            <a
-                                                href={subItem.href}
-                                                onClick={(e) => {
-                                                    e.preventDefault();
-                                                    handleLinkClick(subItem.href);
-                                                    setMenuOpen(false);
-                                                    setOpenDropdown(null);
-                                                }}
-                                                className="block hover:text-blue-400"
-                                            >
-                                                {subItem.name}
-                                            </a>
-                                        )
-
-                                    ))}
-                                </div>
+                                    {openDropdown === item.name && (
+                                        <div className="ml-4 border-l text-black border-white/30 pl-4 space-y-2">
+                                            {item.dropdown.map((subItem) =>
+                                                subItem.href.startsWith("/") ? (
+                                                    <Link
+                                                        key={subItem.name}
+                                                        to={subItem.href}
+                                                        onClick={() => {
+                                                            setMenuOpen(false);
+                                                            setOpenDropdown(null);
+                                                        }}
+                                                        className="block hover:text-blue-400"
+                                                    >
+                                                        {subItem.name}
+                                                    </Link>
+                                                ) : (
+                                                    <a
+                                                        key={subItem.name}
+                                                        href={subItem.href}
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                            handleLinkClick(subItem.href);
+                                                            setMenuOpen(false);
+                                                            setOpenDropdown(null);
+                                                        }}
+                                                        className="block hover:text-blue-400"
+                                                    >
+                                                        {subItem.name}
+                                                    </a>
+                                                )
+                                            )}
+                                        </div>
+                                    )}
+                                </>
+                            ) : (
+                                item.href.startsWith("/") ? (
+                                    <Link
+                                        to={item.href}
+                                        onClick={() => setMenuOpen(false)}
+                                        className="block text-black py-2 hover:text-blue-400"
+                                    >
+                                        {item.name}
+                                    </Link>
+                                ) : (
+                                    <a
+                                        href={item.href}
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                            handleLinkClick(item.href);
+                                            setMenuOpen(false);
+                                        }}
+                                        className="block text-black py-2 hover:text-blue-400"
+                                    >
+                                        {item.name}
+                                    </a>
+                                )
                             )}
                         </div>
                     ))}
+
                 </div>
             )}
 
