@@ -6,6 +6,7 @@ import Industry from './pages/Industry';
 import About from './pages/About';
 import AiDevelopment from './pages/AiDevelopment';
 import Service from './pages/Service';
+import MPVDevelopment from './pages/MPVDevelopment';
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/services/ai-development' element={<AiDevelopment></AiDevelopment>}></Route>
         <Route path='/services' element={<Service></Service>}></Route>
+        <Route path='/services/mpv-development' element={<MPVDevelopment></MPVDevelopment>}></Route>
       </Routes>
     </>
   )

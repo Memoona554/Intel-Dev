@@ -44,7 +44,7 @@ function Header() {
             href: "/services",
             dropdown: [
                 { name: "SDaaS", href: "#webdev", image: "/service_1.png" },
-                { name: "MVP Development", href: "#appdev", image: "/service_2.png" },
+                { name: "MVP Development", href: "/services/mpv-development", image: "/service_2.png" },
                 { name: "Legacy System Modernization", href: "#uiux", image: "/service_3.png" },
                 { name: "SecaaS", href: "#", image: "/service_4.png" },
                 { name: "Blockchain Development", href: "#", image: "/service_5.png" },
