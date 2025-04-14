@@ -32,3 +32,8 @@ swiper {
   justify-content: flex-start;
   align-items: center;
 }
+
+.swiper-pagination {
+  bottom: 0 !important;
+  text-align: center;
+}

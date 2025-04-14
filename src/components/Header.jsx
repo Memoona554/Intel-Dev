@@ -41,20 +41,28 @@ function Header() {
     const navItems = [
         {
             name: "Services",
-            href: "#services",
+            href: "/services",
             dropdown: [
-                { name: "Web Development", href: "#webdev" },
-                { name: "App Development", href: "#appdev" },
-                { name: "UI/UX Design", href: "#uiux" },
+                { name: "SDaaS", href: "#webdev", image: "/service_1.png" },
+                { name: "MVP Development", href: "#appdev", image: "/service_2.png" },
+                { name: "Legacy System Modernization", href: "#uiux", image: "/service_3.png" },
+                { name: "SecaaS", href: "#", image: "/service_4.png" },
+                { name: "Blockchain Development", href: "#", image: "/service_5.png" },
+                { name: "AI Development", href: "/services/ai-development", image: "/service_6.png" },
             ],
         },
         {
             name: "Staff Augmentation",
             href: "#staff-augmentation",
             dropdown: [
-                { name: "Web Dev", href: "#webdev" },
-                { name: "App Dev", href: "#appdev" },
-                { name: "UI/UX", href: "#uiux" },
+                { name: "SDaaS", href: "#webdev" },
+                { name: "MVP Development", href: "#appdev" },
+                { name: "Legacy System Modernization", href: "#uiux" },
+                { name: "Legacy System Modernization", href: "#uiux" },
+                {name: "SecaaS",href:'#'},
+                {name: "Blockchain Development",href:'#'},
+                {name: "AI Development",href:'#'},
+
             ],
         },
         {
@@ -135,26 +143,24 @@ function Header() {
                                             className={`grid ${item.name === 'Services' ? 'grid-cols-2 gap-4 w-100' : 'grid-cols-1'}`}
                                         >
                                             {item.name === "Services" ? (
-                                                item.dropdown.map((subItem) => (
-                                                    <div key={subItem.name} className="flex flex-col items-center">
-                                                        <a
-                                                            href={subItem.href}
-                                                            onClick={(e) => {
-                                                                e.preventDefault();
-                                                                handleLinkClick(subItem.href);
-                                                                setOpenDropdown(null);
-                                                            }}
-                                                            className="text-center mb-2 text-black text-sm font-medium transition hover:text-blue-600"
-                                                        >
+                                                item.dropdown.map((subItem, index) => (
+                                                    <div key={subItem.name} className="flex flex-col items-center text-center">
+                                                          <Link to={subItem.href} key={subItem.name} 
+                                                            className="mb-2 text-black text-sm font-medium transition hover:text-blue-600"
+                                                            >
+
+                                                       
                                                             {subItem.name}
-                                                        </a>
+                                                        
                                                         <img
-                                                            src="https://www.vaival.com/wp-content/uploads/2024/05/Group-1000004334.png"
+                                                            src={subItem.image}
                                                             alt={`Image for ${subItem.name}`}
                                                             className="w-[160px] h-auto mx-auto cursor-pointer"
                                                         />
+                                                        </Link>
                                                     </div>
                                                 ))
+                                                
                                             ) : (
                                                 item.dropdown.map((subItem) => (
                                                     subItem.href.startsWith("/") ? (

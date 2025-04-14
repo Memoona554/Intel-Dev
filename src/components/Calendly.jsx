@@ -8,7 +8,7 @@ function Calendly() {
         document.body.appendChild(script);
     }, []);
     return (
-        <div className="w-full h-[780px] relative">
+        <div id="calendly" className="w-full h-[780px] relative">
             <div
                 className="calendly-inline-widget"
                 data-url="https://calendly.com/mamunagulfareen/30min"
