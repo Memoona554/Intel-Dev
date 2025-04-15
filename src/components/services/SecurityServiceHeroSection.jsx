@@ -48,7 +48,7 @@ const SecuritySubscriptionSection = () => {
                     </p>
 
                     <a
-                        href="#op3-element-yuZgdmob"
+                        href="#calendly"
                         className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded transition"
                     >
                         Schedule Your Free Consultation
