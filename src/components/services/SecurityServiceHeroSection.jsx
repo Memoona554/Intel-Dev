@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-const SDAASHeroSection = () => {
+const SecuritySubscriptionSection = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -26,61 +26,33 @@ const SDAASHeroSection = () => {
             );
     };
     return (
-        <section className="bg-white py-32 bg-cover lg:py-24 px-6 bg-no-repeat" style={{
+        <section className=" py-16 px-4 md:px-12 lg:px-24" style={{
             backgroundImage: "url('/sdaas-bg.webp')",
 
         }}>
-            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-start" data-aos="fade-up" data-aos-delay="100">
-                <div className="space-y-6">
-                    <p className="text-blue-600 text-sm font-semibold uppercase" data-aos="zoom-in" data-aos-delay="200">Never Offered Before!</p>
-                    <h1 className="text-3xl sm:text-4xl font-bold text-white" data-aos="fade-up" data-aos-delay="300">
-                        Unlimited Software Development for Startups and SMEs
+            <div data-aos="fade-up" data-aos-delay="100" className="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h1 className="text-3xl lg:text-5xl font-bold mb-4 text-white">
+                        Subscription-Based SecOps Team
                     </h1>
-                    <p className="text-white text-lg" data-aos="fade-up" data-aos-delay="300">
-                        Deliver exceptional software experiences with fast, responsive, and highly scalable development solutions.
+                    <h1 className="text-2xl lg:text-4xl font-semibold mb-4 text-white">
+                        Start Today, Cancel Anytime
+                    </h1>
+                    <h1 className="text-xl lg:text-3xl font-medium mb-6 text-white">
+                        Advanced <span className="text-blue-500">Protection</span> For{" "}
+                        <span className="text-blue-500">Cybersecurity Threats</span> with Optimized{" "}
+                        <span className="text-blue-500">SecOps</span> Subscription Plans
+                    </h1>
+                    <p className="text-white mb-6">
+                        Prevention-First Security: 95% Reduction in Hacking Attempts Within 3 Months
                     </p>
 
-                    <ul className="space-y-3 text-white" data-aos="fade-up" data-aos-delay="400">
-                        {[
-                            "Access to top talent without the hassle",
-                            "Cost-effective development solutions without compromising quality.",
-                            "Reduced overhead costs of hiring in-house developers.",
-                            "Clear and transparent pricing to prevent unexpected costs.",
-                            "7-day free trial",
-                        ].map((item, idx) => (
-                            <li key={idx} className="flex items-start">
-                                <span className="text-green-600 mr-2 mt-1">
-                                    <i className="fas fa-check" aria-hidden="true"></i>
-                                </span>
-                                <span>{item}</span>
-                            </li>
-                        ))}
-                    </ul>
-
                     <a
-                        href="#calendly"
-                        className="inline-block mt-6 px-6 py-3 bg-blue-600 text-white rounded font-medium hover:bg-blue-700 transition"
+                        href="#op3-element-yuZgdmob"
+                        className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded transition"
                     >
-                        Schedule a Call
+                        Schedule Your Free Consultation
                     </a>
-
-                    <p className="hidden">7-Day Free Trial | 100% Money Back Guarantee</p>
-
-                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10">
-                        {[
-                            "https://www.vaival.com/wp-content/uploads/elementor/thumbs/Group-1000005822-qv0hc028la4fe9sm7m5veiqe48ft35s1chu1o2ve9q.png",
-                            "https://www.vaival.com/wp-content/uploads/elementor/thumbs/Group-1000005821-qv0hcu52nz9lpskxbz5xmb554kbjxh3g4mpl0xmsqm.png",
-                            "https://www.vaival.com/wp-content/uploads/elementor/thumbs/Group-1000005818-qv0hd7atbnrm8c1t74upl7tlfyiox8joufudqt3abi.png",
-                            "https://www.vaival.com/wp-content/uploads/elementor/thumbs/Group-1000005824-qv0hdgp7804hgfo5o8wza5g7dt8d27l07qd8jkpcla.png",
-                        ].map((src, index) => (
-                            <img
-                                key={index}
-                                src={src}
-                                alt={`Logo ${index + 1}`}
-                                className="w-full max-h-16 object-contain"
-                            />
-                        ))}
-                    </div>
                 </div>
 
                 <div className=" p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="300">
@@ -127,4 +99,4 @@ const SDAASHeroSection = () => {
     );
 };
 
-export default SDAASHeroSection;
+export default SecuritySubscriptionSection;

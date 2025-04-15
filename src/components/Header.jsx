@@ -46,7 +46,7 @@ function Header() {
                 { name: "SDaaS", href: "/services/sdaas", image: "/service_1.png" },
                 { name: "MVP Development", href: "/services/mpv-development", image: "/service_2.png" },
                 { name: "Legacy System Modernization", href: "#uiux", image: "/service_3.png" },
-                { name: "SecaaS", href: "#", image: "/service_4.png" },
+                { name: "SecaaS", href: "/services/security-as-a-service", image: "/service_4.png" },
                 { name: "Blockchain Development", href: "/services/block-chain-development", image: "/service_5.png" },
                 { name: "AI Development", href: "/services/ai-development", image: "/service_6.png" },
             ],
