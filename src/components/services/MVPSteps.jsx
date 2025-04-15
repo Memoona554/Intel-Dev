@@ -139,17 +139,14 @@ const MvpSteps = () => {
             </section>
             <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto text-center">
-                    {/* Headline 1 */}
                     <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4">
                         Accelerate Your MVP Launch
                     </h2>
 
-                    {/* Headline 2 */}
                     <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-blue-600 mb-8">
                         Bring Your Product to Market with Confidence
                     </h2>
 
-                    {/* CTA Button */}
                     <a
                         href="#next-step"
                         className="inline-block px-8 py-4 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition duration-300"

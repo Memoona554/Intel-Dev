@@ -2,7 +2,7 @@ import React from "react";
 
 const AIServiceSection = () => {
   return (
-    <section className="bg-white py-12 px-4 md:px-8 lg:px-16 lg:py-28 lg:bg-center text-white"  style={{
+    <section className="bg-white py-12 px-4 md:px-8 lg:px-16 lg:py-28 lg:bg-center text-white bg-no-repeat"  style={{
         backgroundImage: "url('/ai-bg-img.webp')",
   
       }}>
@@ -30,45 +30,7 @@ const AIServiceSection = () => {
           </a>
         </div>
 
-        {/* <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-          <h2 className="text-2xl font-bold mb-2">Request for Proposal</h2>
-          <p className="text-gray-600 mb-4">Please fill the below information and we’ll get back to you as soon as possible.</p>
-          <form className="space-y-4">
-            <input
-              type="text"
-              name="your-name"
-              placeholder="Your Name"
-              className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-              required
-            />
-            <input
-              type="email"
-              name="your-email"
-              placeholder="Your Email"
-              className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-              required
-            />
-            <input
-              type="tel"
-              name="phone"
-              placeholder="Your Contact"
-              className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-              required
-            />
-            <textarea
-              name="your-message"
-              placeholder="Your Message"
-              rows="5"
-              className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-            ></textarea>
-            <button
-              type="submit"
-              className="w-full bg-blue-600 text-white py-3 rounded hover:bg-blue-700 transition"
-            >
-              SUBMIT NOW
-            </button>
-          </form>
-        </div> */}
+        
       </div>
     </section>
   );
