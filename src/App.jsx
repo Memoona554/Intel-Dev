@@ -8,6 +8,7 @@ import AiDevelopment from './pages/AiDevelopment';
 import Service from './pages/Service';
 import MPVDevelopment from './pages/MPVDevelopment';
 import SDaaS from './pages/SDaaS';
+import BlockChain from './pages/BlockChain';
 function App() {
 
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/services' element={<Service></Service>}></Route>
         <Route path='/services/mpv-development' element={<MPVDevelopment></MPVDevelopment>}></Route>
         <Route path='/services/sdaas' element={<SDaaS></SDaaS>}></Route>
+        <Route path='/services/block-chain-development' element={<BlockChain></BlockChain>}></Route>
       </Routes>
     </>
   )
