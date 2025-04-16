@@ -70,7 +70,7 @@ function Header() {
             href: "/portfolio",
             dropdown: [
                 { name: "Vividly SRL", href: "/portfolio/vividly" },
-                { name: "Kombo", href: "https://getkombo.ai/" },
+                { name: "Kombo", href: "/portfolio/kombo" },
                 { name: "DexCheck", href: "https://dexcheck.ai/app" },
                 { name: "XANA", href: "https://xana.net/" },
 

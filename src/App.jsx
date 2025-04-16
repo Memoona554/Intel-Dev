@@ -13,6 +13,7 @@ import SecurityService from './pages/SecurityService';
 import LeagacyService from './pages/LeagacyService';
 import Portfolio from './pages/Portfolio';
 import VividlyPorject from './pages/VividlyPorject';
+import Kombo from './pages/Kombo';
 function App() {
 
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path='/services/legacy-software-modernization' element={<LeagacyService></LeagacyService>}></Route>
         <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
         <Route path='/portfolio/vividly' element={<VividlyPorject></VividlyPorject>}></Route>
+        <Route path='/portfolio/kombo' element={<Kombo></Kombo>}></Route>
 
 
       </Routes>
