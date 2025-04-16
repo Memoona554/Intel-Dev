@@ -82,7 +82,7 @@ function Header() {
             dropdown: [
                 { name: "About Us", href: "/about" },
                 { name: "Blog", href: "#blog" },
-                { name: "Career", href: "#career" },
+                { name: "Career", href: "/careers" },
             ],
         },
         { name: "Industries", href: "/industries" },
