@@ -54,16 +54,56 @@ function Header() {
         {
             name: "Staff Augmentation",
             href: "#staff-augmentation",
-            dropdown: [
-                { name: "SDaaS", href: "#webdev" },
-                { name: "MVP Development", href: "#appdev" },
-                { name: "Legacy System Modernization", href: "#uiux" },
-                { name: "Legacy System Modernization", href: "#uiux" },
-                { name: "SecaaS", href: '#' },
-                { name: "Blockchain Development", href: '#' },
-                { name: "AI Development", href: '#' },
-
-            ],
+            dropdown: {
+                cta: {
+                    title: "Hire AI Powered Developer Now!",
+                    description: "Collaborate with industry’s best IT talent & achieve 2x efficiency.",
+                    image: "/cta-image.png",
+                    href: "/contact-us", 
+                },
+                columns: [
+                    {
+                        title: "",
+                        items: [
+                            { name: "React Developer", href: "#" },
+                            { name: "Node Js Developer", href: "#" },
+                            { name: "MERN Stack Developers", href: "#" },
+                            { name: "MEVN Stack Developers", href: "#" },
+                            { name: "MEAN Stack Developer", href: "#" },
+                            { name: "Angular Developers", href: "#" },
+                            { name: "Python Developers", href: "#" },
+                            { name: "Vue Js Developers", href: "#" },
+                            { name: "Django Developers", href: "#" },
+                        ],
+                    },
+                    {
+                        title: "",
+                        items: [
+                            { name: "iOS Developers", href: "#" },
+                            { name: "Android Developers", href: "#" },
+                            { name: "Java Developers", href: "#" },
+                            { name: ".Net Developers", href: "#" },
+                            { name: "PHP Developers", href: "#" },
+                            { name: "Laravel Developers", href: "#" },
+                            { name: "CodeIgniter Developers", href: "#" },
+                            { name: "Ruby on Rails Developers", href: "#" },
+                            { name: "Unity 3D", href: "#" },
+                        ],
+                    },
+                    {
+                        title: "",
+                        items: [
+                            { name: "Project Manager/Scrum Master", href: "#" },
+                            { name: "Elixir Developers", href: "#" },
+                            { name: "Flutter Developers", href: "#" },
+                            { name: "Golang Developers", href: "#" },
+                            { name: "Unreal Engine Developers", href: "#" },
+                            { name: "DevOps Engineer", href: "#" },
+                            { name: "Blockchain Developers", href: "#" },
+                        ],
+                    },
+                ],
+            },
         },
         {
             name: "Portfolio",
@@ -142,63 +182,98 @@ function Header() {
                             )}
 
                             {item.dropdown && (
-                                <div
-                                    className={`absolute left-0 top-full mt-2 w-auto bg-white rounded-md shadow-xl transition-all duration-300 z-50 ${openDropdown === item.name
-                                        ? 'opacity-100 visible translate-y-0'
-                                        : 'opacity-0 invisible -translate-y-2'
-                                        }`}
-                                >
-                                    <div className="p-4 space-y-2">
-                                        <div
-                                            className={`grid ${item.name === 'Services' ? 'grid-cols-2 gap-4 w-100' : 'grid-cols-1'}`}
-                                        >
-                                            {item.name === "Services" ? (
-                                                item.dropdown.map((subItem) => (
-                                                    <div key={subItem.name} className="flex flex-col items-center text-center">
-                                                        <Link
-                                                            to={subItem.href}
-                                                            className="mb-2 text-black text-sm font-medium transition hover:text-blue-600"
-                                                        >
-                                                            {subItem.name}
-                                                            <img
-                                                                src={subItem.image}
-                                                                alt={`Image for ${subItem.name}`}
-                                                                className="w-[160px] h-auto mx-auto cursor-pointer"
-                                                            />
-                                                        </Link>
+                                item.name === "Staff Augmentation" && typeof item.dropdown === "object" && item.dropdown.columns ? (
+                                    <div className={`absolute left-0 top-full mt-2 bg-white rounded-md shadow-xl z-50 transition-all duration-300 ${openDropdown === item.name ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
+                                        <div className="flex p-6 gap-6 lg:w-[600px] xl:w-[700px] max-w-full">
+
+
+                                            <div className="flex-grow grid grid-cols-3 gap-6">
+                                                {item.dropdown.columns.map((column, colIndex) => (
+                                                    <div key={colIndex}>
+                                                        <ul className="space-y-2">
+                                                            {column.items.map((link) => (
+                                                                <li key={link.name}>
+                                                                    <a
+                                                                        href={link.href}
+                                                                        onClick={(e) => {
+                                                                            if (link.href.startsWith("#")) {
+                                                                                e.preventDefault();
+                                                                                handleLinkClick(link.href);
+                                                                            }
+                                                                            setOpenDropdown(null);
+                                                                        }}
+                                                                        className="block text-sm text-gray-700 hover:text-blue-600 transition"
+                                                                    >
+                                                                        {link.name}
+                                                                    </a>
+                                                                </li>
+                                                            ))}
+                                                        </ul>
                                                     </div>
-                                                ))
-                                            ) : (
-                                                item.dropdown.map((subItem) =>
-                                                    subItem.href.startsWith("/") ? (
-                                                        <Link
-                                                            key={subItem.name}
-                                                            to={subItem.href}
-                                                            onClick={() => setOpenDropdown(null)}
-                                                            className="block px-4 py-2 text-black rounded hover:bg-blue-100 hover:text-blue-600 text-sm font-medium transition"
-                                                        >
-                                                            {subItem.name}
-                                                        </Link>
-                                                    ) : (
-                                                        <a
-                                                            key={subItem.name}
-                                                            href={subItem.href}
-                                                            onClick={(e) => {
-                                                                e.preventDefault();
-                                                                handleLinkClick(subItem.href);
-                                                                setOpenDropdown(null);
-                                                            }}
-                                                            className="block px-4 py-2 text-black rounded hover:bg-blue-100 hover:text-blue-600 text-sm font-medium transition"
-                                                        >
-                                                            {subItem.name}
-                                                        </a>
-                                                    )
-                                                )
-                                            )}
+                                                ))}
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                ) : (
+                                    <div
+                                        className={`absolute left-0 top-full mt-2 w-auto bg-white rounded-md shadow-xl transition-all duration-300 z-50 ${openDropdown === item.name
+                                            ? 'opacity-100 visible translate-y-0'
+                                            : 'opacity-0 invisible -translate-y-2'
+                                            }`}
+                                    >
+                                        <div className="p-4 space-y-2">
+                                            <div
+                                                className={`grid ${item.name === 'Services' ? 'grid-cols-2 gap-4 w-100' : 'grid-cols-1'}`}
+                                            >
+                                                {item.name === "Services" ? (
+                                                    item.dropdown.map((subItem) => (
+                                                        <div key={subItem.name} className="flex flex-col items-center text-center">
+                                                            <Link
+                                                                to={subItem.href}
+                                                                className="mb-2 text-black text-sm font-medium transition hover:text-blue-600"
+                                                            >
+                                                                {subItem.name}
+                                                                <img
+                                                                    src={subItem.image}
+                                                                    alt={`Image for ${subItem.name}`}
+                                                                    className="w-[160px] h-auto mx-auto cursor-pointer"
+                                                                />
+                                                            </Link>
+                                                        </div>
+                                                    ))
+                                                ) : (
+                                                    item.dropdown.map((subItem) =>
+                                                        subItem.href.startsWith("/") ? (
+                                                            <Link
+                                                                key={subItem.name}
+                                                                to={subItem.href}
+                                                                onClick={() => setOpenDropdown(null)}
+                                                                className="block px-4 py-2 text-black rounded hover:bg-blue-100 hover:text-blue-600 text-sm font-medium transition"
+                                                            >
+                                                                {subItem.name}
+                                                            </Link>
+                                                        ) : (
+                                                            <a
+                                                                key={subItem.name}
+                                                                href={subItem.href}
+                                                                onClick={(e) => {
+                                                                    e.preventDefault();
+                                                                    handleLinkClick(subItem.href);
+                                                                    setOpenDropdown(null);
+                                                                }}
+                                                                className="block px-4 py-2 text-black rounded hover:bg-blue-100 hover:text-blue-600 text-sm font-medium transition"
+                                                            >
+                                                                {subItem.name}
+                                                            </a>
+                                                        )
+                                                    )
+                                                )}
+                                            </div>
+                                        </div>
+                                    </div>
+                                )
                             )}
+
                         </div>
                     ))}
                 </div>
@@ -222,7 +297,7 @@ function Header() {
             </div>
 
             {menuOpen && (
-                <div className={`lg:hidden absolute top-full left-0 right-0 transform transition-transform duration-300 flex flex-col bg-gray-100 border-t border-white/20 shadow-md px-5 py-4 z-40 text-white space-y-4  ${menuOpen ? "translate-y-0" : "-translate-y-full"} `}>
+                <div className="lg:hidden absolute top-full left-0 right-0 transform transition-transform duration-300 flex flex-col bg-gray-100 border-t border-white/20 shadow-md px-5 py-4 z-40 text-white space-y-4">
                     {navItems.map((item) => (
                         <div key={item.name}>
                             {item.dropdown ? (
@@ -241,66 +316,100 @@ function Header() {
 
                                     {openDropdown === item.name && (
                                         <div className="ml-4 border-l text-black border-white/30 pl-4 space-y-2">
-                                            {item.dropdown.map((subItem) =>
-                                                subItem.href.startsWith("/") ? (
+                                            {item.name === "Staff Augmentation" && item.dropdown.columns ? (
+                                                <>
+                                                    {item.dropdown.columns.map((col, index) => (
+                                                        <div key={index} className="space-y-1">
+                                                            {col.items.map((link) => (
+                                                                <a
+                                                                    key={link.name}
+                                                                    href={link.href}
+                                                                    onClick={(e) => {
+                                                                        if (link.href.startsWith("#")) {
+                                                                            e.preventDefault();
+                                                                            handleLinkClick(link.href);
+                                                                        }
+                                                                        setMenuOpen(false);
+                                                                        setOpenDropdown(null);
+                                                                    }}
+                                                                    className="block text-sm text-black hover:text-blue-500"
+                                                                >
+                                                                    {link.name}
+                                                                </a>
+                                                            ))}
+                                                        </div>
+                                                    ))}
                                                     <Link
-                                                        key={subItem.name}
-                                                        to={subItem.href}
+                                                        to={item.dropdown.cta.href}
                                                         onClick={() => {
                                                             setMenuOpen(false);
                                                             setOpenDropdown(null);
                                                         }}
-                                                        className="block hover:text-blue-400"
+                                                        className="block mt-2 text-sm text-blue-600 underline"
                                                     >
-                                                        {subItem.name}
+                                                        {item.dropdown.cta.title}
                                                     </Link>
-                                                ) : (
-                                                    <a
-                                                        key={subItem.name}
-                                                        href={subItem.href}
-                                                        onClick={(e) => {
-                                                            e.preventDefault();
-                                                            handleLinkClick(subItem.href);
-                                                            setMenuOpen(false);
-                                                            setOpenDropdown(null);
-                                                        }}
-                                                        className="block hover:text-blue-400"
-                                                    >
-                                                        {subItem.name}
-                                                    </a>
+                                                </>
+                                            ) : (
+                                                item.dropdown.map((subItem) =>
+                                                    subItem.href.startsWith("/") ? (
+                                                        <Link
+                                                            key={subItem.name}
+                                                            to={subItem.href}
+                                                            onClick={() => {
+                                                                setMenuOpen(false);
+                                                                setOpenDropdown(null);
+                                                            }}
+                                                            className="block hover:text-blue-500"
+                                                        >
+                                                            {subItem.name}
+                                                        </Link>
+                                                    ) : (
+                                                        <a
+                                                            key={subItem.name}
+                                                            href={subItem.href}
+                                                            onClick={(e) => {
+                                                                e.preventDefault();
+                                                                handleLinkClick(subItem.href);
+                                                                setMenuOpen(false);
+                                                                setOpenDropdown(null);
+                                                            }}
+                                                            className="block hover:text-blue-500"
+                                                        >
+                                                            {subItem.name}
+                                                        </a>
+                                                    )
                                                 )
                                             )}
                                         </div>
                                     )}
                                 </>
+                            ) : item.href.startsWith("/") ? (
+                                <Link
+                                    to={item.href}
+                                    onClick={() => setMenuOpen(false)}
+                                    className="block text-black py-2 hover:text-blue-400"
+                                >
+                                    {item.name}
+                                </Link>
                             ) : (
-                                item.href.startsWith("/") ? (
-                                    <Link
-                                        to={item.href}
-                                        onClick={() => setMenuOpen(false)}
-                                        className="block text-black py-2 hover:text-blue-400"
-                                    >
-                                        {item.name}
-                                    </Link>
-                                ) : (
-                                    <a
-                                        href={item.href}
-                                        onClick={(e) => {
-                                            e.preventDefault();
-                                            handleLinkClick(item.href);
-                                            setMenuOpen(false);
-                                        }}
-                                        className="block text-black py-2 hover:text-blue-400"
-                                    >
-                                        {item.name}
-                                    </a>
-                                )
+                                <a
+                                    href={item.href}
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        handleLinkClick(item.href);
+                                        setMenuOpen(false);
+                                    }}
+                                    className="block text-black py-2 hover:text-blue-400"
+                                >
+                                    {item.name}
+                                </a>
                             )}
                         </div>
                     ))}
-
                 </div>
             )}
+
 
         </header>
     );
