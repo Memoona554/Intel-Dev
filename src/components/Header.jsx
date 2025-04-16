@@ -72,7 +72,7 @@ function Header() {
                 { name: "Vividly SRL", href: "/portfolio/vividly" },
                 { name: "Kombo", href: "/portfolio/kombo" },
                 { name: "DexCheck", href: "/portfolio/dex-check" },
-                { name: "XANA", href: "https://xana.net/" },
+                { name: "XANA", href: "/portfolio/xana" },
 
             ],
         },

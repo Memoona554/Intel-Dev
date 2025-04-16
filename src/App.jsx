@@ -14,7 +14,8 @@ import LeagacyService from './pages/LeagacyService';
 import Portfolio from './pages/Portfolio';
 import VividlyPorject from './pages/VividlyPorject';
 import Kombo from './pages/Kombo';
-import DexCheck from './DexCheck'
+import DexCheck from './pages/DexCheck'
+import XANA from './pages/XANA';
 function App() {
 
   return (
@@ -35,6 +36,8 @@ function App() {
         <Route path='/portfolio/vividly' element={<VividlyPorject></VividlyPorject>}></Route>
         <Route path='/portfolio/kombo' element={<Kombo></Kombo>}></Route>
         <Route path='/portfolio/dex-check' element={<DexCheck></DexCheck>}></Route>
+        <Route path='/portfolio/xana' element={<XANA></XANA>}></Route>
+
 
 
       </Routes>
