@@ -17,7 +17,7 @@ const Footer = () => {
                         <div className="w-full sm:w-1/2 lg:w-1/5">
                             <img
                                 className="w-48 h-auto"
-                                src="https://www.vaival.com/wp-content/uploads/2023/11/Group-83.webp"
+                                src="/site-logo.png"
                                 alt="Vaival Technologies Logo"
                             />
                             <p className="mt-4 text-sm text-gray-700">
@@ -88,7 +88,7 @@ const Footer = () => {
             >
                 <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm">
                     <div className="mb-2 md:mb-0">
-                        <p>All Rights Reserved © 2024 Vaival Technologies</p>
+                        <p>All Rights Reserved © 2025 Intel Devs</p>
                     </div>
 
                     <nav>

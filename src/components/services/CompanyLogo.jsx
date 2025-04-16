@@ -16,7 +16,7 @@ function CompanyLogo() {
           disableOnInteraction: false,
         }}
         modules={[Autoplay]}
-        className="mySwiper span swiper w-full"
+        className="mySwiper lg:w-[80%] lg:mx-auto span swiper w-full"
       >
         {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((num) => (
           <SwiperSlide key={num}>

@@ -10,6 +10,7 @@ import MPVDevelopment from './pages/MPVDevelopment';
 import SDaaS from './pages/SDaaS';
 import BlockChain from './pages/BlockChain';
 import SecurityService from './pages/SecurityService';
+import LeagacyService from './pages/LeagacyService';
 function App() {
 
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/services/sdaas' element={<SDaaS></SDaaS>}></Route>
         <Route path='/services/block-chain-development' element={<BlockChain></BlockChain>}></Route>
         <Route path='/services/security-as-a-service' element={<SecurityService></SecurityService>}></Route>
+        <Route path='/services/legacy-software-modernization' element={<LeagacyService></LeagacyService>}></Route>
 
       </Routes>
     </>
