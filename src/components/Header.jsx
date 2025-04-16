@@ -59,9 +59,9 @@ function Header() {
                 { name: "MVP Development", href: "#appdev" },
                 { name: "Legacy System Modernization", href: "#uiux" },
                 { name: "Legacy System Modernization", href: "#uiux" },
-                {name: "SecaaS",href:'#'},
-                {name: "Blockchain Development",href:'#'},
-                {name: "AI Development",href:'#'},
+                { name: "SecaaS", href: '#' },
+                { name: "Blockchain Development", href: '#' },
+                { name: "AI Development", href: '#' },
 
             ],
         },
@@ -71,7 +71,7 @@ function Header() {
             dropdown: [
                 { name: "Vividly SRL", href: "/portfolio/vividly" },
                 { name: "Kombo", href: "/portfolio/kombo" },
-                { name: "DexCheck", href: "https://dexcheck.ai/app" },
+                { name: "DexCheck", href: "/portfolio/dex-check" },
                 { name: "XANA", href: "https://xana.net/" },
 
             ],
@@ -93,7 +93,7 @@ function Header() {
         <header className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? "bg-blue-600 " : "bg-transparent"}`}>
             <div className="lg:container mx-auto px-4 py-4 flex justify-between items-center">
                 <a href="/">
-                <img src="/site-logo.png" alt="" />
+                    <img src="/site-logo.png" alt="" />
                 </a>
 
                 <div className="hidden lg:flex lg:space-x-2 space-x-6 text-white font-medium relative">
@@ -147,22 +147,22 @@ function Header() {
                                             {item.name === "Services" ? (
                                                 item.dropdown.map((subItem, index) => (
                                                     <div key={subItem.name} className="flex flex-col items-center text-center">
-                                                          <Link to={subItem.href} key={subItem.name} 
+                                                        <Link to={subItem.href} key={subItem.name}
                                                             className="mb-2 text-black text-sm font-medium transition hover:text-blue-600"
-                                                            >
+                                                        >
 
-                                                       
+
                                                             {subItem.name}
-                                                        
-                                                        <img
-                                                            src={subItem.image}
-                                                            alt={`Image for ${subItem.name}`}
-                                                            className="w-[160px] h-auto mx-auto cursor-pointer"
-                                                        />
+
+                                                            <img
+                                                                src={subItem.image}
+                                                                alt={`Image for ${subItem.name}`}
+                                                                className="w-[160px] h-auto mx-auto cursor-pointer"
+                                                            />
                                                         </Link>
                                                     </div>
                                                 ))
-                                                
+
                                             ) : (
                                                 item.dropdown.map((subItem) => (
                                                     subItem.href.startsWith("/") ? (
