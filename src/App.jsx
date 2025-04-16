@@ -17,8 +17,19 @@ import Kombo from './pages/Kombo';
 import DexCheck from './pages/DexCheck'
 import XANA from './pages/XANA';
 import Careers from './pages/Careers';
+import InformationSecurity from './pages/InformationSecurity';
+import PrivacyPolicy from './pages/PrivacyPolicy'
+import AntiSalveryPolicy from './pages/AntiSalveryPolicy'
+import { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
-
+  useEffect(() => {
+    AOS.init({
+        duration: 1200,
+        easing: "ease-in-out",
+    });
+}, []);
   return (
     <>
       <Routes>
@@ -39,8 +50,9 @@ function App() {
         <Route path='/portfolio/dex-check' element={<DexCheck></DexCheck>}></Route>
         <Route path='/portfolio/xana' element={<XANA></XANA>}></Route>
         <Route path='/careers' element={<Careers></Careers>}></Route>
-
-
+        <Route path='/information-security' element={<InformationSecurity></InformationSecurity>}></Route>
+        <Route path='/privacy-policy' element={<PrivacyPolicy></PrivacyPolicy>}></Route>
+        <Route path='/anti-salvery-policy' element={<AntiSalveryPolicy></AntiSalveryPolicy>}></Route>
 
       </Routes>
     </>

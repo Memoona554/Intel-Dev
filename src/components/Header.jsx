@@ -129,9 +129,17 @@ function Header() {
                                     className="flex items-center gap-1 px-4 py-2 rounded-md hover:bg-white/10 transition"
                                 >
                                     {item.name}
+                                    {item.dropdown && (
+                                        <span>
+                                            {openDropdown === item.name ? (
+                                                <FaChevronUp className="ml-1 text-sm" />
+                                            ) : (
+                                                <FaChevronDown className="ml-1 text-sm" />
+                                            )}
+                                        </span>
+                                    )}
                                 </Link>
                             )}
-
 
                             {item.dropdown && (
                                 <div
@@ -145,15 +153,13 @@ function Header() {
                                             className={`grid ${item.name === 'Services' ? 'grid-cols-2 gap-4 w-100' : 'grid-cols-1'}`}
                                         >
                                             {item.name === "Services" ? (
-                                                item.dropdown.map((subItem, index) => (
+                                                item.dropdown.map((subItem) => (
                                                     <div key={subItem.name} className="flex flex-col items-center text-center">
-                                                        <Link to={subItem.href} key={subItem.name}
+                                                        <Link
+                                                            to={subItem.href}
                                                             className="mb-2 text-black text-sm font-medium transition hover:text-blue-600"
                                                         >
-
-
                                                             {subItem.name}
-
                                                             <img
                                                                 src={subItem.image}
                                                                 alt={`Image for ${subItem.name}`}
@@ -162,21 +168,20 @@ function Header() {
                                                         </Link>
                                                     </div>
                                                 ))
-
                                             ) : (
-                                                item.dropdown.map((subItem) => (
+                                                item.dropdown.map((subItem) =>
                                                     subItem.href.startsWith("/") ? (
                                                         <Link
+                                                            key={subItem.name}
                                                             to={subItem.href}
-                                                            onClick={() => {
-                                                                setOpenDropdown(null);
-                                                            }}
+                                                            onClick={() => setOpenDropdown(null)}
                                                             className="block px-4 py-2 text-black rounded hover:bg-blue-100 hover:text-blue-600 text-sm font-medium transition"
                                                         >
                                                             {subItem.name}
                                                         </Link>
                                                     ) : (
                                                         <a
+                                                            key={subItem.name}
                                                             href={subItem.href}
                                                             onClick={(e) => {
                                                                 e.preventDefault();
@@ -188,17 +193,16 @@ function Header() {
                                                             {subItem.name}
                                                         </a>
                                                     )
-
-                                                ))
+                                                )
                                             )}
                                         </div>
                                     </div>
                                 </div>
                             )}
-
                         </div>
                     ))}
                 </div>
+
 
 
 

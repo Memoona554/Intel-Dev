@@ -3,17 +3,10 @@ import Header from '../components/Header'
 import { Link } from 'react-router-dom';
 import BookConsultation from '../components/Contact'
 import Footer from '../components/Footer'
-import { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 function Careers() {
-    useEffect(() => {
-        AOS.init({
-            duration: 1200,
-            easing: "ease-in-out",
-        });
-    }, []);
+ 
     const jobs = [
         {
             title: 'Latest Jobs',

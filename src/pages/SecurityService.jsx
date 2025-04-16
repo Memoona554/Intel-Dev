@@ -12,16 +12,9 @@ import BorrowOurTeamSection from '../components/services/SecurityBorrow'
 import BookConsultation from '../components/Contact'
 import SecurityFAQ from '../components/services/SecurityFAQ'
 import Footer from '../components/Footer'
-import { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 function SecurityService() {
-    useEffect(() => {
-        AOS.init({
-            duration: 1200,
-            easing: "ease-in-out",
-        });
-    }, []);
+   
   return (
     <>
     <Header/>

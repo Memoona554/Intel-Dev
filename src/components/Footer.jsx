@@ -7,6 +7,7 @@ import {
     FaYoutube,
     FaTiktok,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -21,7 +22,7 @@ const Footer = () => {
                                 alt="Vaival Technologies Logo"
                             />
                             <p className="mt-4 text-sm text-gray-700">
-                                Vaival Technologies ignites growth and efficiency, unveiling your
+                                Intel Devs ignites growth and efficiency, unveiling your
                                 business’s hidden potential through our top custom software
                                 development services.
                             </p>
@@ -93,33 +94,28 @@ const Footer = () => {
 
                     <nav>
                         <ul className="flex flex-wrap items-center justify-center gap-2 md:gap-4">
+                            
+                            <li>|</li>
                             <li>
-                                <a href="https://www.vaival.com/security-center/" className="hover:underline">
-                                    Security Center
-                                </a>
+                            <Link to="/information-security" className="hover:underline"> Info Security Policy</Link>
+
                             </li>
                             <li>|</li>
                             <li>
-                                <a href="https://www.vaival.com/information-security-policy/" className="hover:underline">
-                                    Info Security Policy
-                                </a>
+                            <Link to="/privacy-policy" className="hover:underline">  Privacy Policy</Link>
+
                             </li>
+                            
                             <li>|</li>
                             <li>
-                                <a href="https://www.vaival.com/privacy-policy/" className="hover:underline">
-                                    Privacy Policy
-                                </a>
+                            <Link to="/privacy-policy" className="hover:underline">  Privacy Policy</Link>
+
                             </li>
+                            
                             <li>|</li>
                             <li>
-                                <a href="https://www.vaival.com/terms-and-conditions/" className="hover:underline">
-                                    Terms and Conditions
-                                </a>
-                            </li>
-                            <li>|</li>
-                            <li>
-                                <a href="https://www.vaival.com/anti-slavery-policy/" className="hover:underline">
-                                    Anti-Slavery Policy
+                                <a href="/anti-salvery-policy" className="hover:underline">
+                                Anti-Slavery Policy
                                 </a>
                             </li>
                         </ul>

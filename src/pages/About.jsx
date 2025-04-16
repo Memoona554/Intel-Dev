@@ -8,16 +8,9 @@ import HistorySection from '../components/HistorySection'
 import WorkLifeSymphony from '../components/WorkLifeSection'
 import StatsSection from '../components/StatsSection'
 import Footer from '../components/Footer'
-import { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 function About() {
-    useEffect(() => {
-        AOS.init({
-            duration: 1200,
-            easing: "ease-in-out",
-        });
-    }, []);
+    
     return (
         <>
             <Header />

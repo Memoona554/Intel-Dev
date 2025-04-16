@@ -11,16 +11,9 @@ import CertifiedAndTestimonials from '../components/services/SecurityCertifiedAn
 import BookConsultation from '../components/Contact'
 import LagceFAQ from '../components/services/LagceFAQ'
 import Footer from '../components/Footer'
-import { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 function LeagacyService() {
-  useEffect(() => {
-    AOS.init({
-        duration: 1200,
-        easing: "ease-in-out",
-    });
-}, []);
+  
   return (
     <>
     <Header/>

@@ -10,16 +10,9 @@ import Portfolio from '../components/Portfolio'
 import TestimonialSection from '../components/Testimonial'
 import BookConsultation from '../components/Contact'
 import Footer from '../components/Footer'
-import { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 function Home() {
-    useEffect(() => {
-        AOS.init({
-          duration: 1200,
-          easing: "ease-in-out",
-        });
-      }, []);
+    
     return (
         <>
             <Header />

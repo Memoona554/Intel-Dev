@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceHeroSection = () => {
   return (
-    <section className="bg-white py-12 px-4 md:px-8 lg:px-16 lg:py-28 lg:bg-center text-white"  style={{
+    <section className="bg-white py-20 px-4 md:px-8 lg:px-16 lg:py-28 lg:bg-center text-white"  style={{
         backgroundImage: "url('https://www.vaival.com/wp-content/uploads/2023/11/Group-15419.webp')",
   
       }}>

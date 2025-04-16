@@ -8,16 +8,9 @@ import IndustriesSection from '../components/services/AiIndustiresSection'
 import FAQSection from '../components/services/AiFAQ'
 import BookConsultation from '../components/Contact'
 import Footer from '../components/Footer'
-import { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 function AiDevelopment() {
-    useEffect(() => {
-        AOS.init({
-            duration: 1200,
-            easing: "ease-in-out",
-        });
-    }, []);
+
   return (
     <>
     <Header/>

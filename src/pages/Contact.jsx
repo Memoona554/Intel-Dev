@@ -5,16 +5,9 @@ import Calendly from '../components/Calendly'
 import GetInTouch from '../components/GetInTouch'
 import StatsSection from '../components/StatsSection'
 import Footer from '../components/Footer'
-import { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 function Contact() {
-    useEffect(() => {
-        AOS.init({
-          duration: 1200,
-          easing: "ease-in-out",
-        });
-      }, []);
+   
   return (
     <>
     <Header/>
