@@ -11,6 +11,7 @@ import SDaaS from './pages/SDaaS';
 import BlockChain from './pages/BlockChain';
 import SecurityService from './pages/SecurityService';
 import LeagacyService from './pages/LeagacyService';
+import Portfolio from './pages/Portfolio';
 function App() {
 
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path='/services/block-chain-development' element={<BlockChain></BlockChain>}></Route>
         <Route path='/services/security-as-a-service' element={<SecurityService></SecurityService>}></Route>
         <Route path='/services/legacy-software-modernization' element={<LeagacyService></LeagacyService>}></Route>
+        <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
 
       </Routes>
     </>
