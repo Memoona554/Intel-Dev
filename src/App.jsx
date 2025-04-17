@@ -20,6 +20,7 @@ import Careers from './pages/Careers';
 import InformationSecurity from './pages/InformationSecurity';
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import AntiSalveryPolicy from './pages/AntiSalveryPolicy'
+import StaffAugmentationPage from './pages/StaffAugmentationPage';
 import { useEffect } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -53,6 +54,7 @@ function App() {
         <Route path='/information-security' element={<InformationSecurity></InformationSecurity>}></Route>
         <Route path='/privacy-policy' element={<PrivacyPolicy></PrivacyPolicy>}></Route>
         <Route path='/anti-salvery-policy' element={<AntiSalveryPolicy></AntiSalveryPolicy>}></Route>
+        <Route path='/staff-augmentation' element={<StaffAugmentationPage></StaffAugmentationPage>}></Route>
 
       </Routes>
     </>

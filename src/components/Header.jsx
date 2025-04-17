@@ -51,7 +51,7 @@ function Header() {
         },
         {
             name: "Staff Augmentation",
-            href: "#staff-augmentation",
+            href: "/staff-augmentation",
             dropdown: {
                 cta: {
                     title: "Hire AI Powered Developer Now!",
