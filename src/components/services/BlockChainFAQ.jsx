@@ -13,9 +13,9 @@ const faqData = [
       "It varies based on factors like complexity, features, and project scope. Generally, it can take anywhere from a few weeks for a simple project to several months or a year for more complex solutions.",
   },
   {
-    question: "What blockchain development services are offered by Vaival?",
+    question: "What blockchain development services are offered by Intel Devs?",
     answer:
-      "Vaival provides a range of blockchain services, including smart contract development, decentralized app creation, cryptocurrency customization, crypto wallet development, NFT marketplace design, smart contract audits, Hyperledger solutions, staff augmentation, and POC development. Our expertise covers the spectrum of blockchain technology, ensuring tailored solutions for diverse client needs.",
+      "Intel Devs provides a range of blockchain services, including smart contract development, decentralized app creation, cryptocurrency customization, crypto wallet development, NFT marketplace design, smart contract audits, Hyperledger solutions, staff augmentation, and POC development. Our expertise covers the spectrum of blockchain technology, ensuring tailored solutions for diverse client needs.",
   },
 ];
 

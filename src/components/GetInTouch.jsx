@@ -15,16 +15,10 @@ const GetInTouch = () => {
               <FaPhoneAlt className="text-blue-600 text-2xl mt-1" />
               <div>
                 <h4 className="font-medium">Pakistan</h4>
-                <p className="text-gray-700">+92 423-788-1954</p>
+                <p className="text-gray-700">(+92) 322 421 8770</p>
               </div>
             </div>
-            <div className="flex items-start space-x-4">
-              <FaPhoneAlt className="text-blue-600 text-2xl mt-1" />
-              <div>
-                <h4 className="font-medium">USA</h4>
-                <p className="text-gray-700">+1 332 255 7111</p>
-              </div>
-            </div>
+            
           </div>
 
           <div className=" px-4 py-4">
@@ -35,10 +29,10 @@ const GetInTouch = () => {
                 <h4 className="font-medium">Mail Us</h4>
                 <p>
                   <a
-                    href="mailto:inquiry@vaival.com"
+                    href="mailto:javedadeel52@gmail.com"
                     className="text-gray-700 hover:underline"
                   >
-                    inquiry@vaival.com
+                    javedadeel52@gmail.com
                   </a>
                 </p>
               </div>
@@ -50,15 +44,11 @@ const GetInTouch = () => {
             <div className="flex items-start space-x-4 mb-4">
               <FaMapMarkerAlt className="text-green-600 text-2xl mt-1" />
               <p className="text-gray-700">
-                145, Ahmed Block, New Garden Town, Lahore, Pakistan, 54000.
+              581 C,3rd floor, OPF Society,
+              Lahore, Pakistan
               </p>
             </div>
-            <div className="flex items-start space-x-4">
-              <FaMapMarkerAlt className="text-green-600 text-2xl mt-1" />
-              <p className="text-gray-700">
-                122 S Michigan Ave, Chicago, IL 60603, USA
-              </p>
-            </div>
+            
           </div>
         </div>
       </div>

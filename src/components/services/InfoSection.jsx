@@ -44,7 +44,6 @@ const FeatureList = () => {
               <p className="text-gray-800">Versatile industrial experience</p>
             </div>
 
-            {/* Feature List Item 4 */}
             <div className="flex items-start mb-6 md:ml-12">
               <svg
                 className="w-6 h-6 text-white bg-blue-900 rounded-full p-1 mr-3 mt-1 flex-shrink-0"
@@ -88,7 +87,7 @@ const FeatureList = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
               <strong>Experience Excellence</strong>
               <br />
-              with Vaival Technologies
+              with Intel Devs
             </h2>
             <p className="text-lg text-gray-600 mb-8">
               We provide seamless execution and results-driven approach helping

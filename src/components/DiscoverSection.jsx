@@ -11,7 +11,7 @@ const DiscoverSection = () => {
                     of Who We Are
                 </h2>
                 <p className="text-lg text-gray-700">
-                    Vaival Technologies is the partner of choice for entrepreneurs, SMEs, and major corporations. Since 2010, we’ve helped many businesses enhance their potential via custom software development, web3 & blockchain, dev-ops, design innovation, and IT consulting services.
+                    Intel Devs is the partner of choice for entrepreneurs, SMEs, and major corporations. Since 2016, we’ve helped many businesses enhance their potential via custom software development, web3 & blockchain, dev-ops, design innovation, and IT consulting services.
                 </p>
             </div>
     
@@ -24,7 +24,7 @@ const DiscoverSection = () => {
                         data-aos="fade-up" data-aos-delay="200"
                     />
                     <p data-aos="fade-up" data-aos-delay="300" className=" text-2xl mb-5 text-gray-900">
-                        <span className=" text-4xl text-blue-500 font-semibold">250+</span>
+                        <span className=" text-4xl text-blue-500 font-semibold">5+</span>
                         <br />
                         Skilled <br />&amp; Dedicated
                         <br />
@@ -34,7 +34,7 @@ const DiscoverSection = () => {
     
                 <div className="flex items-center flex-col gap-4 justify-center space-x-6">
                     <p data-aos="fade-up" data-aos-delay="400" className="text-2xl mt-4  text-gray-900">
-                        <span className=" text-4xl text-blue-500 font-semibold">300+</span>
+                        <span className=" text-4xl text-blue-500 font-semibold">90+</span>
                         <br />
                         Completed
                         <br />

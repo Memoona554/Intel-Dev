@@ -14,7 +14,7 @@ const ExperienceExcellence = () => {
                         data-aos="fade-up" data-aos-delay="200"
                     />
                     <p data-aos="fade-up" data-aos-delay="300" className=" text-2xl mb-5 text-gray-900">
-                        <span className=" text-4xl text-blue-500 font-semibold">250+</span>
+                        <span className=" text-4xl text-blue-500 font-semibold">5+</span>
                         <br />
                         Skilled <br />&amp; Dedicated
                         <br />
@@ -24,7 +24,7 @@ const ExperienceExcellence = () => {
     
                 <div className="flex items-center flex-col gap-4 justify-center space-x-6">
                     <p data-aos="fade-up" data-aos-delay="400" className="text-2xl mt-4  text-gray-900">
-                        <span className=" text-4xl text-blue-500 font-semibold">300+</span>
+                        <span className=" text-4xl text-blue-500 font-semibold">90+</span>
                         <br />
                         Completed
                         <br />
@@ -40,12 +40,12 @@ const ExperienceExcellence = () => {
             </div>
             <div className="flex flex-col justify-center space-y-6 px-6 lg:px-0" data-aos="fade-up" data-aos-delay="200">
                 <h2 className="text-3xl  text-gray-900">
-                    <strong>Experience Excellence with Vaival <span className="text-blue-400">, Your Premier SDaaS Partner</span></strong>
+                    <strong>Experience Excellence with Intel Devs <span className="text-blue-400">, Your Premier SDaaS Partner</span></strong>
                     <br />
                     of Who We Are
                 </h2>
                 <p className="text-lg text-gray-700">
-                Vaival Technologies specializes in delivering innovative solutions and high-quality software development services. Our team has extensive expertise in Web3, AI/ML, blockchain, as well as mobile and web development.                </p>
+                Intel Devs specializes in delivering innovative solutions and high-quality software development services. Our team has extensive expertise in Web3, AI/ML, blockchain, as well as mobile and web development.                </p>
             </div>
     
             

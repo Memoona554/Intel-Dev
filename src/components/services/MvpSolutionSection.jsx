@@ -40,7 +40,7 @@ const MvpTimeline = () => {
 
                 <div className="relative">
 
-                    <div className="space-y-20">
+                    <div className="space-y-20 ">
                         {solutions.map((item, index) => {
                             const isEven = index % 2 === 0;
                             return (
@@ -58,7 +58,7 @@ const MvpTimeline = () => {
                                     </div>
 
 
-                                    <div className="md:w-5/12 w-full mt-8 md:mt-0 text-center md:text-left">
+                                    <div className="md:w-5/12 w-full mt-8  md:mt-0 text-center md:text-left">
                                         <div className="flex items-center justify-center md:justify-start mb-3">
                                             <img
                                                 src={item.icon}
@@ -67,7 +67,7 @@ const MvpTimeline = () => {
                                             />
                                             <h3 className="text-2xl font-semibold text-blue-700">{item.title}</h3>
                                         </div>
-                                        <p className="text-gray-600">{item.description}</p>
+                                        <p className="text-gray-600 ">{item.description}</p>
                                     </div>
                                 </div>
                             );

@@ -13,7 +13,7 @@ const ContactHeroSection = () => {
               <a href="/" className="text-blue-500 hover:underline">Home</a>
             </span>{' '}
             &gt;{' '}
-            <span className="text-white">Industries</span>
+            <span className="text-white">Contact</span>
           </p>
         </div>
         <div className="text-center">

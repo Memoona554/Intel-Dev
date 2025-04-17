@@ -4,7 +4,7 @@ import { FaGlobeAmericas, FaUsers, FaProjectDiagram, FaClock, FaCode } from 'rea
 const statsData = [
   {
     icon: <FaUsers className="text-4xl text-blue-500" />,
-    title: '100+',
+    title: '90+',
     description: 'Satisfied Global Clients',
     shadow: true,
   },
@@ -16,25 +16,25 @@ const statsData = [
   },
   {
     icon: <FaProjectDiagram className="text-4xl text-green-500" />,
-    title: '300+',
+    title: '91+',
     description: 'Completed Projects',
     shadow: true,
   },
   {
     icon: <FaClock className="text-4xl text-purple-500" />,
-    title: '13+',
+    title: '10+',
     description: 'Years of IT Excellence',
     shadow: false,
   },
   {
     icon: <FaCode className="text-4xl text-orange-500" />,
-    title: '250+',
+    title: '5+',
     description: 'Tech Talents',
     shadow: true,
   },
   {
     icon: <FaGlobeAmericas className="text-4xl text-red-500" />,
-    title: '3',
+    title: '1',
     description: 'Global Offices',
     shadow: false,
   },

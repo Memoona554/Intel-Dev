@@ -6,7 +6,7 @@ const WhySDAAS = () => {
   const vaivalFeatures = [
     {
       title: '3x Faster and More Efficient',
-      description: 'With the SDaaS model, experience high-quality software development based on your requirements, delivered with three times the efficiency.',
+      description: 'With the SaaS model, experience high-quality software development based on your requirements, delivered with three times the efficiency.',
     },
     {
       title: 'No-Risk with Free Trial',
@@ -18,7 +18,7 @@ const WhySDAAS = () => {
     },
     {
       title: 'Flexibility',
-      description: 'Vaival offers you unlimited development requests and revisions at no additional cost, ensuring your project always aligns with your needs.',
+      description: 'Intel Devs offers you unlimited development requests and revisions at no additional cost, ensuring your project always aligns with your needs.',
     },
   ];
 
@@ -44,15 +44,15 @@ const WhySDAAS = () => {
   return (
     <section className="py-12 px-6 bg-[#eff5ff]" data-aos="fade-up" data-aos-delay="100">
       <div className="max-w-6xl mx-auto text-center mb-12">
-        <h2 className="text-4xl font-bold mb-4">Why SDaaS?</h2>
+        <h2 className="text-4xl font-bold mb-4">Why SaaS?</h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          At Vaival, we built SDaaS to offer flexible, affordable software development at a fair price, ensuring you never have to choose between quality and cost.
+          At Intel Devs, we built SaaS to offer flexible, affordable software development at a fair price, ensuring you never have to choose between quality and cost.
         </p>
       </div>
 
       <div className=" w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className='bg-white rounded-xl p-6 shadow-lg'>
-          <h3 className="text-2xl font-semibold mb-6">Vaival SDaaS</h3>
+          <h3 className="text-2xl font-semibold mb-6">Intel Devs SaaS</h3>
           {vaivalFeatures.map((feature, idx) => (
             <div key={idx} className="mb-6 flex gap-4">
               <FaCheckCircle className="text-green-500 mt-1" />

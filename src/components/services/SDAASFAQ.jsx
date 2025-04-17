@@ -3,19 +3,19 @@ import { FaChevronDown, FaChevronRight } from 'react-icons/fa';
 
 const faqData = [
   {
-    question: "What is (SDaaS) Software Development as a Service?",
+    question: "What is (SaaS) Software  as a Service?",
     answer:
-      "Software Development as a Service, provided by Vaival, encompasses a full spectrum of software development services throughout the entire software lifecycle. This includes design, architecture, development, testing, quality assurance, production support, and managed services.",
+      "Software  as a Service, provided by Intel Devs, encompasses a full spectrum of software development services throughout the entire software lifecycle. This includes design, architecture, development, testing, quality assurance, production support, and managed services.",
   },
   {
-    question: "Why Choose Software Development as a Service?",
+    question: "Why Choose Software  as a Service?",
     answer:
-      "Software Development as a Service offers several advantages:Access to end-to-end software development and services.Reduction in the total cost of ownership of software.Accelerated time to market for your products with development outsourcingUtilization of specialist resources to optimize project outcomes.",
+      "Software  as a Service offers several advantages:Access to end-to-end software development and services.Reduction in the total cost of ownership of software.Accelerated time to market for your products with development outsourcingUtilization of specialist resources to optimize project outcomes.",
   },
   {
-    question: "What tech stack does Vaival utilize for software development?",
+    question: "What tech stack does Intel Devs utilize for software development?",
     answer:
-      "Vaival utilizes a robust tech stack that includes programming languages such as Python and JavaScript, frameworks like React for front-end development, and Node.js for backend operations, as well as specialized technologies in Web3, blockchain, and AI/ML.",
+      "Intel Devs utilizes a robust tech stack that includes programming languages such as Python and JavaScript, frameworks like React for front-end development, and Node.js for backend operations, as well as specialized technologies in Web3, blockchain, and AI/ML.",
   },
 ];
 

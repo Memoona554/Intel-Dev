@@ -14,50 +14,47 @@ const TechnologiesSection = () => {
 
   const tabContents = {
     1: [
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/JAVA-1.webp', alt: 'Java' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/LAMP.webp', alt: 'LAMP' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/LEMP.webp', alt: 'LEMP' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/MEAN.webp', alt: 'MEAN' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/MERN.webp', alt: 'MERN' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/MEVN.webp', alt: 'MEVN' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg', name: 'Java' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg', name: 'MEAN' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', name: 'MERN' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg', name: 'MEVN' },
     ],
     2: [
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/11/logof1.png', alt: 'Frontend 1' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/11/logof2.png', alt: 'Frontend 2' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/11/logof3.png', alt: 'Frontend 3' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/11/logof4.png', alt: 'Frontend 4' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/11/logof5.png', alt: 'Frontend 5' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/11/logof6.png', alt: 'Frontend 6' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg', name: 'HTML5' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg', name: 'CSS3' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg', name: 'JavaScript' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', name: 'React' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg', name: 'Vue.js' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg', name: 'Angular' },
     ],
     3: [
-      { src: 'https://www.vaival.com/wp-content/uploads/2024/06/DJANGOs-1.webp', alt: 'Django' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/NODE-JS.webp', alt: 'Node.js' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/PYTHON.webp', alt: 'Python' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2024/06/JAVAs.webp', alt: 'Java' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2024/06/PHPs.webp', alt: 'PHP' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/LARAVEL.webp', alt: 'Laravel' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/MONGODB.webp', alt: 'MongoDB' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg', name: 'Django' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg', name: 'Node.js' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg', name: 'Python' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg', name: 'Java' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg', name: 'PHP' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg', name: 'Laravel' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg', name: 'MongoDB' },
     ],
     4: [
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/IOS.webp', alt: 'iOS' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2024/06/ANDROIDs.webp', alt: 'Android' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2024/06/FLUTTERss.webp', alt: 'Flutter' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/KOTLIN.webp', alt: 'Kotlin' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/SWIFT.webp', alt: 'Swift' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/REACT-NATIVE.webp', alt: 'React Native' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg', name: 'iOS' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg', name: 'Android' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg', name: 'Flutter' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg', name: 'Kotlin' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg', name: 'Swift' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', name: 'React Native' },
     ],
     5: [
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/TEZOS.webp', alt: 'Tezos' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/ETHEREUM.webp', alt: 'Ethereum' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/POLKADOT.webp', alt: 'Polkadot' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/CARDANO.webp', alt: 'Cardano' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg', name: 'Solidity' },
+      { src: 'https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/ethereum.svg', name: 'Ethereum' },
+      { src: 'https://www.vaival.com/wp-content/uploads/2024/07/Group-58025.webp', name: 'Hyperledger' },
     ],
     6: [
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/AWS.webp', alt: 'AWS' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/AZURE.webp', alt: 'Azure' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/DOCKER.webp', alt: 'Docker' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/GCP.webp', alt: 'GCP' },
-      { src: 'https://www.vaival.com/wp-content/uploads/2023/12/KUBERNETTES.webp', alt: 'Kubernetes' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg', name: 'AWS' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg', name: 'Azure' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', name: 'Docker' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg', name: 'GCP' },
+      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg', name: 'Kubernetes' },
     ],
   };
 
@@ -103,11 +100,13 @@ const TechnologiesSection = () => {
                   <div key={index} className="flex items-center justify-center p-2">
                     <img
                       src={img.src}
-                      alt={img.alt}
-                      className="max-h-48 max-w-full object-contain"
+                      alt={img.name}
+                      className="max-h-20 max-w-full object-contain"
                       loading="lazy"
                     />
+                    <h1 className='text-black'>{images.name}</h1>
                   </div>
+                  
                 ))}
               </div>
             ))}

@@ -3,7 +3,7 @@ import { FaSearch, FaPencilAlt, FaCogs, FaRocket } from "react-icons/fa";
 
 const stats = [
   { value: "10+", label: "Years of Experience" },
-  { value: "55%", label: "High Customer Satisfaction" },
+  { value: "100%", label: "High Customer Satisfaction" },
   { value: "4x - 6x", label: "Faster Time to Market" },
 ];
 

@@ -66,21 +66,7 @@ const SDAASHeroSection = () => {
 
                     <p className="hidden">7-Day Free Trial | 100% Money Back Guarantee</p>
 
-                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10">
-                        {[
-                            "https://www.vaival.com/wp-content/uploads/elementor/thumbs/Group-1000005822-qv0hc028la4fe9sm7m5veiqe48ft35s1chu1o2ve9q.png",
-                            "https://www.vaival.com/wp-content/uploads/elementor/thumbs/Group-1000005821-qv0hcu52nz9lpskxbz5xmb554kbjxh3g4mpl0xmsqm.png",
-                            "https://www.vaival.com/wp-content/uploads/elementor/thumbs/Group-1000005818-qv0hd7atbnrm8c1t74upl7tlfyiox8joufudqt3abi.png",
-                            "https://www.vaival.com/wp-content/uploads/elementor/thumbs/Group-1000005824-qv0hdgp7804hgfo5o8wza5g7dt8d27l07qd8jkpcla.png",
-                        ].map((src, index) => (
-                            <img
-                                key={index}
-                                src={src}
-                                alt={`Logo ${index + 1}`}
-                                className="w-full max-h-16 object-contain"
-                            />
-                        ))}
-                    </div>
+                   
                 </div>
 
                 <div className=" p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="300">

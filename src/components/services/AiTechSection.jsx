@@ -69,7 +69,7 @@ export default function AITechSection() {
 
       <div className="max-w-6xl mx-auto mt-20">
         <h2 className="text-2xl md:text-3xl font-bold mb-4">
-          Partner With <span className="text-blue-600">Vaival</span> - Your Trusted Artificial Intelligence Development Company
+          Partner With <span className="text-blue-600">Intel Devs</span> - Your Trusted Artificial Intelligence Development Company
         </h2>
         <p className="text-gray-600 mb-10 max-w-2xl mx-auto">
           We are a dedicated AI development company, utilizing extensive domain expertise to push the boundaries of what's possible. Our custom AI development services help unlock powerful outcomes.

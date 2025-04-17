@@ -17,7 +17,7 @@ const BlockchainDevelopment = () => {
             <strong className="text-blue-600">Blockchain</strong> Development Services
           </h1>
           <p className="text-white mb-6"  data-aos="zoom-in" data-aos-delay="300">
-            With over 13 years of experience in the IT realm, Vaival Technologies is your trusted source
+            With over 10 years of experience in the IT realm, Intel Devs is your trusted source
             for exceptional blockchain development services. Transform your business with our blockchain
             solutions, tailored to your specific needs.
           </p>

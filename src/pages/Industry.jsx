@@ -24,11 +24,10 @@ function Industry() {
                         </svg>
                     </div>
                     <h3 className="text-lg font-semibold text-gray-800 mb-2">On-Demand Services</h3>
-                    <p className="text-sm text-gray-600">Vaival distinguishes itself as the go-to company for designing and developing on-demand mobile applications for its clients. Our seasoned experts in the domain of on-demand app development services help you not just sustain but achieve great success.</p>
+                    <p className="text-sm text-gray-600">Intel Devs distinguishes itself as the go-to company for designing and developing on-demand mobile applications for its clients. Our seasoned experts in the domain of on-demand app development services help you not just sustain but achieve great success.</p>
                 </div>
             </div>
 
-            <RecognitionAwards/>
             <BookConsultation/>
             <Footer/>
         </>

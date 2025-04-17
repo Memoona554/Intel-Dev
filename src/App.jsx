@@ -40,7 +40,7 @@ function App() {
         <Route path='/services/ai-development' element={<AiDevelopment></AiDevelopment>}></Route>
         <Route path='/services' element={<Service></Service>}></Route>
         <Route path='/services/mpv-development' element={<MPVDevelopment></MPVDevelopment>}></Route>
-        <Route path='/services/sdaas' element={<SDaaS></SDaaS>}></Route>
+        <Route path='/services/saas' element={<SDaaS></SDaaS>}></Route>
         <Route path='/services/block-chain-development' element={<BlockChain></BlockChain>}></Route>
         <Route path='/services/security-as-a-service' element={<SecurityService></SecurityService>}></Route>
         <Route path='/services/legacy-software-modernization' element={<LeagacyService></LeagacyService>}></Route>

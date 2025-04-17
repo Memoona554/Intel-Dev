@@ -43,10 +43,8 @@ function Header() {
             name: "Services",
             href: "/services",
             dropdown: [
-                { name: "SDaaS", href: "/services/sdaas", image: "/service_1.png" },
+                { name: "SaaS", href: "/services/saas", image: "/service_1.png" },
                 { name: "MVP Development", href: "/services/mpv-development", image: "/service_2.png" },
-                { name: "Legacy System Modernization", href: "/services/legacy-software-modernization", image: "/service_3.png" },
-                { name: "SecaaS", href: "/services/security-as-a-service", image: "/service_4.png" },
                 { name: "Blockchain Development", href: "/services/block-chain-development", image: "/service_5.png" },
                 { name: "AI Development", href: "/services/ai-development", image: "/service_6.png" },
             ],
@@ -133,7 +131,7 @@ function Header() {
         <header className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? "bg-blue-600 " : "bg-transparent"}`}>
             <div className="lg:container mx-auto px-4 py-4 flex justify-between items-center">
                 <a href="/">
-                    <img src="/site-logo.png" alt="" />
+                    <img src="/site-logo.png" alt="" className='h-20' />
                 </a>
 
                 <div className="hidden lg:flex lg:space-x-2 space-x-6 text-white font-medium relative">

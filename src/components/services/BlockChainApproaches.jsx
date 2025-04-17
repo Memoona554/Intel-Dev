@@ -9,7 +9,7 @@ const BlockchainApproaches = () => {
             <strong>Blockchain</strong> Approaches
           </h2>
           <p className="text-gray-600 mb-8"  data-aos="fade-down" data-aos-delay="200">
-            Discover innovative solutions for your business with the help of blockchain experts at Vaival Technologies. Our blockchain experts recommend the most suitable approach by analyzing your product and target industry.
+            Discover innovative solutions for your business with the help of blockchain experts at Intel Devs. Our blockchain experts recommend the most suitable approach by analyzing your product and target industry.
           </p>
           <div className="space-y-6"  data-aos="fade-left" data-aos-delay="300">
             <div>
@@ -55,9 +55,9 @@ const BlockchainApproaches = () => {
               <strong>Why hire blockchain</strong> developers from Vaival?
             </h2>
             <p className="text-gray-600 mb-8">
-              As a leading blockchain development company, Vaival Technologies bring unmatched expertise and innovation to your project.
+              As a leading blockchain development company, Intel Devs bring unmatched expertise and innovation to your project.
               <br /><br />
-              With a finger on the pulse of the latest blockchain advancements, our team crafts custom blockchain solutions, ensuring your project stands out in the digital landscape. Choose Vaival for a distinct advantage in blockchain development.
+              With a finger on the pulse of the latest blockchain advancements, our team crafts custom blockchain solutions, ensuring your project stands out in the digital landscape. Choose Intel Devs for a distinct advantage in blockchain development.
             </p>
             <h3 className="text-xl font-semibold mb-4">What Do You Get?</h3>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
