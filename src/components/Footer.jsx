@@ -19,7 +19,7 @@ const Footer = () => {
                             <img
                                 className="w-48 h-auto"
                                 src="/site-logo.png"
-                                alt="Vaival Technologies Logo"
+                                alt="Intel Logo Logo"
                             />
                             <p className="mt-4 text-sm text-gray-700">
                                 Intel Devs ignites growth and efficiency, unveiling your
@@ -27,10 +27,10 @@ const Footer = () => {
                                 development services.
                             </p>
                             <div className="flex space-x-4 mt-4 text-gray-800">
-                                <a href="https://www.linkedin.com/company/vaivaltechpk/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/company/inteldevs/" target="_blank" rel="noopener noreferrer">
                                     <FaLinkedin className="text-xl hover:text-blue-600" />
                                 </a>
-                                <a href="https://www.facebook.com/vaivaltechpk/" target="_blank" rel="noopener noreferrer">
+                                {/* <a href="https://www.facebook.com/vaivaltechpk/" target="_blank" rel="noopener noreferrer">
                                     <FaFacebook className="text-xl hover:text-blue-500" />
                                 </a>
                                 <a href="https://x.com/vaivaltechpk" target="_blank" rel="noopener noreferrer">
@@ -44,7 +44,7 @@ const Footer = () => {
                                 </a>
                                 <a href="https://www.tiktok.com/@vaivaltechpk" target="_blank" rel="noopener noreferrer">
                                     <FaTiktok className="text-xl hover:text-black" />
-                                </a>
+                                </a> */}
                             </div>
                         </div>
 
