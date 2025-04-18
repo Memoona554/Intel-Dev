@@ -19,6 +19,7 @@ import InformationSecurity from './pages/InformationSecurity';
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import AntiSalveryPolicy from './pages/AntiSalveryPolicy'
 import StaffAugmentationPage from './pages/StaffAugmentationPage';
+import BlogBlockChain from './pages/BlogBlockChain';
 import Blog from './pages/Blog';
 import { useEffect } from 'react'
 import AOS from "aos";
@@ -53,7 +54,7 @@ function App() {
         <Route path='/anti-salvery-policy' element={<AntiSalveryPolicy></AntiSalveryPolicy>}></Route>
         <Route path='/staff-augmentation' element={<StaffAugmentationPage></StaffAugmentationPage>}></Route>
         <Route path='/blogs' element={<Blog></Blog>}></Route>
-
+        <Route path='/blog/exploring-blockchain-technology-real-world-use-cases-in-2025' element={<BlogBlockChain></BlogBlockChain>}></Route>
       </Routes>
     </>
   )

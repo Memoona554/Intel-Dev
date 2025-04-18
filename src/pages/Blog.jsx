@@ -1,35 +1,28 @@
 import React from 'react'
-import { FaUser } from "react-icons/fa";
-import { MdDateRange } from "react-icons/md";
+import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 function Blog() {
     const blogs = [
         {
-            title: "A Glimpse Into The Future Of Mobile App Development In 2024",
-            date: "29, Jul 2024",
-            author: "Sara Khalid",
-            image: "/block-chain-bg.webp",
-            excerpt:
-                "We have seen mobile app development emerge and innovate in the past two decades. Over this course of time...",
+          title: "Web Development Trends: What to Expect in 2024",
+          image: "/web-developer.webp",
+          excerpt:
+            "We have seen mobile app development emerge and innovate in the past two decades. Over this course of time...",
         },
         {
-            title: "Blockchain In Supply Chain: Transforming Operations",
-            date: "29, Jul 2024",
-            author: "Sara Khalid",
-            image: "/blog_2.jpg",
-            excerpt:
-                "In today's interconnected global economy, it has become crucial for businesses to have an efficient and transparent supply chain...",
+          title: "Mobile App Development: Innovations Driving 2024",
+          image: "/mobile-development.jpg",
+          excerpt:
+            "In today's interconnected global economy, it has become crucial for businesses to have an efficient and transparent supply chain...",
         },
         {
-            title:
-                "Cross Platform App Development Frameworks: Top 12 Picks For 2024",
-            date: "05, Dec 2024",
-            author: "Sara Khalid",
-            image: "/blog_3.jpg",
-            excerpt:
-                "In recent years, the landscape of cross platform mobile development has been revolutionized by cross-platform methodologies...",
+          title: "Exploring Blockchain Technology: Real-World Use Cases in 2024",
+          image: "/blockchain-portfolio.webp",
+          excerpt:
+            "In recent years, the landscape of cross platform mobile development has been revolutionized by cross-platform methodologies...",
         },
-    ];
+      ];
+      
     return (
         <>
             <Header />
@@ -63,24 +56,17 @@ function Blog() {
                                 className="w-full h-56 object-cover"
                             />
                             <div className="p-5">
-                                <div className="flex items-center justify-between text-sm text-gray-500 mb-2">
-                                    <span className="flex items-center gap-1">
-                                        <FaUser /> {blog.author}
-                                    </span>
-                                    <span className="flex items-center gap-1">
-                                        <MdDateRange /> {blog.date}
-                                    </span>
-                                </div>
+                               
                                 <h3 className="text-lg font-semibold text-gray-800 mb-2">
                                     {blog.title}
                                 </h3>
                                 <p className="text-sm text-gray-600 mb-4">{blog.excerpt}</p>
-                                <a
-                                    href="#"
+                                <Link
+                                    to="/blog/exploring-blockchain-technology-real-world-use-cases-in-2025"
                                     className="text-[#0274be] text-sm font-semibold hover:underline"
                                 >
                                     Read More
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     ))}
