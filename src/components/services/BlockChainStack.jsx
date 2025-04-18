@@ -23,7 +23,7 @@ const TechnologyStack = () => {
           <strong>Our Technology</strong> Stack
         </h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-4 md:gap-6 mb-12"  data-aos="fade-up" data-aos-delay="200">
+        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-4 md:gap-6 mb-12">
           {technologyLogosGroup1.map((logo, index) => (
             <a
               key={index}

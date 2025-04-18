@@ -9,8 +9,6 @@ import Service from './pages/Service';
 import MPVDevelopment from './pages/MPVDevelopment';
 import SDaaS from './pages/SDaaS';
 import BlockChain from './pages/BlockChain';
-import SecurityService from './pages/SecurityService';
-import LeagacyService from './pages/LeagacyService';
 import Portfolio from './pages/Portfolio';
 import VividlyPorject from './pages/VividlyPorject';
 import Kombo from './pages/Kombo';
@@ -21,6 +19,7 @@ import InformationSecurity from './pages/InformationSecurity';
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import AntiSalveryPolicy from './pages/AntiSalveryPolicy'
 import StaffAugmentationPage from './pages/StaffAugmentationPage';
+import Blog from './pages/Blog';
 import { useEffect } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -43,8 +42,6 @@ function App() {
         <Route path='/services/mpv-development' element={<MPVDevelopment></MPVDevelopment>}></Route>
         <Route path='/services/saas' element={<SDaaS></SDaaS>}></Route>
         <Route path='/services/block-chain-development' element={<BlockChain></BlockChain>}></Route>
-        <Route path='/services/security-as-a-service' element={<SecurityService></SecurityService>}></Route>
-        <Route path='/services/legacy-software-modernization' element={<LeagacyService></LeagacyService>}></Route>
         <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
         <Route path='/portfolio/vividly' element={<VividlyPorject></VividlyPorject>}></Route>
         <Route path='/portfolio/kombo' element={<Kombo></Kombo>}></Route>
@@ -55,6 +52,7 @@ function App() {
         <Route path='/privacy-policy' element={<PrivacyPolicy></PrivacyPolicy>}></Route>
         <Route path='/anti-salvery-policy' element={<AntiSalveryPolicy></AntiSalveryPolicy>}></Route>
         <Route path='/staff-augmentation' element={<StaffAugmentationPage></StaffAugmentationPage>}></Route>
+        <Route path='/blogs' element={<Blog></Blog>}></Route>
 
       </Routes>
     </>

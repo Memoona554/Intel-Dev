@@ -95,7 +95,7 @@ const FeatureList = () => {
             </p>
             <a
               href="#calendly"
-              className="inline-block bg-blue-900 hover:bg-blue-800 text-white font-medium py-3 px-6 rounded-lg transition duration-300"
+              className="inline-block bg-blue-900 hover:bg-white hover:border-blue-900 hover:text-black hover:border text-white font-medium py-3 px-6 rounded-lg transition duration-300"
             >
               Explore More
             </a>

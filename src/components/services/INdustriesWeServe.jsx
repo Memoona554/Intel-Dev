@@ -10,54 +10,9 @@ const industries = [
       icon: "🛒",
     },
     {
-      title: "Healthcare",
-      description: "Secure patient data, streamline processes, and enable interoperability for enhanced patient care.",
-      icon: "🏥",
-    },
-    {
-      title: "Banking & Finance",
-      description: "Make transactions secure, transparent, and efficient, from smart contracts to digital identity verification.",
-      icon: "🏛️",
-    },
-    {
-      title: "Education",
-      description: "Ensure integrity of credentials, streamline administrative processes, and secure educational records.",
-      icon: "🎓",
-    },
-    {
-      title: "Transport & Logistics",
-      description: "Enhance supply chain transparency, reduce fraud, and improve overall efficiency by blockchain optimization.",
-      icon: "🚚",
-    },
-    {
       title: "Retail & Consumer Goods",
       description: "Ensure transparent supply chains, streamline transactions, and build trust with consumers.",
       icon: "📦",
-    },
-    {
-      title: "Telecommunication",
-      description: "Secure communication, streamline billing processes, and ensure transparent transactions.",
-      icon: "📡",
-    },
-    {
-      title: "Automotive",
-      description: "Ensure secure vehicle data, streamline supply chains, and enable transparent transactions.",
-      icon: "🚗",
-    },
-    {
-      title: "Energy",
-      description: "Enhance grid efficiency and streamline energy trading for a sustainable and transparent energy future.",
-      icon: "⚡",
-    },
-    {
-      title: "Manufacturing",
-      description: "Streamline supply chains, reduce fraud, and ensure transparent and efficient processes.",
-      icon: "🏭",
-    },
-    {
-      title: "Agriculture",
-      description: "Ensure secure supply chains and improve traceability for a sustainable agribusiness ecosystem.",
-      icon: "🌾",
     },
   ];
   

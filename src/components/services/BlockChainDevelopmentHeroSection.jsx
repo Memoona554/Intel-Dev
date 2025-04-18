@@ -2,17 +2,13 @@ import React from "react";
 
 const BlockchainDevelopment = () => {
   return (
-    <section className="bg-white py-20 px-4 md:px-8 lg:px-16 lg:py-20 bg-no-repeat"  style={{
+    <section className="bg-white py-24 px-4 md:px-8 lg:px-16 lg:py-32 bg-no-repeat"  style={{
         backgroundImage: "url('/blockchain-bg.webp')",
   
       }}>
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10"  data-aos="fade-up" data-aos-delay="100">
         <div>
-          <nav className="text-sm text-white mb-4">
-            <a href="/" className="hover:underline">Home</a> »{" "}
-            <a href="/services" className="hover:underline">Services</a> »{" "}
-            <span className="text-white font-semibold">Blockchain Development</span>
-          </nav>
+          
           <h1 className="text-4xl font-bold mb-4"  data-aos="fade-up" data-aos-delay="200">
             <strong className="text-blue-600">Blockchain</strong> Development Services
           </h1>

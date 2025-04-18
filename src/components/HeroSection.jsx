@@ -6,16 +6,16 @@ const slides = [
     heading: "Build Decentralized Solutions with",
     highlight: "Blockchain Development Services",
     description:
-      "We offer a wide range of reliable and tailored blockchain development services for your business. Build a decentralized blockchain network with Vaival for more transparency, efficiency, and automation.",
+      "We offer a wide range of reliable and tailored blockchain development services for your business. Build a decentralized blockchain network with Intel Devs for more transparency, efficiency, and automation.",
     buttonText: "Let’s Connect",
-    buttonLink: "/contact",
+    buttonLink: "/contact-us",
   },
   {
     heading: "Scale Your In-House Team with",
     highlight: "IT Staff Augmentation Services",
     description: "Utilize our IT staff augmentation services to tap into a pool of certified software engineers and IT experts. We enable you to seamlessly expand your team as needed, without straining your financial resources.",
     buttonText: "Let’s Connect",
-    buttonLink: "/contact",
+    buttonLink: "/contact-us",
   },
   {
     heading: "Embrace Excellence with Custom ",
@@ -23,7 +23,7 @@ const slides = [
     description:
     "We know that skill shortages are holding you back. Hire specialized expertise and skills with our IT Staff Augmentation Services and let us be your strategic partner in driving growth and achieving success.",
     buttonText: "Let’s Connect",
-    buttonLink: "/contact",
+    buttonLink: "/contact-us",
   },
 
 ];
@@ -66,7 +66,7 @@ const HeroSection = () => {
           <p className="text-lg lg:p-0 p-2 mb-6">{slides[currentSlide].description}</p>
           <a
             href={slides[currentSlide].buttonLink}
-            className="inline-block bg-blue-400 text-white font-semibold px-6 py-3 rounded-full shadow hover:bg-blue-300 transition"
+            className="inline-block bg-blue-500 text-white font-semibold px-6 py-3 rounded-full shadow hover:bg-blue-600 transition"
           >
             {slides[currentSlide].buttonText}
           </a>

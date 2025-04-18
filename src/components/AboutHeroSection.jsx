@@ -12,15 +12,7 @@ const AboutHeroSection = () => {
           Transforming Businesses With Innovative Technology Solutions
         </h1>
 
-        <nav className="text-sm text-gray-600">
-          <p>
-            <Link to="/" className="text-blue-600 hover:underline">
-              Home
-            </Link>{" "}
-            <span className="mx-1">»</span>
-            <span className="text-white">About Us</span>
-          </p>
-        </nav>
+        
       </div>
     </section>
   );

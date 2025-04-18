@@ -3,14 +3,14 @@ import React from 'react';
 const projects = [
   {
     title: 'Vulcan Forged',
-    image: 'https://www.vaival.com/wp-content/uploads/2023/11/Vulcan-Forged-Cover-_1_.webp',
-    link: 'https://www.vaival.com/case-studies/vulcanforged/',
+    image: 'proj_2.png',
+    link: '/portfolio/dex-check',
     alt: 'Vulcan Forged'
   },
   {
     title: 'Care Cart',
-    image: 'https://www.vaival.com/wp-content/uploads/2024/06/casest.pdf.webp',
-    link: 'https://www.vaival.com/case-studies/carecart/',
+    image: 'proj_1.png',
+    link: '/portfolio/xana',
     alt: 'Care Cart'
   }
 ];

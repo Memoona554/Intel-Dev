@@ -31,8 +31,7 @@ const SDAASHeroSection = () => {
 
         }}>
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-start" data-aos="fade-up" data-aos-delay="100">
-                <div className="space-y-6">
-                    <p className="text-blue-600 text-sm font-semibold uppercase" data-aos="zoom-in" data-aos-delay="200">Never Offered Before!</p>
+                <div className="space-y-6 py-7">
                     <h1 className="text-3xl sm:text-4xl font-bold text-white" data-aos="fade-up" data-aos-delay="300">
                         Unlimited Software Development for Startups and SMEs
                     </h1>

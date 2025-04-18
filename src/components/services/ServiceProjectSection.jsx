@@ -22,7 +22,7 @@ const ProjectSection = () => {
             <section className="w-full px-4 py-4 bg-white">
                 <div className="max-w-7xl mx-auto">
                     <img
-                        src="https://www.vaival.com/wp-content/uploads/2024/06/Group-57396-scaled.webp"
+                        src="proj_step.webp"
                         alt="Project Stages"
                         className="w-full h-auto rounded-lg shadow-md"
                     />

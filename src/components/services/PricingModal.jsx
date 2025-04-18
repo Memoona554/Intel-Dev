@@ -4,7 +4,7 @@ const PricingModels = () => {
   return (
     <section className="px-4 py-12 bg-white"  data-aos="fade-up" data-aos-delay="100">
       <div className="max-w-4xl mx-auto text-center mb-12"  data-aos="zoom-in" data-aos-delay="200">
-        <h2 className="text-3xl font-bold mb-4">At Vaival Technologies</h2>
+        <h2 className="text-3xl font-bold mb-4">At Intel Devs Technologies</h2>
         <p className="text-gray-700">
           we believe in flexibility to meet diverse client needs. Our business
           model offers a range of options, allowing you to choose what suits

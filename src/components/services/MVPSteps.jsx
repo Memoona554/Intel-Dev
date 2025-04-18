@@ -106,7 +106,7 @@ const MvpSteps = () => {
                                             </h3>
                                         </div>
 
-                                        <h4 className="text-xl font-bold text-gray-900 mb-4 p-6">
+                                        <h4 className="text-xl font-bold text-gray-900  p-6">
                                             {step.title}
                                         </h4>
 
@@ -119,8 +119,8 @@ const MvpSteps = () => {
                                             </ul>
                                         </div>
 
-                                        <div>
-                                            <h5 className="text-sm text-gray-500 font-semibold px-6">Deliverables:</h5>
+                                        <div className="pb-4">
+                                            <h5 className="text-sm text-gray-500 font-semibold px-6 ">Deliverables:</h5>
                                             <ul className="list-disc list-inside text-gray-700 px-6">
                                                 {step.deliverables.map((del, i) => (
                                                     <li key={i}>{del}</li>
@@ -137,24 +137,7 @@ const MvpSteps = () => {
                     </div>
                 </div>
             </section>
-            <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
-                <div className="max-w-7xl mx-auto text-center">
-                    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4">
-                        Accelerate Your MVP Launch
-                    </h2>
-
-                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-blue-600 mb-8">
-                        Bring Your Product to Market with Confidence
-                    </h2>
-
-                    <a
-                        href="#next-step"
-                        className="inline-block px-8 py-4 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
-                    >
-                        Take the Next Step
-                    </a>
-                </div>
-            </section>
+           
         </>
     );
 };

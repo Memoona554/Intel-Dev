@@ -14,8 +14,8 @@ const ITStaffAugmentationSection = () => {
             craft the perfect solution tailored to your digital transformation objectives.
           </p>
           <a
-            href="#calendly"
-            className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg text-lg hover:bg-blue-700 transition duration-300"
+            href="/staff-augmentation"
+            className="inline-block bg-blue-900 hover:bg-white hover:border-blue-900 hover:text-black hover:border text-white font-medium py-3 px-6 rounded-lg transition duration-300"
           >
             Explore More
           </a>

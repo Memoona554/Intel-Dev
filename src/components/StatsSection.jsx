@@ -16,19 +16,19 @@ const statsData = [
   },
   {
     icon: <FaProjectDiagram className="text-4xl text-green-500" />,
-    title: '91+',
+    title: '100+',
     description: 'Completed Projects',
     shadow: true,
   },
   {
     icon: <FaClock className="text-4xl text-purple-500" />,
-    title: '10+',
+    title: '7+',
     description: 'Years of IT Excellence',
     shadow: false,
   },
   {
     icon: <FaCode className="text-4xl text-orange-500" />,
-    title: '5+',
+    title: '10+',
     description: 'Tech Talents',
     shadow: true,
   },

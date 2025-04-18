@@ -14,7 +14,6 @@ const TechnologiesSection = () => {
 
   const tabContents = {
     1: [
-      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg', name: 'Java' },
       { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg', name: 'MEAN' },
       { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', name: 'MERN' },
       { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg', name: 'MEVN' },
@@ -31,17 +30,13 @@ const TechnologiesSection = () => {
       { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg', name: 'Django' },
       { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg', name: 'Node.js' },
       { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg', name: 'Python' },
-      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg', name: 'Java' },
       { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg', name: 'PHP' },
-      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg', name: 'Laravel' },
+      { src: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg', name: 'Laravel' },
       { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg', name: 'MongoDB' },
     ],
     4: [
-      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg', name: 'iOS' },
       { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg', name: 'Android' },
       { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg', name: 'Flutter' },
-      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg', name: 'Kotlin' },
-      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg', name: 'Swift' },
       { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', name: 'React Native' },
     ],
     5: [
@@ -50,10 +45,9 @@ const TechnologiesSection = () => {
       { src: 'https://www.vaival.com/wp-content/uploads/2024/07/Group-58025.webp', name: 'Hyperledger' },
     ],
     6: [
-      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg', name: 'AWS' },
+      { src: 'https://cdn.iconscout.com/icon/free/png-256/microsoft-azure-1868965-1583149.png', name: 'AWS' },
       { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg', name: 'Azure' },
       { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', name: 'Docker' },
-      { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg', name: 'GCP' },
       { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg', name: 'Kubernetes' },
     ],
   };
@@ -87,12 +81,12 @@ const TechnologiesSection = () => {
             </div>
           </div>
 
-          <div className="tab-content">
+          <div className="tab-content lg:max-w-5xl lg:mx-auto">
             {Object.entries(tabContents).map(([tabId, images]) => (
               <div
                 key={tabId}
                 id={`tab-content-${tabId}`}
-                className={`grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 ${parseInt(tabId) === activeTab ? 'block' : 'hidden'}`}
+                className={`grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-6 ${parseInt(tabId) === activeTab ? 'block' : 'hidden'}`}
                 role="tabpanel"
                 aria-labelledby={`tab-title-${tabId}`}
               >

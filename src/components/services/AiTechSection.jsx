@@ -18,7 +18,7 @@ const techStackImages = [
 const features = [
   {
     title: "Unmatched Technical Prowess",
-    desc: "Our team of expert AI app developers brings unparalleled coding experience. We work with top-notch tools and technologies including Python, Java, Angular, NodeJS, and more.",
+    desc: "Our team of expert AI app developers brings unparalleled coding experience. We work with top-notch tools and technologies including Python, Angular, NodeJS, and more.",
   },
   {
     title: "Security First Approach",
@@ -87,11 +87,7 @@ export default function AITechSection() {
           ))}
         </div>
 
-        <div className="mt-10">
-          <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
-            REQUEST A QUOTE
-          </button>
-        </div>
+        
       </div>
     </div>
   );

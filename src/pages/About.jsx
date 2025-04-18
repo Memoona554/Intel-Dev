@@ -18,7 +18,6 @@ function About() {
             <CompanyIntro />
             <CoreValue />
             <AboutUsSection />
-            <HistorySection />
             <WorkLifeSymphony />
             <StatsSection />
             <Footer />

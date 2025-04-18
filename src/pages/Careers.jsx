@@ -19,7 +19,7 @@ function Careers() {
         <>
             <Header>
             </Header>
-            <section className="bg-white py-20 bg-no-repeat" style={{
+            <section className="bg-white py-24 bg-no-repeat" style={{
       backgroundImage: "url('/career-bg.webp')",
 
     }}>
@@ -30,21 +30,7 @@ function Careers() {
                             <br /> At A Glance
                         </h1>
                     </div>
-                    <div className="mt-4 text-center">
-                        <p className="text-sm text-gray-600">
-                            <span>
-                                <span>
-                                    <Link to="/" className="text-blue-600 hover:underline">
-                                        Home
-                                    </Link>
-                                </span>{' '}
-                                »{' '}
-                                <span className="text-white font-medium" aria-current="page">
-                                    Careers
-                                </span>
-                            </span>
-                        </p>
-                    </div>
+                    
                 </div>
             </section>
             <section className="py-10 bg-gray-50">

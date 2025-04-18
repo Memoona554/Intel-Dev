@@ -2,7 +2,7 @@ import React from "react";
 
 const MVPSection = () => {
   return (
-    <section className="bg-white py-16 px-4 sm:px-6 lg:px-8 lg:py-28 bg-no-repeat bg-cover" style={{
+    <section className="bg-white py-24 px-4 sm:px-6 lg:px-8 lg:py-36 bg-no-repeat bg-cover" style={{
         backgroundImage: "url('/mvp-bg.png')",
   
       }}>
@@ -21,12 +21,7 @@ const MVPSection = () => {
 
         <div className="flex flex-col md:flex-row justify-center gap-4">
           <div className="flex flex-col md:flex-row gap-4">
-            <a
-              href="#"
-              className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center transform hover:scale-105"
-            >
-              Get Started
-            </a>
+            
             <a
               href="#calendly"
               className="border border-blue-600 text-white hover:bg-blue-700 font-medium py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center"

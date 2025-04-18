@@ -24,8 +24,9 @@ const techStack = [
     { name: "Adobe XD", image: "https://cdn.iconscout.com/icon/free/png-256/adobe-xd-3521735-2945093.png" },
     { name: "Jenkins", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" },
     { name: "Docker", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+    {  name: 'AWS',image: 'https://cdn.iconscout.com/icon/free/png-256/microsoft-azure-1868965-1583149.png' },
     { name: "Kubernetes", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" },
-    { name: "Microsoft Azure", image: "https://cdn.iconscout.com/icon/free/png-256/microsoft-azure-1868965-1583149.png" },
+    { name: "Microsoft Azure", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
     { name: "Google Cloud", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" },
   ];
   

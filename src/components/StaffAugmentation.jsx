@@ -11,14 +11,14 @@ const StaffAugmentation = () => {
             Services
           </h2>
           <p className="text-lg text-gray-700">
-            Propel Your Business &amp; Hire World’s Best Talent With Our IT Staff Augmentation Services
+            Prepare Your Business &amp; Hire World’s Best Talent With Our IT Staff Augmentation Services
           </p>
           <p className="text-lg text-gray-700">
             We know that skill shortages are holding you back. Hire specialized expertise and skills with our IT Staff Augmentation Services and let us be your strategic partner in driving growth and achieving success.
           </p>
           <div className="text-center lg:text-left">
             <a
-              href="https://www.vaival.com/staff-augmentation/"
+              href="/staff-augmentation"
               className="inline-block px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
             >
               Learn More

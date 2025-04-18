@@ -8,13 +8,13 @@ const ExperienceExcellence = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16" data-aos="fade-up" data-aos-delay="300">
                 <div className="flex items-center flex-col gap-4 justify-center space-x-6">
                     <img
-                        src="https://www.vaival.com/wp-content/uploads/2023/11/Rectangle-813.webp"
+                        src="/essence_2.jpg"
                         alt="software development services"
-                        className="lg:w-full w-82 h-auto object-cover"
+                        className="lg:w-full w-82 h-auto object-cover rounded-lg"
                         data-aos="fade-up" data-aos-delay="200"
                     />
                     <p data-aos="fade-up" data-aos-delay="300" className=" text-2xl mb-5 text-gray-900">
-                        <span className=" text-4xl text-blue-500 font-semibold">5+</span>
+                        <span className=" text-4xl text-blue-500 font-semibold">10+</span>
                         <br />
                         Skilled <br />&amp; Dedicated
                         <br />
@@ -24,16 +24,16 @@ const ExperienceExcellence = () => {
     
                 <div className="flex items-center flex-col gap-4 justify-center space-x-6">
                     <p data-aos="fade-up" data-aos-delay="400" className="text-2xl mt-4  text-gray-900">
-                        <span className=" text-4xl text-blue-500 font-semibold">90+</span>
+                        <span className=" text-4xl text-blue-500 font-semibold">100+</span>
                         <br />
                         Completed
                         <br />
                         Projects
                     </p>
                     <img
-                        src="https://www.vaival.com/wp-content/uploads/2023/11/Rectangle-816_1.webp"
+                        src="/essence_1.jpg"
                         alt="software development"
-                        className="lg:w-full w-82 h-auto object-cover"
+                        className="lg:w-full w-82 h-auto object-cover rounded-lg"
                         data-aos="fade-up" data-aos-delay="500"
                     />
                 </div>
@@ -61,9 +61,9 @@ const ExperienceExcellence = () => {
           <p className="text-lg text-white mb-6">
             Embrace the freedom of remote work with powerful tools that keep you productive and connected from wherever you are. Our platform is designed for efficiency, collaboration, and success.
           </p>
-          <button className="bg-blue-600 text-white font-semibold px-6 py-3 rounded-xl hover:bg-blue-700 transition">
+          <a href="#calendly" className="bg-blue-600 text-white font-semibold px-6 py-3 rounded-xl hover:bg-blue-700 transition">
             Get Started
-          </button>
+          </a>
         </div>
 
         <div className="w-full lg:w-1/2">

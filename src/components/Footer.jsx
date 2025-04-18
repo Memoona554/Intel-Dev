@@ -16,11 +16,11 @@ const Footer = () => {
                 <div className="container mx-auto px-4">
                     <div className="flex flex-wrap justify-between gap-y-10">
                         <div className="w-full sm:w-1/2 lg:w-1/5">
-                            <img
+                            {/* <img
                                 className="w-48 h-auto"
                                 src="/site-logo.png"
                                 alt="Intel Logo Logo"
-                            />
+                            /> */}
                             <p className="mt-4 text-sm text-gray-700">
                                 Intel Devs ignites growth and efficiency, unveiling your
                                 business’s hidden potential through our top custom software

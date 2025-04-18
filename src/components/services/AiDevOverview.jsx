@@ -2,7 +2,7 @@ import React from "react";
 import { FaSearch, FaPencilAlt, FaCogs, FaRocket } from "react-icons/fa";
 
 const stats = [
-  { value: "10+", label: "Years of Experience" },
+  { value: "7+", label: "Years of Experience" },
   { value: "100%", label: "High Customer Satisfaction" },
   { value: "4x - 6x", label: "Faster Time to Market" },
 ];
@@ -54,9 +54,7 @@ export default function AIDevOverview() {
           ))}
         </div>
 
-        <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
-          TRANSFORM YOUR BUSINESS
-        </button>
+        
       </div>
 
       <div className="max-w-7xl mx-auto mt-20">
@@ -64,7 +62,7 @@ export default function AIDevOverview() {
           Benefits of Choosing <span className="text-blue-600">Our</span> AI Development Services
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 mb-10 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {benefits.map((benefit, idx) => (
             <div
               key={idx}
@@ -77,9 +75,9 @@ export default function AIDevOverview() {
           ))}
         </div>
 
-        <button className="mt-10 bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
+        <a href="#calendly" className="mt-10 bg-blue-600  text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
           DEVELOP AN AI-POWERED PRODUCT
-        </button>
+        </a>
       </div>
     </div>
   );

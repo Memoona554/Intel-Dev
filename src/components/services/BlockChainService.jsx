@@ -11,7 +11,6 @@ import {
     FaRocket,
     FaCubes,
     FaProjectDiagram,
-    FaCodeBranch,
     FaUsers,
     FaCommentsDollar,
 } from "react-icons/fa";
@@ -42,15 +41,9 @@ const services = [
         icon: <FaFileContract size={28} />,
     },
     {
-        title: "Decentralized / Dex Development",
-        description:
-            "Revolutionize your trading experience with our DEX Development. We create reliable decentralized platforms, leveraging the power of blockchain and smart contracts. Our services transparency in peer-to-peer transactions while enhancing overall operational efficiency.",
-        icon: <FaExchangeAlt size={28} />,
-    },
-    {
         title: "Decentralized DeFi Solutions",
         description:
-            "Empower your financial ecosystem with our end-to-end DeFi solutions that are designed to enhance efficiency, security and profitability of your business. We craft reliable, decentralized financial platforms that utilize cutting-edge blockchain technology.",
+            "Driving innovation in decentralized finance through secure, scalable, and efficient blockchain-based solutions that transform the way financial systems operate.",
         icon: <FaNetworkWired size={28} />,
     },
     {
@@ -60,28 +53,10 @@ const services = [
         icon: <FaMobileAlt size={28} />,
     },
     {
-        title: "IEO and ICO Development",
-        description:
-            "Experience decentralized fundraising with our IEO and ICO Development services. From strategic planning and token creation to seamless platform development and marketing, our blockchain experts ensure a streamlined and effective fundraising process.",
-        icon: <FaRocket size={28} />,
-    },
-    {
-        title: "POC Development",
-        description:
-            "Unlock the true potential blockchain with our POC development services. We provide robust prototypes that showcase the viability and benefits of your concepts. Our solutions offer a clear vision of your project's potential, laying the groundwork for success.",
-        icon: <FaProjectDiagram size={28} />,
-    },
-    {
         title: "Hyperledger Solutions",
         description:
             "We leverage hyperledger frameworks to deliver custom blockchain development solutions, ensuring transparent, secure, and scalable systems. Our experts help you design, develop and deploy custom Hyperledger solutions to meet your enterprise needs",
         icon: <FaCubes size={28} />,
-    },
-    {
-        title: "Blockchain Staff Augmentation",
-        description:
-            "Optimize your blockchain initiatives with our Staff Augmentation services. Our seasoned professionals deliver custom blockchain solutions that align with your business goals. Benefit from enhanced expertise and streamlined workflows with Vaival as your partner.",
-        icon: <FaUsers size={28} />,
     },
     {
         title: "Blockchain Consulting",

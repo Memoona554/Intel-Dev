@@ -4,7 +4,6 @@ import MVPSection from '../components/services/MPVHeroSection'
 import MVPServices from '../components/services/MVPService'
 import MvpSteps from '../components/services/MVPSteps'
 import MvpTimeline from '../components/services/MvpSolutionSection'
-import OnboardingSwiper from '../components/services/MvpOnbording'
 import MVPType from '../components/services/MvpType'
 import MVPComparison from '../components/services/MVPComparision'
 import BookConsultation from '../components/Contact'
@@ -19,7 +18,6 @@ function MPVDevelopment() {
             <MVPServices />
             <MvpSteps />
             <MvpTimeline />
-            <OnboardingSwiper />
             <MVPType />
             <MVPComparison />
             <BookConsultation />

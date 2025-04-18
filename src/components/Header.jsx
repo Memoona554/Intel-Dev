@@ -119,7 +119,7 @@ function Header() {
             href: "#",
             dropdown: [
                 { name: "About Us", href: "/about" },
-                { name: "Blog", href: "#blog" },
+                { name: "Blog", href: "/blogs" },
                 { name: "Career", href: "/careers" },
             ],
         },

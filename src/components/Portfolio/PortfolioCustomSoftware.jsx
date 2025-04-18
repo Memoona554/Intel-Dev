@@ -9,7 +9,7 @@ const PortfolioCustomSoftware = () => {
           Custom Software Development
         </h2>
         <p className="mt-4 text-base sm:text-lg text-gray-700">
-          We are an E-commerce development company with 12+ years of experience developing platforms such as Magento, Shopify, WooCommerce, BigCommerce, and OpenCart.
+          We are an E-commerce development company with 7+ years of experience developing platforms .
         </p>
         <div className="mt-8">
           <img

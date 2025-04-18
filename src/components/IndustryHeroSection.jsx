@@ -10,15 +10,7 @@ const IndustryHeroSection = () => {
 
       <div className="container mx-auto px-4">
 
-        <div className="breadcrumbs mb-4">
-          <p className="text-lg text-gray-600">
-            <span>
-              <a href="/" className="text-blue-500 hover:underline">Home</a>
-            </span>{' '}
-            &gt;{' '}
-            <span className="text-white">Industries</span>
-          </p>
-        </div>
+        
         <h1 className="text-4xl font-bold text-white mb-4">
           <strong>Industries</strong> We Serve
         </h1>

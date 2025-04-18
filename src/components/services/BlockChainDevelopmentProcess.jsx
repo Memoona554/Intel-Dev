@@ -58,7 +58,7 @@ const BlockchainDevelopmentProcess = () => {
                 <div className="lg:max-w-7xl mx-auto px-4">
                     <div className="relative w-full"  data-aos="fade-right" data-aos-delay="100">
                         <img
-                            src="https://www.vaival.com/wp-content/uploads/2024/05/Group-27207-scaled.webp"
+                            src="/block-chain-bg.webp"
                             alt="Blockchain development services CTA"
                             className="w-full h-auto lg:max-w-6xl mx-auto"
                         />
