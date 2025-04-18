@@ -20,6 +20,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy'
 import AntiSalveryPolicy from './pages/AntiSalveryPolicy'
 import StaffAugmentationPage from './pages/StaffAugmentationPage';
 import BlogBlockChain from './pages/BlogBlockChain';
+import MobileDevelopment from './pages/MobileDevelopment'
 import Blog from './pages/Blog';
 import { useEffect } from 'react'
 import AOS from "aos";
@@ -55,6 +56,8 @@ function App() {
         <Route path='/staff-augmentation' element={<StaffAugmentationPage></StaffAugmentationPage>}></Route>
         <Route path='/blogs' element={<Blog></Blog>}></Route>
         <Route path='/blog/exploring-blockchain-technology-real-world-use-cases-in-2025' element={<BlogBlockChain></BlogBlockChain>}></Route>
+        <Route path='/blogs/future-of-mobile-app-development' element={<MobileDevelopment></MobileDevelopment>}></Route>
+
       </Routes>
     </>
   )

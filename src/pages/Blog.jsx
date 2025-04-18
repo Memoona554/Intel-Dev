@@ -4,20 +4,23 @@ import Header from '../components/Header';
 function Blog() {
     const blogs = [
         {
-          title: "Web Development Trends: What to Expect in 2024",
+          title: "Desktop Application vs Web Application: Comparison",
           image: "/web-developer.webp",
+          link: "",
           excerpt:
-            "We have seen mobile app development emerge and innovate in the past two decades. Over this course of time...",
+            "In the modern software landscape, many businesses go for software solutions to modernize their business strategies and enhance overall productivity. Are you unsure what is best for your business.....",
         },
         {
           title: "Mobile App Development: Innovations Driving 2024",
           image: "/mobile-development.jpg",
+          link: "/blogs/future-of-mobile-app-development",
           excerpt:
             "In today's interconnected global economy, it has become crucial for businesses to have an efficient and transparent supply chain...",
         },
         {
           title: "Exploring Blockchain Technology: Real-World Use Cases in 2024",
           image: "/blockchain-portfolio.webp",
+          link: "/blog/exploring-blockchain-technology-real-world-use-cases-in-2025",
           excerpt:
             "In recent years, the landscape of cross platform mobile development has been revolutionized by cross-platform methodologies...",
         },
@@ -26,12 +29,12 @@ function Blog() {
     return (
         <>
             <Header />
-            <section className="w-full bg-white py-20 px-6 md:px-20 bg-no-repeat" style={{
+            <section className="w-full bg-white py-28 px-6 md:px-20 bg-no-repeat" style={{
       backgroundImage: "url('/blog-bg.webp')",
 
     }}>
                 <div className="max-w-5xl mx-auto text-center">
-                    <h1 className="text-3xl md:text-4xl font-bold leading-snug text-gray-800">
+                    <h1 className="text-3xl md:text-4xl font-bold leading-snug text-white">
                         Expert Analysis & Insights on Tech
                         <br className="hidden md:block" />
                         <span className="text-white">
@@ -62,7 +65,7 @@ function Blog() {
                                 </h3>
                                 <p className="text-sm text-gray-600 mb-4">{blog.excerpt}</p>
                                 <Link
-                                    to="/blog/exploring-blockchain-technology-real-world-use-cases-in-2025"
+                                    to={blog.link}
                                     className="text-[#0274be] text-sm font-semibold hover:underline"
                                 >
                                     Read More
