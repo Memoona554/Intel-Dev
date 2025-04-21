@@ -26,6 +26,7 @@ import ProgramingBlog from './pages/ProgramingBlog';
 import SoftwareMethodBlog from './pages/SoftwareMethodBlog';
 import ReactDeveloper from './pages/ReactDeveloper';
 import NodeDeveloper from './pages/NodeDeveloper';
+import MernDeveloper from './pages/MernDeveloper';
 import Blog from './pages/Blog';
 import { useEffect } from 'react'
 import AOS from "aos";
@@ -67,6 +68,7 @@ function App() {
         <Route path='/blog/software-development-methodologies' element={<SoftwareMethodBlog></SoftwareMethodBlog>}></Route>
         <Route path='/staff-augmentation/react/' element={<ReactDeveloper></ReactDeveloper>}></Route>
         <Route path='/staff-augmentation/node-js/' element={<NodeDeveloper></NodeDeveloper>}></Route>
+        <Route path='/staff-augmentation/mern-stack/' element={<MernDeveloper></MernDeveloper>}></Route>
 
       </Routes>
     </>
