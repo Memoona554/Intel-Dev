@@ -43,7 +43,7 @@ const PricingModels = () => {
               <br />
               <br />
               Choose the model that aligns with your project's nature and your
-              budget preferences, and let Vaival bring your blockchain
+              budget preferences, and let Intel Devs bring your blockchain
               development vision to life.
             </p>
           </div>

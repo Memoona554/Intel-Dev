@@ -1,18 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const StaffAugmentationHero = () => {
   return (
-    <section className="bg-no-repeat py-24 md:py-28 md:h-[70vh] bg-cover"  style={{
+    <section className="bg-no-repeat py-24 md:py-28 md:h-[70vh] bg-cover "  style={{
       backgroundImage: "url('/staff-bg.webp')",
 
     }}>
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
-          <p className="text-sm text-blue-600 mb-4">
-            <span><Link to="/" className="text-blue-500 hover:underline">Home</Link></span> &raquo;{" "}
-            <span className="text-white">Staff Augmentation</span>
-          </p>
+          
 
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Quickest Way to Hire Remote Software Developers

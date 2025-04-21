@@ -171,7 +171,7 @@ function BlogBlockChain() {
                     <p>Blockchain is set to revolutionize supply chains with immutable records, smart contract automation, and enhanced transparency. As interoperability and regulations mature, adoption will increase, boosting trust and operational efficiency.</p>
                     <br />
                     <h2 className='font-bold'>Enhance Supply Chain Operations with Intel Devs</h2> <br />
-                    <p>Intel Devs delivers custom blockchain development services to improve transparency, traceability, and efficiency in supply chains. With expertise across industries, Vaival empowers businesses to adopt decentralized technologies and gain a competitive edge.</p>
+                    <p>Intel Devs delivers custom blockchain development services to improve transparency, traceability, and efficiency in supply chains. With expertise across industries, Intel Devs empowers businesses to adopt decentralized technologies and gain a competitive edge.</p>
                     <br />
                     <h2 className='font-bold'>Conclusion</h2> <br />
                     <p>

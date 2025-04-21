@@ -19,7 +19,7 @@ import {
       icon: <FaUsersCog className="text-[#2169F7] text-2xl" />,
       title: "Access to Vetted Talent",
       description:
-        "Vaival offers access to a vetted talent pool at affordable costs, ready to immediately join your business operations. With certified software specialists, you can amplify your teams’ progress for quick and effective results.",
+        "Intel Devs offers access to a vetted talent pool at affordable costs, ready to immediately join your business operations. With certified software specialists, you can amplify your teams’ progress for quick and effective results.",
     },
     {
       icon: <FaDollarSign className="text-[#2169F7] text-2xl" />,
@@ -49,7 +49,7 @@ import {
       icon: <FaSearch className="text-[#2169F7] text-2xl" />,
       title: "Work Transparency",
       description:
-        "Vaival is committed to openness, ensuring every phase of our information technology staff augmentation services is clear & transparent.",
+        "Intel Devs is committed to openness, ensuring every phase of our information technology staff augmentation services is clear & transparent.",
     },
   ];
   

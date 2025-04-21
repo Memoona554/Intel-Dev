@@ -9,7 +9,7 @@ const HistorySection = () => {
                         <strong>Our</strong> History
                     </h2>
                     <p className="text-lg mb-6">
-                        Vaival is the partner of choice for entrepreneurs, SMEs, and major corporations. Since 2010, we’ve helped many businesses enhance their potential via custom software development, web3 & blockchain, dev-ops, design innovation, and consultancy.
+                        Intel Devs is the partner of choice for entrepreneurs, SMEs, and major corporations. Since 2010, we’ve helped many businesses enhance their potential via custom software development, web3 & blockchain, dev-ops, design innovation, and consultancy.
                     </p>
                     <div className="w-full">
                         <img
