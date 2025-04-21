@@ -4,7 +4,7 @@ const ExpertiseSection = () => {
   const stats = [
     {
       number: "10+",
-      label: "Pre-Vetted React Developers",
+      label: "Developer Team",
       borderColor: "border-blue-600",
     },
     {
