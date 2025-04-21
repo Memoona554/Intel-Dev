@@ -72,7 +72,7 @@ function Header() {
                             { name: "Node Js Developer", href: "/staff-augmentation/node-js/" },
                             { name: "MERN Stack Developers", href: "/staff-augmentation/mern-stack/" },
                             { name: "MEVN Stack Developers", href: "/staff-augmentation/mevn-stack/" },
-                            { name: "MEAN Stack Developer", href: "#" },
+                            { name: "MEAN Stack Developer", href: "/staff-augmentation/mean-stack/" },
                             
                            
                         ],

@@ -28,6 +28,7 @@ import ReactDeveloper from './pages/ReactDeveloper';
 import NodeDeveloper from './pages/NodeDeveloper';
 import MernDeveloper from './pages/MernDeveloper';
 import MevnDeveloper from './pages/MevnDeveloper';
+import MeanDeveloper from './pages/MeanDeveloper';
 import Blog from './pages/Blog';
 import { useEffect } from 'react'
 import AOS from "aos";
@@ -71,6 +72,7 @@ function App() {
         <Route path='/staff-augmentation/node-js/' element={<NodeDeveloper></NodeDeveloper>}></Route>
         <Route path='/staff-augmentation/mern-stack/' element={<MernDeveloper></MernDeveloper>}></Route>
         <Route path='/staff-augmentation/mevn-stack/' element={<MevnDeveloper></MevnDeveloper>}></Route>
+        <Route path='/staff-augmentation/mean-stack/' element={<MeanDeveloper></MeanDeveloper>}></Route>
 
 
       </Routes>
