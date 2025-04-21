@@ -21,6 +21,9 @@ import AntiSalveryPolicy from './pages/AntiSalveryPolicy'
 import StaffAugmentationPage from './pages/StaffAugmentationPage';
 import BlogBlockChain from './pages/BlogBlockChain';
 import MobileDevelopment from './pages/MobileDevelopment'
+import DeskTopWeb from './pages/DeskTopWeb';
+import ProgramingBlog from './pages/ProgramingBlog';
+import SoftwareMethodBlog from './pages/SoftwareMethodBlog';
 import Blog from './pages/Blog';
 import { useEffect } from 'react'
 import AOS from "aos";
@@ -56,7 +59,10 @@ function App() {
         <Route path='/staff-augmentation' element={<StaffAugmentationPage></StaffAugmentationPage>}></Route>
         <Route path='/blogs' element={<Blog></Blog>}></Route>
         <Route path='/blog/exploring-blockchain-technology-real-world-use-cases-in-2025' element={<BlogBlockChain></BlogBlockChain>}></Route>
-        <Route path='/blogs/future-of-mobile-app-development' element={<MobileDevelopment></MobileDevelopment>}></Route>
+        <Route path='/blog/future-of-mobile-app-development' element={<MobileDevelopment></MobileDevelopment>}></Route>
+        <Route path='/blog/desktop-vs-web' element={<DeskTopWeb></DeskTopWeb>}></Route>
+        <Route path='/blog/top-10-programming-languages-in-future' element={<ProgramingBlog></ProgramingBlog>}></Route>
+        <Route path='/blog/software-development-methodologies' element={<SoftwareMethodBlog></SoftwareMethodBlog>}></Route>
 
       </Routes>
     </>

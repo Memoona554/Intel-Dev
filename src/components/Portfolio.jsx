@@ -1,17 +1,15 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const projects = [
   {
-    title: 'Vulcan Forged',
-    image: 'proj_2.png',
+    image: '/proj_2.png',
     link: '/portfolio/dex-check',
-    alt: 'Vulcan Forged'
+    alt: 'dexcheck'
   },
   {
-    title: 'Care Cart',
-    image: 'proj_1.png',
+    image: '/proj_1.png',
     link: '/portfolio/xana',
-    alt: 'Care Cart'
+    alt: 'xana'
   }
 ];
 
@@ -40,14 +38,8 @@ const Portfolio = () => {
         </div>
 
         <div className="text-center mt-12">
-          <a
-            href="https://www.vaival.com/case-studies/"
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-medium hover:bg-blue-700 transition"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Projects
-          </a>
+          <Link to="/portfolio" className='inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-medium hover:bg-blue-700 transition'>    View Projects</Link>
+          
         </div>
       </div>
     </section>

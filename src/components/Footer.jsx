@@ -16,11 +16,11 @@ const Footer = () => {
                 <div className="container mx-auto px-4">
                     <div className="flex flex-wrap justify-between gap-y-10">
                         <div className="w-full sm:w-1/2 lg:w-1/5">
-                            {/* <img
+                            <img
                                 className="w-48 h-auto"
-                                src="/site-logo.png"
+                                src="/site.png"
                                 alt="Intel Logo Logo"
-                            /> */}
+                            />
                             <p className="mt-4 text-sm text-gray-700">
                                 Intel Devs ignites growth and efficiency, unveiling your
                                 business’s hidden potential through our top custom software
@@ -51,15 +51,15 @@ const Footer = () => {
                         <div className="w-full sm:w-1/2 lg:w-1/5">
                             <p className="font-semibold text-lg mb-4">Services</p>
                             <ul className="space-y-2 text-sm text-gray-700">
-                                <li><a href="https://www.vaival.com/staff-augmentation/" className="hover:underline">Staff Augmentation</a></li>
-                                <li><a href="https://www.vaival.com/services/" className="hover:underline">Custom Software Development</a></li>
-                                <li><a href="https://www.vaival.com/services/mobile-development/" className="hover:underline">Mobile App Development</a></li>
-                                <li><a href="https://www.vaival.com/services/software-testing/" className="hover:underline">QA Testing & Automation</a></li>
-                                <li><a href="https://www.vaival.com/services/it-consulting/" className="hover:underline">IT Consulting Services</a></li>
+                                <li><a href="/staff-augmentation" className="hover:underline">Staff Augmentation</a></li>
+                                <li><a href="/services" className="hover:underline">Custom Software Development</a></li>
+                                <li><a href="/portfolio" className="hover:underline">Portfolio</a></li>
+                                <li><a href="/industries" className="hover:underline">Industries</a></li>
+                                <li><a href="/contact-us" className="hover:underline">IT Consulting Services</a></li>
                             </ul>
                         </div>
 
-                        <div className="w-full sm:w-1/2 lg:w-1/5">
+                        {/* <div className="w-full sm:w-1/2 lg:w-1/5">
                             <p className="font-semibold text-lg mb-4">Technologies</p>
                             <ul className="space-y-2 text-sm text-gray-700">
                                 <li><a href="#" className="hover:underline">React</a></li>
@@ -67,15 +67,15 @@ const Footer = () => {
                                 <li><a href="#" className="hover:underline">MEAN Stack</a></li>
                                 <li><a href="#" className="hover:underline">MERN Stack</a></li>
                             </ul>
-                        </div>
+                        </div> */}
 
                         <div className="w-full sm:w-1/2 lg:w-1/5">
                             <p className="font-semibold text-lg mb-4">Insights</p>
                             <ul className="space-y-2 text-sm text-gray-700">
-                                <li><a href="#" className="hover:underline">Contact Us</a></li>
-                                <li><a href="#" className="hover:underline">About Us</a></li>
-                                <li><a href="#" className="hover:underline">Blog</a></li>
-                                <li><a href="#" className="hover:underline">Career</a></li>
+                                <li><a href="/contact-us" className="hover:underline">Contact Us</a></li>
+                                <li><a href="/about" className="hover:underline">About Us</a></li>
+                                <li><a href="/blogs" className="hover:underline">Blog</a></li>
+                                <li><a href="/careers" className="hover:underline">Career</a></li>
                             </ul>
                         </div>
                     </div>

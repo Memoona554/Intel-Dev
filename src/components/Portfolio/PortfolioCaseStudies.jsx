@@ -3,39 +3,31 @@ import React from "react";
 const PortfolioCaseStudies = () => {
   const leftColumn = [
     {
-      title: "Float Funnels",
-      image: "https://www.vaival.com/wp-content/uploads/2024/01/Rectangle-8705.webp",
-      link: "https://www.vaival.com/case-studies/float-funnels/",
+      title: "DexCheck",
+      image: "/proj_2.png",
+      link: "/portfolio/dex-check",
     },
     {
-      title: "CareCart",
-      image: "https://www.vaival.com/wp-content/uploads/2024/01/Rectangle-8708.webp",
-      link: "https://www.vaival.com/case-studies/carecart/",
+      title: "XANA",
+      image: "/proj_1.png",
+      link: "/portfolio/xana",
     },
-    {
-      title: "Kibocode",
-      image: "https://www.vaival.com/wp-content/uploads/2024/01/Group-57392.webp",
-      link: "https://www.vaival.com/case-studies/kibocode/",
-    },
+    
     
   ];
 
   const rightColumn = [
     {
-      title: "SendPad",
-      image: "https://www.vaival.com/wp-content/uploads/2024/01/Rectangle-8707.webp",
-      link: "https://www.vaival.com/case-studies/sendpad/",
+      title: "Vividly SRL",
+      image: "/proj_3.png",
+      link: "/portfolio/vividly",
     },
     {
-      title: "Vulcan Forged",
-      image: "https://www.vaival.com/wp-content/uploads/2023/12/Rectangle-8701.webp",
-      link: "https://www.vaival.com/case-studies/vulcanforged/",
+      title: "Kombo Chrome Extension",
+      image: "/proj_4.png",
+      link: "/portfolio/kombo",
     },
-    {
-        title: "Blackbird Suite",
-        image: "https://www.vaival.com/wp-content/uploads/2024/01/Group-57394.webp",
-        link: "https://www.vaival.com/case-studies/blackbird-suite/",
-      },
+    
   ];
 
   const ImageBox = ({ title, image, link }) => (
@@ -44,7 +36,7 @@ const PortfolioCaseStudies = () => {
         <img
           src={image}
           alt={title}
-          className="w-full h-auto rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
+          className="w-full h-98 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
         />
         <h3 className="mt-2 text-lg font-semibold text-blue-600 hover:underline">
           {title}

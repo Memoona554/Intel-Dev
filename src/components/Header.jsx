@@ -40,6 +40,11 @@ function Header() {
 
     const navItems = [
         {
+            name: "Home",
+            href: "/",
+
+        },
+        {
             name: "Services",
             href: "/services",
             dropdown: [
@@ -57,7 +62,7 @@ function Header() {
                     title: "Hire AI Powered Developer Now!",
                     description: "Collaborate with industry’s best IT talent & achieve 2x efficiency.",
                     image: "/cta-image.png",
-                    href: "/contact-us", 
+                    href: "/contact-us",
                 },
                 columns: [
                     {
@@ -68,34 +73,26 @@ function Header() {
                             { name: "MERN Stack Developers", href: "#" },
                             { name: "MEVN Stack Developers", href: "#" },
                             { name: "MEAN Stack Developer", href: "#" },
-                            { name: "Angular Developers", href: "#" },
-                            { name: "Python Developers", href: "#" },
+                            
+                           
+                        ],
+                    },
+                    {
+                        title: "",
+                        items: [
                             { name: "Vue Js Developers", href: "#" },
                             { name: "Django Developers", href: "#" },
-                        ],
-                    },
-                    {
-                        title: "",
-                        items: [
-                            { name: "iOS Developers", href: "#" },
                             { name: "Android Developers", href: "#" },
-                            { name: "Java Developers", href: "#" },
-                            { name: ".Net Developers", href: "#" },
                             { name: "PHP Developers", href: "#" },
                             { name: "Laravel Developers", href: "#" },
-                            { name: "CodeIgniter Developers", href: "#" },
-                            { name: "Ruby on Rails Developers", href: "#" },
-                            { name: "Unity 3D", href: "#" },
                         ],
                     },
                     {
                         title: "",
                         items: [
+                            { name: "Angular Developers", href: "#" },
+                            { name: "Python Developers", href: "#" },
                             { name: "Project Manager/Scrum Master", href: "#" },
-                            { name: "Elixir Developers", href: "#" },
-                            { name: "Flutter Developers", href: "#" },
-                            { name: "Golang Developers", href: "#" },
-                            { name: "Unreal Engine Developers", href: "#" },
                             { name: "DevOps Engineer", href: "#" },
                             { name: "Blockchain Developers", href: "#" },
                         ],
@@ -131,10 +128,10 @@ function Header() {
         <header className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? "bg-blue-600 " : "bg-transparent"}`}>
             <div className="lg:container mx-auto px-4 py-4 flex justify-between items-center">
                 <a href="/">
-                    <img src="/site-logo.png" alt="" className='h-20' />
+                    <img src="/site-logo.png" alt="" className= ' h-10 lg:h-8 xl:h-10' />
                 </a>
 
-                <div className="hidden lg:flex lg:space-x-2 space-x-6 text-white font-medium relative">
+                <div className="hidden lg:flex lg:space-x-1 space-x-6 text-white font-medium relative">
                     {navItems.map((item) => (
                         <div
                             key={item.name}
@@ -164,7 +161,7 @@ function Header() {
                             ) : (
                                 <Link
                                     to={item.href}
-                                    className="flex items-center gap-1 px-4 py-2 rounded-md hover:bg-white/10 transition"
+                                    className="flex items-center gap-1 lg:px-2 xl:px-4  py-2 rounded-md hover:bg-white/10 transition"
                                 >
                                     {item.name}
                                     {item.dropdown && (
