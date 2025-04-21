@@ -25,27 +25,24 @@ function InformationSecurity() {
                     </h1>
 
                     <p className="text-gray-700 text-justify mb-6">
-                        Vaival Technologies, engaged in software development and IT services, is dedicated to safeguarding its information assets by implementing information security controls to minimize the impact of security incidents. To establish, maintain, and continually improve the Information Security Management System (ISMS) and provide a framework for defining objectives and targets, Vaival commits to the following:
+                        Intel Devs Technologies, engaged in software development and IT services, is dedicated to safeguarding its information assets by implementing information security controls to minimize the impact of security incidents. To establish, maintain, and continually improve the Information Security Management System (ISMS) and provide a framework for defining objectives and targets, Intel Devs commits to the following:
                     </p>
 
                     <ul className="list-disc pl-6 space-y-4 text-gray-700">
-                        <li>The ISMS will be established in accordance with the ISO 27001 baseline, ensuring strict adherence to its principles.</li>
                         <li>Compliance with all applicable legal and contractual requirements will be diligently ensured.</li>
-                        <li>Vaival will maintain the highest standards for information protection, ensuring the Confidentiality, Integrity, and Availability (CIA) of information assets through the systematic deployment of security controls.</li>
+                        <li>Intel Devs will maintain the highest standards for information protection, ensuring the Confidentiality, Integrity, and Availability (CIA) of information assets through the systematic deployment of security controls.</li>
                         <li>Robust business continuity plans will be developed, maintained, and regularly tested.</li>
                         <li>Risks to all corporate assets, including tangible/intangible and human resources, will be assessed, and appropriate controls, mitigation, and contingency plans will be implemented.</li>
                         <li>A secure and safe environment will be provided for the preservation of all corporate assets, including tangible/intangible assets and personnel.</li>
                         <li>A conducive work environment, free from accidental and occupational hazards, will be maintained for the human resource.</li>
                         <li>All personnel will undergo training in information security practices, roles, and responsibilities.</li>
-                        <li>Appropriate data protection controls will be applied throughout Vaival.</li>
+                        <li>Appropriate data protection controls will be applied throughout Intel Devs.</li>
                     </ul>
 
                     <p className="text-gray-700 mt-6 text-justify">
-                        Personal information will be safeguarded in compliance with industry standards, applicable laws, and Vaival’s security protocols.
+                        Personal information will be safeguarded in compliance with industry standards, applicable laws, and Intel Devs’s security protocols.
                     </p>
-                    <p className="text-gray-700 mt-2 text-justify">
-                        This Policy is reviewed annually or (when required) to ensure the suitability, adequacy, and effectiveness of ISMS and communicated to all the interested parties.
-                    </p>
+                    
                 </div>
             </section>
             <Footer />

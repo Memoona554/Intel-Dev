@@ -18,7 +18,7 @@ const Footer = () => {
                         <div className="w-full sm:w-1/2 lg:w-1/5">
                             <img
                                 className="w-48 h-auto"
-                                src="/site.png"
+                                src="/footer-logo.png"
                                 alt="Intel Logo Logo"
                             />
                             <p className="mt-4 text-sm text-gray-700">
@@ -107,12 +107,9 @@ const Footer = () => {
                             </li>
                             
                             <li>|</li>
-                            <li>
-                            <Link to="/privacy-policy" className="hover:underline">  Privacy Policy</Link>
-
-                            </li>
+                       
                             
-                            <li>|</li>
+                           
                             <li>
                                 <a href="/anti-salvery-policy" className="hover:underline">
                                 Anti-Slavery Policy

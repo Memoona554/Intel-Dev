@@ -128,7 +128,7 @@ function Header() {
         <header className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? "bg-blue-600 " : "bg-transparent"}`}>
             <div className="lg:container mx-auto px-4 py-4 flex justify-between items-center">
                 <a href="/">
-                    <img src="/site-logo.png" alt="" className= ' h-10 lg:h-8 xl:h-10' />
+                    <img src="/logo.png" alt="" className= ' h-10 lg:h-8 xl:h-10' />
                 </a>
 
                 <div className="hidden lg:flex lg:space-x-1 space-x-6 text-white font-medium relative">
