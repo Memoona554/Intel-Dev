@@ -63,7 +63,7 @@ function App() {
         <Route path='/anti-salvery-policy' element={<AntiSalveryPolicy></AntiSalveryPolicy>}></Route>
         <Route path='/staff-augmentation' element={<StaffAugmentationPage></StaffAugmentationPage>}></Route>
         <Route path='/blogs' element={<Blog></Blog>}></Route>
-        <Route path='/blog/exploring-blockchain-technology-real-world-use-cases-in-2025' element={<BlogBlockChain></BlogBlockChain>}></Route>
+        <Route path='/blog/exploring-blockchain-technology-real-world-use-cases-in-2024' element={<BlogBlockChain></BlogBlockChain>}></Route>
         <Route path='/blog/future-of-mobile-app-development' element={<MobileDevelopment></MobileDevelopment>}></Route>
         <Route path='/blog/desktop-vs-web' element={<DeskTopWeb></DeskTopWeb>}></Route>
         <Route path='/blog/top-10-programming-languages-in-future' element={<ProgramingBlog></ProgramingBlog>}></Route>

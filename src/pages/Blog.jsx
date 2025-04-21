@@ -21,7 +21,7 @@ function Blog() {
         {
             title: "Exploring Blockchain Technology: Real-World Use Cases in 2024",
             image: "/blockchain-portfolio.webp",
-            link: "/blog/exploring-blockchain-technology-real-world-use-cases-in-2025",
+            link: "/blog/exploring-blockchain-technology-real-world-use-cases-in-2024",
             excerpt:
                 "In recent years, the landscape of cross platform mobile development has been revolutionized by cross-platform methodologies...",
         },
