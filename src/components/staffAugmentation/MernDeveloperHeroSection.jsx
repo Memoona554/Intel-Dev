@@ -35,7 +35,7 @@ function MernDeveloperHeroSection() {
                     <h2 className="text-3xl sm:text-4xl  mb-10">
                         <strong>Expertise that help you reach your</strong>
                         <br />
-                        business goals faster
+                       <strong> business goals faster</strong>
                     </h2>
 
                    <div className='max-w-7xl mx-auto'>
@@ -50,7 +50,7 @@ function MernDeveloperHeroSection() {
 
                         <div className="text-center  px-4 py-6">
                             <h3 className="text-4xl font-bold text-indigo-600">7+</h3>
-                            <p className="text-gray-700 mt-2 leading-tight">
+                            <p className="text-gray-700 text-2xl mt-2 leading-tight">
                                 Years of<br />
                                 Experience
                             </p>
@@ -68,7 +68,7 @@ function MernDeveloperHeroSection() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
                         <div className="text-center  px-4 py-6">
                             <h3 className="text-4xl font-bold text-indigo-600">10+</h3>
-                            <p className="text-gray-700 mt-2 leading-tight">
+                            <p className="text-gray-700 text-2xl mt-2 leading-tight">
                                 Developers<br />
                                     Team
                             </p>
@@ -84,7 +84,7 @@ function MernDeveloperHeroSection() {
 
                         <div className="text-center   px-4 py-6">
                             <h3 className="text-4xl font-bold text-indigo-600">100+</h3>
-                            <p className="text-gray-700 mt-2 leading-tight">
+                            <p className="text-gray-700 text-2xl mt-2 leading-tight">
                                 Projects<br />
                                 Completed
                             </p>

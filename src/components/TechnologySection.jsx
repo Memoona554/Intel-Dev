@@ -58,7 +58,7 @@ const TechnologiesSection = () => {
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold mb-4">Technologies</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Our comprehensive range of expertise empowers businesses to seize new opportunities and achieve remarkable results.
+            With our extensive expertise, businesses can unlock new opportunities and achieve outstanding success.
           </p>
         </div>
 
@@ -100,7 +100,7 @@ const TechnologiesSection = () => {
                     />
                     <h1 className='text-black'>{images.name}</h1>
                   </div>
-                  
+
                 ))}
               </div>
             ))}

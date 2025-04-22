@@ -10,7 +10,7 @@ const HireDjangoDevelopers = () => {
         {
             title: 'Strategic Problem Solving',
             description:
-                'We tackle business-critical challenges head-on. Our developers think beyond code—offering solutions that align with your growth roadmap and operational priorities.',
+                'We tackle business-critical challenges head-on. Our developers think beyond code-offering solutions that align with your growth roadmap and operational priorities.',
         },
         {
             title: 'Reliable Delivery Excellence',
@@ -43,7 +43,7 @@ const HireDjangoDevelopers = () => {
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">
                         <strong>Hire Django Developers from</strong> Intel Devs for End-to-End Product Development
                     </h2>
-                    <p className="text-gray-600 max-w-3xl mx-auto mb-12">
+                    <p className="text-black max-w-3xl mx-auto mb-12">
                         Our engagement models are designed for flexibility, speed, and alignment—helping you build digital products
                         faster with a team that integrates seamlessly into your tech ecosystem.
                     </p>
@@ -70,10 +70,10 @@ const HireDjangoDevelopers = () => {
             <section className="py-16 px-4 md:px-10 bg-white">
                 <div className="max-w-6xl mx-auto text-center" data-aos="fade-right" data-aos-delay="100">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                        <strong>Flexible Hiring Models To</strong> Meet Your
+                        <strong>Flexible Hiring Models To Meet Your</strong> 
                         <br className="hidden md:block" /> Unique Development Needs
                     </h2>
-                    <p className="text-gray-600 max-w-3xl mx-auto mb-12">
+                    <p className="text-black max-w-3xl mx-auto mb-12">
                         Intel Devs offers flexibility to ensure you get the most value from
                         your collaboration with our expert Django developers.
                     </p>

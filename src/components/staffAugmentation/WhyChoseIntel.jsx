@@ -7,10 +7,10 @@ const WhyChooseIntel = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-            <strong>Why Choose Intel Devs For IT</strong> Staff Augmentation Services
+            <strong>Why Choose Intel Devs For IT Staff Augmentation Services</strong> 
           </h2>
           <p className="text-gray-700 mb-6">
-            Our IT development center specializes in IT staff augmentation services, including custom engagement models designed to cater to the unique needs of our clients, offering dedicated development support for both B2B and B2C scenarios.
+            Our IT development center specializes in IT staff augmentation services, including custom engagement models designed to cater  the unique needs of our clients, offering dedicated development support for both B2B and B2C scenarios.
           </p>
           <ul className="space-y-3 mb-6">
             {[

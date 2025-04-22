@@ -78,7 +78,7 @@ const ITTalentGrid = () => {
           </a>
         </div>
       </section>
-      <section className="py-16 bg-white">
+      {/* <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center gap-12">
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -103,7 +103,7 @@ const ITTalentGrid = () => {
           />
         </div>
       </div>
-    </section>
+    </section> */}
     </>
   );
 };

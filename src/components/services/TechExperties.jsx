@@ -102,15 +102,15 @@ const expertiseData = [
       <section className="py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto" data-aos="fade-up" data-aos-delay="100">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-blue-900">
+            <h2 className="text-4xl font-bold text-blue-600">
               Expertise in Leading
-            </h2>
-            <p className="text-2xl text-gray-700 font-light">
+            </h2><br />
+            <p className="text-3xl text-black font-light">
               Frameworks & Languages
             </p>
-            <p className="mt-2 text-gray-500">
-              Our software engineers are adept at choosing the best combination
-              of tech stacks to develop high performing software solutions.
+            <p className="mt-2 text-black">
+            Our software engineers excel at selecting the optimal tech stack combinations to develop high-performance software solutions.
+
             </p>
           </div>
   

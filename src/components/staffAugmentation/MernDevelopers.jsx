@@ -62,7 +62,7 @@ const MernDevelopers = () => {
                     <div className="mt-12">
                         <a
                             href="#calendly"
-                            className="inline-block bg-blue-200 text-black hover:text-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-300"
+                            className="inline-block bg-white text-black hover:text-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-300"
                         >
                             Hire MERN Stack Developer Now
                         </a>
@@ -81,7 +81,7 @@ const MernDevelopers = () => {
                         </p>
                         <a
                             href="#calendly"
-                            className="inline-block px-8 py-3 bg-white text-blue-600 hover:text-white text-lg rounded-lg hover:bg-blue-700 transition"
+                            className="inline-block px-8 py-3 text-xl bg-white text-blue-600 hover:text-white text-lg rounded-lg hover:bg-blue-700 transition"
                         >
                             CONNECT NOW
                         </a>

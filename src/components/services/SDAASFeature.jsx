@@ -7,7 +7,7 @@ const SDAASFeature = () => {
       icon: <FaUserTie className="text-blue-600 text-2xl" />,
       title: 'Highly Skilled Developers',
       description:
-        'Gain access to our elite pool of highly skilled and thoroughly vetted AI powered developers, each expert in diverse technological fields.',
+        'Gain access to our elite pool of highly skilled and thoroughly vetted AI-powered developers, each an expert in diverse technological fields.',
     },
     {
       icon: <FaRedo className="text-blue-600 text-2xl" />,
@@ -47,7 +47,7 @@ const SDAASFeature = () => {
         <h2 className="text-blue-600 text-xl font-semibold uppercase">No Unnecessary Delays</h2>
         <h1 className="text-3xl md:text-4xl font-bold mt-2">Launch Your SaaS Apps Faster Than Ever</h1>
         <p className="mt-4 text-gray-600 text-lg">
-          We help companies in accelerating their time-to-market with unmatched quality – all at a fraction of the inhouse cost. Control your software delivery operations effectively with flexible software development subscription services.
+          We help companies accelerate their time-to-market with unmatched quality—at a fraction of the in-house cost. Control your software delivery operations effectively with flexible software development subscription services.
         </p>
       </div>
 

@@ -103,7 +103,7 @@ const MernDeveloperService = () => {
             <section className="w-full py-16 bg-white">
                 <div className="max-w-6xl mx-auto px-4 text-center" data-aos="fade-up" data-aos-delay="100">
                     <h2 className="text-3xl md:text-4xl  mb-12">
-                        <strong>Our MERN Stack</strong>  Development Services
+                        <strong>Our MERN Stack  Development Services</strong> 
                     </h2>
                     <p className="py-4">Hire dedicated MERN Stack developers to unlock a spectrum of tailored solutions for your business. Our experts excel in a range of services designed to meet your specific needs:</p>
                     <div className="grid gap-10 md:grid-cols-3">
@@ -128,7 +128,7 @@ const MernDeveloperService = () => {
             <section className="py-12 bg-white">
                 <div className="container mx-auto px-4">
                     <h2 className="text-2xl sm:text-3xl font-bold text-center mb-10">
-                        <strong>Tools & Technologies We Use for</strong> <br /> Mern Stack Development
+                        <strong>Tools & Technologies We Use for</strong> <br /> <strong>Mern Stack Development</strong>
                     </h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                         {tools.map((tool, index) => (

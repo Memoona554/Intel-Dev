@@ -8,13 +8,14 @@ const StaffAugmentation = () => {
           <h2 className="text-3xl font-bold text-gray-900">
             <strong>Staff Augmentation</strong>
             <br />
-            Services
+            <strong>Services</strong>
           </h2>
           <p className="text-lg text-gray-700">
-            Prepare Your Business &amp; Hire World’s Best Talent With Our IT Staff Augmentation Services
+            Prepare Your Business & Hire the World’s Best Talent with Our IT Staff Augmentation Services.
           </p>
           <p className="text-lg text-gray-700">
-            We know that skill shortages are holding you back. Hire specialized expertise and skills with our IT Staff Augmentation Services and let us be your strategic partner in driving growth and achieving success.
+            We understand that skill shortages may be holding you back. Access specialized expertise through our IT staff
+            augmentation services, and let us be your strategic partner in driving growth and achieving success.
           </p>
           <div className="text-center lg:text-left">
             <Link

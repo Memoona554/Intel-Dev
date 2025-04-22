@@ -58,7 +58,7 @@ function Header() {
             name: "Staff Augmentation",
             href: "/staff-augmentation",
             dropdown: {
-                
+
                 columns: [
                     {
                         title: "",
@@ -182,50 +182,34 @@ function Header() {
                                                     <div key={colIndex}>
                                                         <ul className="space-y-2">
                                                             {column.items.map((link) => (
-                                                                 link.href.startsWith("/") ? (
+                                                                link.href.startsWith("/") ? (
                                                                     <li key={link.href}>
-                                                                         <Link
-                                                                        
-                                                                        to={link.href}
-                                                                        onClick={() => setOpenDropdown(null)}
-                                                                        className="block px-4 py-2 text-black rounded hover:bg-blue-100 hover:text-blue-600 text-sm font-medium transition"
-                                                                    >
-                                                                        {link.name}
-                                                                    </Link>
+                                                                        <Link
+
+                                                                            to={link.href}
+                                                                            onClick={() => setOpenDropdown(null)}
+                                                                            className="block px-4 py-2 text-black rounded hover:bg-blue-100 hover:text-blue-600 text-sm font-medium transition"
+                                                                        >
+                                                                            {link.name}
+                                                                        </Link>
                                                                     </li>
-                                                                   
+
                                                                 ) : (
                                                                     <li key={link.href}>
                                                                         <a
-                                                                        
-                                                                        href={link.href}
-                                                                        onClick={(e) => {
-                                                                            e.preventDefault();
-                                                                            handleLinkClick(link.href);
-                                                                            setOpenDropdown(null);
-                                                                        }}
-                                                                        className="block px-4 py-2 text-black rounded hover:bg-blue-100 hover:text-blue-600 text-sm font-medium transition"
-                                                                    >
-                                                                        {link.name}
-                                                                    </a>
+
+                                                                            href={link.href}
+                                                                            onClick={(e) => {
+                                                                                e.preventDefault();
+                                                                                handleLinkClick(link.href);
+                                                                                setOpenDropdown(null);
+                                                                            }}
+                                                                            className="block px-4 py-2 text-black rounded hover:bg-blue-100 hover:text-blue-600 text-sm font-medium transition"
+                                                                        >
+                                                                            {link.name}
+                                                                        </a>
                                                                     </li>
                                                                 )
-                                                            
-                                                                // <li key={link.name}>
-                                                                //     <Link
-                                                                //         to={link.href}
-                                                                //         onClick={(e) => {
-                                                                //             if (link.href.startsWith("#")) {
-                                                                //                 e.preventDefault();
-                                                                //                 handleLinkClick(link.href);
-                                                                //             }
-                                                                //             setOpenDropdown(null);
-                                                                //         }}
-                                                                //         className="block text-sm text-gray-700 hover:text-blue-600 transition"
-                                                                //     >
-                                                                //         {link.name}
-                                                                //     </Link>
-                                                                // </li>
                                                             ))}
                                                         </ul>
                                                     </div>
@@ -321,21 +305,29 @@ function Header() {
                         <div key={item.name}>
                             {item.dropdown ? (
                                 <>
-                                    <button
-                                        onClick={() =>
-                                            setOpenDropdown(openDropdown === item.name ? null : item.name)
-                                        }
-                                        className="w-full text-black text-left flex justify-between items-center py-2"
-                                    >
-                                        <span>{item.name}</span>
-                                        <span>
+                                    <div className="w-full flex justify-between items-center py-2">
+                                        <Link
+                                            to={item.href}
+                                            onClick={() => {
+                                                setMenuOpen(false);
+                                                setOpenDropdown(null);
+                                            }}
+                                            className="text-black"
+                                        >
+                                            {item.name}
+                                        </Link>
+                                        <button
+                                            onClick={() =>
+                                                setOpenDropdown(openDropdown === item.name ? null : item.name)
+                                            }
+                                            className="text-black ml-4"
+                                        >
                                             {openDropdown === item.name ? <FaChevronUp /> : <FaChevronDown />}
-                                        </span>
-                                    </button>
+                                        </button>
+                                    </div>
 
                                     {openDropdown === item.name && (
                                         <div className="ml-4 border-l text-black border-white/30 pl-4 space-y-2">
-                                            {/* Handle Staff Augmentation dropdown with columns */}
                                             {item.name === "Staff Augmentation" && item.dropdown.columns ? (
                                                 <>
                                                     {item.dropdown.columns.map((col, index) => (
@@ -355,18 +347,7 @@ function Header() {
                                                             ))}
                                                         </div>
                                                     ))}
-                                                    {item.dropdown.cta && (
-                                                        <Link
-                                                            to={item.dropdown.cta.href}
-                                                            onClick={() => {
-                                                                setMenuOpen(false);
-                                                                setOpenDropdown(null);
-                                                            }}
-                                                            className="block mt-2 text-sm text-blue-600 underline"
-                                                        >
-                                                            {item.dropdown.cta.title}
-                                                        </Link>
-                                                    )}
+
                                                 </>
                                             ) : Array.isArray(item.dropdown) ? (
                                                 item.dropdown.map((subItem) => (

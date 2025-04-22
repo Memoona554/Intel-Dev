@@ -65,7 +65,7 @@ const SDAASHeroSection = () => {
 
                     <p className="hidden">7-Day Free Trial | 100% Money Back Guarantee</p>
 
-                   
+
                 </div>
 
                 <div className=" p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="300">

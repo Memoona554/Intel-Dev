@@ -50,7 +50,7 @@ const plans = [
       <section className="bg-blue-600 text-white py-16 px-4" data-aos="fade-up" data-aos-delay="100">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
-            SDAAS Subscription Plans <span className="font-light">We Offer</span>
+            SAAS Subscription Plans <span className="font-light">We Offer</span>
           </h2>
           <p className="text-white/90 mb-10">
             Choose the best suitable plan that comes with 7-day risk free trial.
@@ -62,7 +62,7 @@ const plans = [
                 <h3 className="text-xl font-semibold mb-1">{plan.title}</h3>
                 <p className="text-blue-600 font-medium mb-4">{plan.subtitle}</p>
                 <a
-                  href="#"
+                  href="#calendly"
                   className="bg-blue-600 text-white px-4 py-2  shadow-lg rounded-full mb-4 hover:bg-blue-700 transition text-sm font-medium self-center"
                 >
                   {plan.button}

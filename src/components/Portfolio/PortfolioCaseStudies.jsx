@@ -36,7 +36,7 @@ const PortfolioCaseStudies = () => {
         <img
           src={image}
           alt={title}
-          className="w-full h-98 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
+          className="w-full h-full lg:h-98 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
         />
         <h3 className="mt-2 text-lg font-semibold text-blue-600 hover:underline">
           {title}
@@ -49,7 +49,7 @@ const PortfolioCaseStudies = () => {
     <section className="py-12 px-4 bg-white" data-aos="fade-up" data-aos-delay="100">
         <div className=" py-8" data-aos="zoom-in" data-aos-delay="200">
             <h1 className="max-w-3xl text-center text-4xl lg:text-4xl mx-auto">
-            <strong>Add your brand’s name to our exhaustive</strong>  list of success stories
+            <strong>Add your brand’s name to our exhaustive list of success stories</strong>  
             </h1>
         </div>
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8" data-aos="fade-up" data-aos-delay="300">

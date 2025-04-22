@@ -6,11 +6,11 @@ const PortfolioCustomSoftware = () => {
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-snug">
           <strong>Transforming Businesses with Top-Tier</strong><br />
-          Custom Software Development
+         <strong> Custom Software Development</strong>
         </h2>
         <p className="mt-4 text-base sm:text-lg text-gray-700">
-          We are an E-commerce development company with 7+ years of experience developing platforms .
-        </p>
+        With over 7 years of experience, we specialize in developing scalable and customized digital solutions across diverse industries and platforms.
+                </p>
         <div className="mt-8">
           <img
             src="https://www.vaival.com/wp-content/uploads/2023/12/Group-27358-1-1024x426.webp"

@@ -8,7 +8,7 @@ const HireReactDevelopers = () => {
                     <div className="text-center mb-10">
                         <h2 className="text-3xl md:text-4xl text-white ">
                             <strong>Hire React Developers from</strong> <br />
-                            Intel Devs Technologies
+                            <strong>Intel Devs Technologies</strong>
                         </h2>
                         <p className="mt-4 text-white max-w-2xl mx-auto">
                             Unlock the potential of your projects with our dedicated React developers, equipped with the following key attributes:
@@ -16,8 +16,8 @@ const HireReactDevelopers = () => {
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-8">
-                        <div className="bg-white p-6 rounded-lg shadow-lg">
-                            <h3 className="text-xl font-semibold mb-2">Good Knowledge of JSX</h3>
+                        <div className="bg-white p-6 rounded-lg shadow-lg flex justify-center items-center flex-col">
+                            <h3 className="text-xl flex justify-start font-semibold mb-2">Good Knowledge of JSX</h3>
                             <p className="text-wite mb-4">
                                 When using ReactJs, developers often opt for JSX instead of HTML, as it is more efficient. Our developers possess a deep understanding of JSX, and can create dynamic and engaging user experiences that resonate with the latest react standards.
                             </p>

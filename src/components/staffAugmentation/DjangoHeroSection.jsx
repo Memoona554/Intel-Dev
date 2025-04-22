@@ -47,7 +47,7 @@ function DjangoHeroSection() {
                     <h2 className="text-3xl sm:text-4xl  mb-10">
                         <strong>Expertise that help you reach your</strong>
                         <br />
-                        business goals faster
+                        <strong>business goals faster</strong>
                     </h2>
 
                     <section className="w-full bg-white py-12">

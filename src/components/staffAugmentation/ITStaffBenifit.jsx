@@ -13,43 +13,43 @@ import {
       icon: <FaUserCheck className="text-[#2169F7] text-2xl" />,
       title: "No Recruitment Hassle",
       description:
-        "Our IT staff augmentation company saves you from the hassles of shortlisting and recruiting a vetted development team. We take charge of the screening process and send you the most relevant CVs for interviews.",
+        "Our IT staff augmentation services eliminate the burden of shortlisting and recruiting. We handle the screening process and share the most relevant CVs for your interviews.",
     },
     {
       icon: <FaUsersCog className="text-[#2169F7] text-2xl" />,
       title: "Access to Vetted Talent",
       description:
-        "Intel Devs offers access to a vetted talent pool at affordable costs, ready to immediately join your business operations. With certified software specialists, you can amplify your teams’ progress for quick and effective results.",
+        "Gain access to a pool of vetted, certified software specialists at affordable rates. Quickly scale your team and achieve faster, more effective results.",
     },
     {
       icon: <FaDollarSign className="text-[#2169F7] text-2xl" />,
       title: "Lower Operational Costs",
       description:
-        "Our streamlined IT staffing services ensure you only pay for the resources you need, reducing unnecessary overheads linked with traditional hiring.",
+        "Our efficient staffing model ensures you only pay for the resources you use, minimizing unnecessary overhead compared to traditional hiring.",
     },
     {
       icon: <FaFileContract className="text-[#2169F7] text-2xl" />,
       title: "Fewer Legal Hassles",
       description:
-        "We, being your IT staff consulting company, remain the official employers of your remote hires. Our IT recruitment team will handle all of the legal responsibilities and documentation associated with the processes.",
+        "As your IT staffing partner, we remain the official employer of your remote hires, handling all legal responsibilities and documentation.",
     },
     {
       icon: <FaClock className="text-[#2169F7] text-2xl" />,
       title: "Aggressive Deadlines",
       description:
-        "Our team of developers can meet even the most aggressive project deadlines in time. Our dynamic and skilled professionals are committed to exceeding project timelines.",
+        "Our skilled developers are equipped to deliver high-quality work within tight deadlines, consistently exceeding expectations.",
     },
     {
       icon: <FaCogs className="text-[#2169F7] text-2xl" />,
       title: "Full Control Over Processes",
       description:
-        "We provide you with complete control over candidate selection and onboarding, encouraging you to hand-pick your resources in the screening process.",
+        "You retain complete control over candidate selection and onboarding, allowing you to hand-pick the best fit for your team.",
     },
     {
       icon: <FaSearch className="text-[#2169F7] text-2xl" />,
       title: "Work Transparency",
       description:
-        "Intel Devs is committed to openness, ensuring every phase of our information technology staff augmentation services is clear & transparent.",
+        "We prioritize transparency at every stage, ensuring clear communication and full visibility throughout the engagement.",
     },
   ];
   

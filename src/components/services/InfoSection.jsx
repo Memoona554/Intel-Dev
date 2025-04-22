@@ -8,7 +8,7 @@ const FeatureList = () => {
           <div className="w-full md:w-1/2">
             <div className="flex items-start mb-6">
               <svg
-                className="w-6 h-6 text-blue-900 mr-3 mt-1 flex-shrink-0"
+                className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 25 26"
                 fill="currentColor"
@@ -22,7 +22,7 @@ const FeatureList = () => {
 
             <div className="flex items-start mb-6 md:ml-12">
               <svg
-                className="w-6 h-6 text-white bg-blue-900 rounded-full p-1 mr-3 mt-1 flex-shrink-0"
+                className="w-6 h-6 text-white bg-blue-600 rounded-full p-1 mr-3 mt-1 flex-shrink-0"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 25 26"
                 fill="currentColor"
@@ -34,7 +34,7 @@ const FeatureList = () => {
 
             <div className="flex items-start mb-6">
               <svg
-                className="w-6 h-6 text-blue-900 mr-3 mt-1 flex-shrink-0"
+                className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 25 26"
                 fill="currentColor"
@@ -46,7 +46,7 @@ const FeatureList = () => {
 
             <div className="flex items-start mb-6 md:ml-12">
               <svg
-                className="w-6 h-6 text-white bg-blue-900 rounded-full p-1 mr-3 mt-1 flex-shrink-0"
+                className="w-6 h-6 text-white bg-blue-600 rounded-full p-1 mr-3 mt-1 flex-shrink-0"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 25 26"
                 fill="currentColor"
@@ -58,7 +58,7 @@ const FeatureList = () => {
 
             <div className="flex items-start mb-6">
               <svg
-                className="w-6 h-6 text-blue-900 mr-3 mt-1 flex-shrink-0"
+                className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 25 26"
                 fill="currentColor"
@@ -70,7 +70,7 @@ const FeatureList = () => {
 
             <div className="flex items-start md:ml-12">
               <svg
-                className="w-6 h-6 text-white bg-blue-900 rounded-full p-1 mr-3 mt-1 flex-shrink-0"
+                className="w-6 h-6 text-white bg-blue-600 rounded-full p-1 mr-3 mt-1 flex-shrink-0"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 25 26"
                 fill="currentColor"
@@ -87,7 +87,7 @@ const FeatureList = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
               <strong>Experience Excellence</strong>
               <br />
-              with Intel Devs
+              <strong>with Intel Devs</strong>
             </h2>
             <p className="text-lg text-gray-600 mb-8">
               We provide seamless execution and results-driven approach helping
@@ -95,7 +95,7 @@ const FeatureList = () => {
             </p>
             <a
               href="#calendly"
-              className="inline-block bg-blue-900 hover:bg-white hover:border-blue-900 hover:text-black hover:border text-white font-medium py-3 px-6 rounded-lg transition duration-300"
+              className="inline-block bg-blue-600 hover:bg-white hover:border-blue-600 hover:text-black hover:border text-white font-medium py-3 px-6 rounded-lg transition duration-300"
             >
               Explore More
             </a>

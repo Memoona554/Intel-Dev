@@ -5,9 +5,9 @@ const DjangoServices = () => {
     <section className="px-4 py-16 bg-white">
       <div className="max-w-6xl mx-auto text-center" data-aos="zoom-in" data-aos-delay="100">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          <strong>Our Django</strong> Development Services
+          <strong>Our Django Development Services</strong> 
         </h2>
-        <p className="text-gray-600 mb-12 max-w-3xl mx-auto">
+        <p className="text-black mb-12 max-w-3xl mx-auto">
           Our Django expertise covers every aspect of Django development. Explore our Django development services and let us be your trusted partner in success through cutting-edge technology.
         </p>
 

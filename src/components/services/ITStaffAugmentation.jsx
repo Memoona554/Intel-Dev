@@ -6,21 +6,21 @@ const ITStaffAugmentationSection = () => {
       <div className="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full md:w-1/2 space-y-6">
           <h2 className="text-3xl font-bold text-gray-800">
-            <strong>IT Staff Augmentation</strong> Services To Hire Finest IT Engineers
+            <strong>IT Staff Augmentation  Services To Hire Finest IT Engineers</strong>
           </h2>
           <p className="text-lg text-gray-600">
-            Our experienced team of IT engineers and software developers possess extensive expertise in
-            harnessing cutting-edge programming languages, frameworks, and software development tools to
-            craft the perfect solution tailored to your digital transformation objectives.
+            Our experienced team of IT engineers and software developers has extensive expertise in leveraging cutting-edge programming languages, frameworks, and development tools to create tailored solutions that align with your digital transformation goals.
+
+
           </p>
           <a
             href="/staff-augmentation"
-            className="inline-block bg-blue-900 hover:bg-white hover:border-blue-900 hover:text-black hover:border text-white font-medium py-3 px-6 rounded-lg transition duration-300"
+            className="inline-block bg-blue-600 hover:bg-white hover:border-blue-600 hover:text-black hover:border text-white font-medium py-3 px-6 rounded-lg transition duration-300"
           >
             Explore More
           </a>
         </div>
-        
+
         <div className="w-full md:w-1/2">
           <img
             src="https://www.vaival.com/wp-content/uploads/2023/11/Group-15418-1.webp"

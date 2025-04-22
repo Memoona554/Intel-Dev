@@ -15,13 +15,13 @@ const SoftwareDevelopmentSection = () => {
                 </div>
                 <div className="flex flex-col justify-center space-y-6 px-6 lg:px-0" data-aos="fade-up" data-aos-delay="300">
                     <h2 className="text-3xl font-bold text-gray-900">
-                        <strong>software</strong> as a service
+                        <strong>Software as a Service</strong>
                     </h2>
                     <p className="text-lg text-gray-700">
-                        Scale Your Business Forward with Custom Software Development Services
+                        Scale Your Business with Custom Software Development Services
                     </p>
                     <p className="text-lg text-gray-700">
-                        Offering next-gen software development services on a subscription-based model, customizable to suit your unique business needs. We help your software adapt to the constantly changing demands of your business environment.
+                        We offer next-gen software development services through a flexible, subscription-based model—customizable to meet your unique business needs. Our solutions help your software evolve with the ever-changing demands of your business environment.
                     </p>
                     <div className="text-center lg:text-left">
                         <Link

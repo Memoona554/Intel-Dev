@@ -12,7 +12,7 @@ function Contact() {
     <>
     <Header/>
     <ContactHeroSection/>
-    <h1 className='text-4xl py-10 text-center'><span className='text-5xl font-bold'>Let's create progress </span><span>together</span></h1>
+    <h1 className='text-4xl py-10 text-center'><span className='text-5xl font-bold'>Let's create progress together</span><span></span></h1>
     <Calendly/>
     <GetInTouch/>
     <StatsSection/>
