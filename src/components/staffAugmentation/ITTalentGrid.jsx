@@ -60,11 +60,11 @@ const ITTalentGrid = () => {
             Intel Devs engaged and ever-growing talent network of independent enterprise IT professionals reduces time-to-fill and means we deliver the talent you need for your mission-critical projects faster than anyone else.
           </p>
 
-          <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
+          <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 mb-6">
             {roles.map((role, index) => (
               <div
                 key={index}
-                className="bg-white border border-gray-200  p-6 rounded-xl  hover:shadow-xl hover:scale-105 transition-all duration-300"
+                className="bg-white border  border-gray-200  p-6 rounded-xl  hover:shadow-xl hover:scale-105 transition-all duration-300"
               >
                 <div className="text-4xl mb-4">{role.icon}</div>
                 <h3 className="text-xl font-semibold mb-2">{role.title}</h3>
@@ -73,9 +73,9 @@ const ITTalentGrid = () => {
             ))}
           </div>
 
-          <button className="mt-12 px-8 py-3 bg-blue-700 text-white rounded-full text-lg font-semibold hover:bg-blue-800 transition">
+          <a href="#calendly" className=" px-8 py-3 bg-blue-700 text-white rounded-full text-lg font-semibold hover:bg-blue-800 transition">
             HIRE NOW
-          </button>
+          </a>
         </div>
       </section>
       <section className="py-16 bg-white">

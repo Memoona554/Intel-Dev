@@ -7,15 +7,14 @@ const WhyChooseIntel = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-            <strong>Why Choose Vaival For IT</strong> Staff Augmentation Services
+            <strong>Why Choose Intel Devs For IT</strong> Staff Augmentation Services
           </h2>
           <p className="text-gray-700 mb-6">
             Our IT development center specializes in IT staff augmentation services, including custom engagement models designed to cater to the unique needs of our clients, offering dedicated development support for both B2B and B2C scenarios.
           </p>
           <ul className="space-y-3 mb-6">
             {[
-              "13+ Years of Experience",
-              "250+ Agile Developers",
+              "7+ Years of Experience",
               "Get Your Product to Market Faster",
               "Scale Quickly and Flexibly",
               "Reduce Operational Cost",
@@ -26,12 +25,7 @@ const WhyChooseIntel = () => {
               </li>
             ))}
           </ul>
-          <a
-            href="#calendly"
-            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg text-sm transition duration-300"
-          >
-            Get a Quote
-          </a>
+         
         </div>
 
         <div className="flex justify-center">
@@ -57,7 +51,7 @@ const WhyChooseIntel = () => {
 
       <div>
         <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-          <strong>Hire Best Remote Developers &amp; Grow</strong> Limitless with Vaival Technologies
+          <strong>Hire Best Remote Developers &amp; Grow</strong> Limitless with Intel Devs Technologies
         </h2>
         <p className="text-gray-700 mb-6">
           Integrate our talent to your project, or consult us first to check your exact requirements and get to the root of possible errors that might be affecting your system’s performance.
