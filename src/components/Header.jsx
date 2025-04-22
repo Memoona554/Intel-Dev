@@ -80,7 +80,7 @@ function Header() {
                     {
                         title: "",
                         items: [
-                            { name: "Vue Js Developers", href: "#" },
+                            { name: "Vue Js Developers", href: "/staff-augmentation/vue/" },
                             { name: "Django Developers", href: "#" },
                             { name: "Android Developers", href: "#" },
                             { name: "PHP Developers", href: "#" },
