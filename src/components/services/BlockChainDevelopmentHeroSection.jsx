@@ -13,7 +13,7 @@ const BlockchainDevelopment = () => {
             <strong className="text-white">Blockchain</strong> Development Services
           </h1>
           <p className="text-white mb-6"  data-aos="zoom-in" data-aos-delay="300">
-            With over 10 years of experience in the IT realm, Intel Devs is your trusted source
+            With over 7+ years of experience in the IT realm, Intel Devs is your trusted source
             for exceptional blockchain development services. Transform your business with our blockchain
             solutions, tailored to your specific needs.
           </p>
