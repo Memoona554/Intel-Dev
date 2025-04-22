@@ -182,21 +182,50 @@ function Header() {
                                                     <div key={colIndex}>
                                                         <ul className="space-y-2">
                                                             {column.items.map((link) => (
-                                                                <li key={link.name}>
-                                                                    <a
+                                                                 link.href.startsWith("/") ? (
+                                                                    <li key={link.href}>
+                                                                         <Link
+                                                                        
+                                                                        to={link.href}
+                                                                        onClick={() => setOpenDropdown(null)}
+                                                                        className="block px-4 py-2 text-black rounded hover:bg-blue-100 hover:text-blue-600 text-sm font-medium transition"
+                                                                    >
+                                                                        {link.name}
+                                                                    </Link>
+                                                                    </li>
+                                                                   
+                                                                ) : (
+                                                                    <li key={link.href}>
+                                                                        <a
+                                                                        
                                                                         href={link.href}
                                                                         onClick={(e) => {
-                                                                            if (link.href.startsWith("#")) {
-                                                                                e.preventDefault();
-                                                                                handleLinkClick(link.href);
-                                                                            }
+                                                                            e.preventDefault();
+                                                                            handleLinkClick(link.href);
                                                                             setOpenDropdown(null);
                                                                         }}
-                                                                        className="block text-sm text-gray-700 hover:text-blue-600 transition"
+                                                                        className="block px-4 py-2 text-black rounded hover:bg-blue-100 hover:text-blue-600 text-sm font-medium transition"
                                                                     >
                                                                         {link.name}
                                                                     </a>
-                                                                </li>
+                                                                    </li>
+                                                                )
+                                                            
+                                                                // <li key={link.name}>
+                                                                //     <Link
+                                                                //         to={link.href}
+                                                                //         onClick={(e) => {
+                                                                //             if (link.href.startsWith("#")) {
+                                                                //                 e.preventDefault();
+                                                                //                 handleLinkClick(link.href);
+                                                                //             }
+                                                                //             setOpenDropdown(null);
+                                                                //         }}
+                                                                //         className="block text-sm text-gray-700 hover:text-blue-600 transition"
+                                                                //     >
+                                                                //         {link.name}
+                                                                //     </Link>
+                                                                // </li>
                                                             ))}
                                                         </ul>
                                                     </div>

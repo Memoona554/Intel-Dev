@@ -26,7 +26,7 @@ const GetInTouch = () => {
             <div className="flex items-start space-x-4">
               <FaEnvelope className="text-red-600 text-2xl mt-1" />
               <div>
-                <h4 className="font-medium">Mail Us</h4>
+                <h4 className="font-medium">Mail us</h4>
                 <p>
                   <a
                     href="mailto:javedadeel52@gmail.com"
