@@ -63,11 +63,11 @@ function Header() {
                     {
                         title: "",
                         items: [
-                            { name: "React Developer", href: "/staff-augmentation/react/" },
-                            { name: "Node Js Developer", href: "/staff-augmentation/node-js/" },
-                            { name: "MERN Stack Developers", href: "/staff-augmentation/mern-stack/" },
-                            { name: "MEVN Stack Developers", href: "/staff-augmentation/mevn-stack/" },
-                            { name: "MEAN Stack Developer", href: "/staff-augmentation/mean-stack/" },
+                            { name: "React Developer", href: "/staff-augmentation/react" },
+                            { name: "Node Js Developer", href: "/staff-augmentation/node-js" },
+                            { name: "MERN Stack Developers", href: "/staff-augmentation/mern-stack" },
+                            { name: "MEVN Stack Developers", href: "/staff-augmentation/mevn-stack" },
+                            { name: "MEAN Stack Developer", href: "/staff-augmentation/mean-stack" },
 
 
                         ],
@@ -75,8 +75,8 @@ function Header() {
                     {
                         title: "",
                         items: [
-                            { name: "Vue Js Developers", href: "/staff-augmentation/vue/" },
-                            { name: "Django Developers", href: "/staff-augmentation/django/" },
+                            { name: "Vue Js Developers", href: "/staff-augmentation/vue" },
+                            { name: "Django Developers", href: "/staff-augmentation/django" },
                             { name: "Android Developers", href: "#" },
                             { name: "PHP Developers", href: "#" },
                             { name: "Laravel Developers", href: "#" },
