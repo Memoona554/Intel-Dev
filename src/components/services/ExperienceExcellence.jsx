@@ -40,7 +40,7 @@ const ExperienceExcellence = () => {
             </div>
             <div className="flex flex-col justify-center space-y-6 px-6 lg:px-0" data-aos="fade-up" data-aos-delay="200">
                 <h2 className="text-3xl  text-gray-900">
-                    <strong>Experience Excellence with Intel Devs <span className="text-blue-400">, Your Premier SDaaS Partner</span></strong>
+                    <strong>Experience Excellence with Intel Devs <span className="text-blue-400">, Your Premier SaaS Partner</span></strong>
                     <br />
                     of Who We Are
                 </h2>

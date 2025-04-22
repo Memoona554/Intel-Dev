@@ -10,7 +10,7 @@ const BlockchainDevelopment = () => {
         <div>
           
           <h1 className="text-4xl font-bold mb-4"  data-aos="fade-up" data-aos-delay="200">
-            <strong className="text-blue-600">Blockchain</strong> Development Services
+            <strong className="text-white">Blockchain</strong> Development Services
           </h1>
           <p className="text-white mb-6"  data-aos="zoom-in" data-aos-delay="300">
             With over 10 years of experience in the IT realm, Intel Devs is your trusted source
