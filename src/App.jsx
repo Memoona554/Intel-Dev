@@ -70,13 +70,13 @@ function App() {
         <Route path='/blog/desktop-vs-web' element={<DeskTopWeb></DeskTopWeb>}></Route>
         <Route path='/blog/top-10-programming-languages-in-future' element={<ProgramingBlog></ProgramingBlog>}></Route>
         <Route path='/blog/software-development-methodologies' element={<SoftwareMethodBlog></SoftwareMethodBlog>}></Route>
-        <Route path='/staff-augmentation/react/' element={<ReactDeveloper></ReactDeveloper>}></Route>
-        <Route path='/staff-augmentation/node-js/' element={<NodeDeveloper></NodeDeveloper>}></Route>
-        <Route path='/staff-augmentation/mern-stack/' element={<MernDeveloper></MernDeveloper>}></Route>
-        <Route path='/staff-augmentation/mevn-stack/' element={<MevnDeveloper></MevnDeveloper>}></Route>
-        <Route path='/staff-augmentation/mean-stack/' element={<MeanDeveloper></MeanDeveloper>}></Route>
-        <Route path='/staff-augmentation/vue/' element={<VueDeveloper></VueDeveloper>}></Route>
-        <Route path='/staff-augmentation/django/' element={<DjangoDeveloper></DjangoDeveloper>}></Route>
+        <Route path='/staff-augmentation/react' element={<ReactDeveloper></ReactDeveloper>}></Route>
+        <Route path='/staff-augmentation/node-js' element={<NodeDeveloper></NodeDeveloper>}></Route>
+        <Route path='/staff-augmentation/mern-stack' element={<MernDeveloper></MernDeveloper>}></Route>
+        <Route path='/staff-augmentation/mevn-stack' element={<MevnDeveloper></MevnDeveloper>}></Route>
+        <Route path='/staff-augmentation/mean-stack' element={<MeanDeveloper></MeanDeveloper>}></Route>
+        <Route path='/staff-augmentation/vue' element={<VueDeveloper></VueDeveloper>}></Route>
+        <Route path='/staff-augmentation/django' element={<DjangoDeveloper></DjangoDeveloper>}></Route>
 
 
       </Routes>
