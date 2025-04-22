@@ -78,7 +78,7 @@ function Header() {
                             { name: "Vue Js Developers", href: "/staff-augmentation/vue" },
                             { name: "Django Developers", href: "/staff-augmentation/django" },
                             { name: "Android Developers", href: "/staff-augmentation/android" },
-                            { name: "PHP Developers", href: "#" },
+                            { name: "PHP Developers", href: "/staff-augmentation/php" },
                             { name: "Laravel Developers", href: "#" },
                         ],
                     },

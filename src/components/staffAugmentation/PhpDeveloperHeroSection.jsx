@@ -1,6 +1,6 @@
 import React from 'react'
 
-function AndriodDeveloperHeroSection() {
+function PhpDeveloperHeroSection() {
     return (
         <>
             <section className="bg-white py-36 lg:py-48 bg-center  px-4 bg-no-repeat bg-cover" style={{
@@ -12,17 +12,17 @@ function AndriodDeveloperHeroSection() {
 
 
                         <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                            Hire Android Developers
+                            Hire PHP Developers
                         </h1>
 
                         <p className="text-white mb-6">
-                            Intel Devs offers expert Android developers for hire who are highly adaptable and can seamlessly align with your project requirements. Our developers specialize in writing efficient code that runs flawlessly across all Android devices.
+                            Leverage the domain expertise of our PHP developers to attain cutting-edge and innovative web applications that catalyze your business growth. Our PHP developers command extensive knowledge across all PHP frameworks, coupled with hands-on experience in the latest PHP tools and technologies.
                         </p>
                         <a
                             href="#calendly"
                             className="inline-block bg-blue-600 hover:bg-blue-700 text-white text-lg font-medium px-10 py-3 rounded-full transition duration-300"
                         >
-                            HIRE  ANDROID DEVELOPER NOW
+                            HIRE  PHP DEVELOPER NOW
                         </a>
                     </div>
 
@@ -32,12 +32,12 @@ function AndriodDeveloperHeroSection() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto px-4 text-center" data-aos="zoom-in" data-aos-delay="100">
                     <h2 className="text-2xl md:text-3xl font-semibold">
-                        <strong>Expertise that help you reach your business goals faster</strong> 
+                        <strong>Expertise that help you reach</strong> your business goals faster
                     </h2>
 
                     <div className='max-w-5xl mx-auto'>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
-                            <div className="flex flex-col font-bold p-6 items-center text-center">
+                            <div className="flex flex-col font-bold p-6 shadow-lg items-center text-center">
                                 <div className="mb-4 text-blue-700 font-extrabold">
                                     <span className='font-bold text-3xl'>10+</span>
                                 </div>
@@ -48,19 +48,19 @@ function AndriodDeveloperHeroSection() {
                                 </p>
                             </div>
 
-                            <div className="flex flex-col  p-6 font-bold items-center text-center">
+                            <div className="flex flex-col  p-6 font-bold shadow-lg items-center text-center">
                                 <div className="mb-4 font-extrabold">
-                                   <span className='font-bold text-3xl text-green-700'> 7+</span>
+                                    <span className='font-bold text-3xl text-blue-600'> 7+</span>
                                 </div>
-                                <div className='w-[50%] mx-auto p-[0.05px] mb-2 bg-green-600'></div>
+                                <div className='w-[50%] mx-auto p-[0.05px] mb-2 bg-blue-600'></div>
                                 <p className="text-base leading-snug">
                                     Years of<br /> Experience
                                 </p>
                             </div>
 
-                            <div className="flex flex-col  p-6 font-bold items-center text-center">
+                            <div className="flex flex-col  p-6 font-bold shadow-lg items-center text-center">
                                 <div className="mb-4 font-extrabold">
-                                   <span className='font-bold text-3xl text-blue-700'> 100+</span>
+                                    <span className='font-bold text-3xl text-blue-700'> 100+</span>
                                 </div>
                                 <div className='w-[50%] mx-auto p-[0.05px] mb-2 bg-blue-600'></div>
 
@@ -76,4 +76,4 @@ function AndriodDeveloperHeroSection() {
     )
 }
 
-export default AndriodDeveloperHeroSection
+export default PhpDeveloperHeroSection
