@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import 'swiper/swiper-bundle.css';
-
+import { Link } from "react-router-dom";
 const slides = [
   {
     heading: "Build Decentralized Solutions with",
@@ -64,12 +64,12 @@ const HeroSection = () => {
             <strong className="text-blue-400">{slides[currentSlide].highlight}</strong>
           </h2>
           <p className="text-lg lg:p-0 p-2 mb-6">{slides[currentSlide].description}</p>
-          <a
-            href={slides[currentSlide].buttonLink}
+          <Link
+            to={slides[currentSlide].buttonLink}
             className="inline-block bg-blue-500 text-white font-semibold px-6 py-3 rounded-full shadow hover:bg-blue-600 transition"
           >
             {slides[currentSlide].buttonText}
-          </a>
+          </Link>
         </div>
       </div>
     </div>
