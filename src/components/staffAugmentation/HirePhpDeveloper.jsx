@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const HirePhpDevelopers = () => {
     const models = [
         {
@@ -86,12 +86,12 @@ const HirePhpDevelopers = () => {
                         ))}
                     </div>
                     <div className="text-center mt-12">
-                        <a
+                        <Link
                             href="/contact-us"
                             className="inline-block bg-blue-600 hover:bg-blue-700 text-white text-lg font-medium px-8 py-3 rounded-lg transition duration-300"
                         >
                             Get Started
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>
