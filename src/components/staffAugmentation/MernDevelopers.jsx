@@ -81,7 +81,7 @@ const MernDevelopers = () => {
                         </p>
                         <a
                             href="#calendly"
-                            className="inline-block px-8 py-3 text-xl bg-white text-blue-600 hover:text-white text-lg rounded-lg hover:bg-blue-700 transition"
+                            className="inline-block px-8 py-3 text-xl bg-white text-blue-600 hover:text-white  rounded-lg hover:bg-blue-700 transition"
                         >
                             CONNECT NOW
                         </a>
