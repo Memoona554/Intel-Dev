@@ -68,7 +68,7 @@ const WhySDAAS = () => {
           <h3 className="text-2xl font-semibold mb-6">Other Companies</h3>
           {otherCompanyIssues.map((issue, idx) => (
             <div key={idx} className="mb-6 flex gap-4">
-              <FaCheckCircle className="text-red-500 mt-1" />
+              <FaCheckCircle className="text-red-500 mt-1" /> 
               <div>
                 <p className="font-medium text-lg">{issue.title}</p>
                 <p className="text-gray-600">{issue.description}</p>
