@@ -33,6 +33,7 @@ import VueDeveloper from './pages/VueDeveloper';
 import DjangoDeveloper from './pages/DjangoDeveloper';
 import AndoridDeveloper from './pages/AndoridDeveloper'
 import PhpDeveloper from './pages/PhpDeveloper';
+import LaravelDeveloper from './pages/LaravelDeveloper';
 import ScrollToTop from './ScrollToTop';
 import Blog from './pages/Blog';
 import { useEffect } from 'react'
@@ -84,6 +85,7 @@ function App() {
         <Route path='/staff-augmentation/django' element={<DjangoDeveloper></DjangoDeveloper>}></Route>
         <Route path='/staff-augmentation/android' element={<AndoridDeveloper></AndoridDeveloper>}></Route>
         <Route path='/staff-augmentation/php' element={<PhpDeveloper></PhpDeveloper>}></Route>
+        <Route path='/staff-augmentation/laravel' element={<LaravelDeveloper></LaravelDeveloper>}></Route>
 
 
       </Routes>

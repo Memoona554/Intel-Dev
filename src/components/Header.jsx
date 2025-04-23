@@ -79,7 +79,7 @@ function Header() {
                             { name: "Django Developers", href: "/staff-augmentation/django" },
                             { name: "Android Developers", href: "/staff-augmentation/android" },
                             { name: "PHP Developers", href: "/staff-augmentation/php" },
-                            { name: "Laravel Developers", href: "#" },
+                            { name: "Laravel Developers", href: "/staff-augmentation/laravel" },
                         ],
                     },
                     {
