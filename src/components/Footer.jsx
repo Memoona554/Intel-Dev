@@ -51,11 +51,11 @@ const Footer = () => {
                         <div className="w-full sm:w-1/2 lg:w-1/5">
                             <p className="font-semibold text-lg mb-4">Services</p>
                             <ul className="space-y-2 text-sm text-gray-700">
-                                <li><a href="/staff-augmentation" className="hover:underline">Staff Augmentation</a></li>
-                                <li><a href="/services" className="hover:underline">Custom Software Development</a></li>
-                                <li><a href="/portfolio" className="hover:underline">Portfolio</a></li>
-                                <li><a href="/industries" className="hover:underline">Industries</a></li>
-                                <li><a href="/contact-us" className="hover:underline">IT Consulting Services</a></li>
+                                <li><Link to="/staff-augmentation" className="hover:underline">Staff Augmentation</Link></li>
+                                <li><Link to="/services" className="hover:underline">Custom Software Development</Link></li>
+                                <li><Link to="/portfolio" className="hover:underline">Portfolio</Link></li>
+                                <li><Link to="/industries" className="hover:underline">Industries</Link></li>
+                                <li><Link to="/contact-us" className="hover:underline">IT Consulting Services</Link></li>
                             </ul>
                         </div>
 
@@ -72,10 +72,10 @@ const Footer = () => {
                         <div className="w-full sm:w-1/2 lg:w-1/5">
                             <p className="font-semibold text-lg mb-4">Insights</p>
                             <ul className="space-y-2 text-sm text-gray-700">
-                                <li><a href="/contact-us" className="hover:underline">Contact Us</a></li>
-                                <li><a href="/about" className="hover:underline">About Us</a></li>
-                                <li><a href="/blogs" className="hover:underline">Blog</a></li>
-                                <li><a href="/careers" className="hover:underline">Career</a></li>
+                                <li><Link to="/contact-us" className="hover:underline">Contact Us</Link></li>
+                                <li><Link to="/about" className="hover:underline">About Us</Link></li>
+                                <li><Link to="/blogs" className="hover:underline">Blog</Link></li>
+                                <li><Link to="/careers" className="hover:underline">Career</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -111,9 +111,9 @@ const Footer = () => {
                             
                            
                             <li>
-                                <a href="/anti-salvery-policy" className="hover:underline">
+                                <Link to="/anti-salvery-policy" className="hover:underline">
                                 Anti-Slavery Policy
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </nav>
