@@ -23,7 +23,7 @@ const AgileApproachSection = () => {
     {
       title: "Maintenance and Continuous Support",
       description:
-        "Vaival doesn't just implement solution(s); we ensure their longevity through proactive maintenance and continuous support. Our support team remains vigilant, ready to address evolving needs and challenges.",
+        "Intel Devs doesn't just implement solution(s); we ensure their longevity through proactive maintenance and continuous support. Our support team remains vigilant, ready to address evolving needs and challenges.",
       icon: <FaSyncAlt className="text-[#23C994] text-4xl" />,
     },
   ];
