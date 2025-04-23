@@ -6,8 +6,8 @@ const LaravelDeveloperHiringSection = () => {
       <div className="container mx-auto px-4" data-aos="fade-down" data-aos-delay="100">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold mb-4">
-            <strong>Flexible Hiring Models to</strong> Hire Laravel
-            <br /> Developers from Intel Devs
+            <strong>Flexible Hiring Models to Hire Laravel</strong> 
+            <br /> <strong>Developers from Intel Devs</strong>
           </h2>
           <p className="text-lg text-black">
             Choose the hiring model that best suits your unique project needs and
