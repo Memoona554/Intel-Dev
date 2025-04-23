@@ -89,7 +89,7 @@ function Header() {
                             { name: "Python Developers", href: "/staff-augmentation/python" },
                             { name: "Project Manager/Scrum Master", href: "/staff-augmentation/project-manager" },
                             { name: "DevOps Engineer", href: "/staff-augmentation/devs-ops" },
-                            { name: "Blockchain Developers", href: "#" },
+                            { name: "Blockchain Developers", href: "/staff-augmentation/block-chain" },
                         ],
                     },
                 ],
