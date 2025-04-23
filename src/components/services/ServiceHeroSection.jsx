@@ -3,7 +3,7 @@ import React from "react";
 const ServiceHeroSection = () => {
   return (
     <section className="bg-white py-24 px-4 md:px-8 lg:px-16 lg:py-32 lg:bg-center text-white" style={{
-      backgroundImage: "url('https://www.vaival.com/wp-content/uploads/2023/11/Group-15419.webp')",
+      backgroundImage: "url('/service-bg.webp')",
 
     }}>
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -12,8 +12,8 @@ const ServiceHeroSection = () => {
 
           <h1 className="text-3xl md:text-4xl font-bold ">
             <strong>Custom Software</strong>
-            <br />Development Company
-            <br />That Ignites Your Business Growth
+            <br /><strong>Development Company</strong>
+            <br /><strong>That Ignites Your Business Growth</strong>
           </h1>
 
           <p className="text-lg ">

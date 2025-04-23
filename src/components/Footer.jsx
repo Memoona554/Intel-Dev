@@ -53,9 +53,9 @@ const Footer = () => {
                             <ul className="space-y-2 text-sm text-gray-700">
                                 <li><Link to="/staff-augmentation" className="hover:underline">Staff Augmentation</Link></li>
                                 <li><Link to="/services" className="hover:underline">Custom Software Development</Link></li>
-                                <li><Link to="/portfolio" className="hover:underline">Portfolio</Link></li>
+                                <li><Link to="/it-consulting" className="hover:underline">IT Consulting Services</Link></li>
                                 <li><Link to="/industries" className="hover:underline">Industries</Link></li>
-                                <li><Link to="/contact-us" className="hover:underline">IT Consulting Services</Link></li>
+
                             </ul>
                         </div>
 
@@ -80,7 +80,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    
+
                 </div>
             </section>
             <section
@@ -94,25 +94,25 @@ const Footer = () => {
 
                     <nav>
                         <ul className="flex flex-wrap items-center justify-center gap-2 md:gap-4">
-                            
+
                             <li>|</li>
                             <li>
-                            <Link to="/information-security" className="hover:underline"> Info Security Policy</Link>
+                                <Link to="/information-security" className="hover:underline"> Info Security Policy</Link>
 
                             </li>
                             <li>|</li>
                             <li>
-                            <Link to="/privacy-policy" className="hover:underline">  Privacy Policy</Link>
+                                <Link to="/privacy-policy" className="hover:underline">  Privacy Policy</Link>
 
                             </li>
-                            
+
                             <li>|</li>
-                       
-                            
-                           
+
+
+
                             <li>
                                 <Link to="/anti-salvery-policy" className="hover:underline">
-                                Anti-Slavery Policy
+                                    Anti-Slavery Policy
                                 </Link>
                             </li>
                         </ul>

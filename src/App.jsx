@@ -39,6 +39,7 @@ import PythonDeveloper from './pages/PythonDeveloper';
 import ProjectManager from './pages/ProjectManager';
 import DevsOpsEngineer from './pages/DevsOpsEngineer';
 import BlockChainDeveloper from './pages/BlockChainDeveloper';
+import ItConsultingService from './pages/ItConsultingService';
 import ScrollToTop from './ScrollToTop';
 import Blog from './pages/Blog';
 import { useEffect } from 'react'
@@ -65,6 +66,7 @@ function App() {
         <Route path='/services/mpv-development' element={<MPVDevelopment></MPVDevelopment>}></Route>
         <Route path='/services/saas' element={<SDaaS></SDaaS>}></Route>
         <Route path='/services/block-chain-development' element={<BlockChain></BlockChain>}></Route>
+        <Route path='/it-consulting' element={<ItConsultingService></ItConsultingService>}></Route>
         <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
         <Route path='/portfolio/vividly' element={<VividlyPorject></VividlyPorject>}></Route>
         <Route path='/portfolio/kombo' element={<Kombo></Kombo>}></Route>
