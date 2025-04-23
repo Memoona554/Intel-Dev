@@ -23,7 +23,7 @@ const PhpDevelopmentServices = () => {
         "Seamlessly transition legacy systems to PHP, leveraging our expertise in ensuring data integrity, functionality preservation, and improved performance. Hire dedicated PHP developers to seamlessly migrate your app from Python or Java or any other tech stack to the PHP.",
     },
     {
-      title: "PHP eCommerce Development",
+      title: "PHP ECommerce Development",
       description:
         "Strengthen your online storefront with secure and feature-rich PHP eCommerce solutions, integrating payment gateways, inventory management, and user-friendly interfaces. Our skilled PHP programmers build top-notch solutions with next-gen features and functionalities.",
     },
