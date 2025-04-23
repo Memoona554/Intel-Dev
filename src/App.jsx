@@ -40,6 +40,7 @@ import ProjectManager from './pages/ProjectManager';
 import DevsOpsEngineer from './pages/DevsOpsEngineer';
 import BlockChainDeveloper from './pages/BlockChainDeveloper';
 import ItConsultingService from './pages/ItConsultingService';
+import ERPBlog from './pages/ERPBlog';
 import ScrollToTop from './ScrollToTop';
 import Blog from './pages/Blog';
 import { useEffect } from 'react'
@@ -98,8 +99,7 @@ function App() {
         <Route path='/staff-augmentation/project-manager' element={<ProjectManager></ProjectManager>}></Route>
         <Route path='/staff-augmentation/devs-ops' element={<DevsOpsEngineer></DevsOpsEngineer>}></Route>
         <Route path='/staff-augmentation/block-chain' element={<BlockChainDeveloper></BlockChainDeveloper>}></Route>
-
-
+        <Route path='/blog/what-is-enterprise-application' element={<ERPBlog></ERPBlog>}></Route>
       </Routes>
 
     </>

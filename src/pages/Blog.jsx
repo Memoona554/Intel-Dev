@@ -39,6 +39,13 @@ function Blog() {
             excerpt:
                 "As digital transformation accelerates, businesses are increasingly committed to developing scalable and feature-rich software solutions that address both internal and client challenges. If you're aiming...",
         },
+        {
+            title: "What is Enterprise Application Development? The Definitive Guide",
+            image: "/erp-heading.webp",
+            link: "/blog/what-is-enterprise-application",
+            excerpt:
+                "In today's competitive environment, maintaining efficient and accessible services and systems is Intel Devs for smooth operations. That is why enterprise applications are essential for large companies. They...",
+        },
     ];
 
     return (
