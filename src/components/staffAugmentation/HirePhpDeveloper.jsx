@@ -6,13 +6,13 @@ const HirePhpDevelopers = () => {
             title: "Hour-Based Hiring Model",
             description:
                 "Ideal for projects with dynamic or evolving requirements. Scale your development resources up or down as needed, offering flexibility and cost-efficiency throughout your project lifecycle.",
-            image: "https://www.vaival.com/wp-content/uploads/2024/04/sideicon1.webp",
+            image: "/php-sideicon1.webp",
         },
         {
             title: "Project-Based Hiring Model",
             description:
                 "Perfect for projects with a well-defined scope and timeline. We allocate a dedicated team focused on delivering your solution within agreed parameters, ensuring predictable results and accountability.",
-            image: "https://www.vaival.com/wp-content/uploads/2024/04/sideicon2-1.webp",
+            image: "/php-sideicon2-1.webp",
         },
     ];
     const features = [
@@ -87,7 +87,7 @@ const HirePhpDevelopers = () => {
                     </div>
                     <div className="text-center mt-12">
                         <Link
-                            href="/contact-us"
+                            to="/contact-us"
                             className="inline-block bg-blue-600 hover:bg-blue-700 text-white text-lg font-medium px-8 py-3 rounded-lg transition duration-300"
                         >
                             Get Started
