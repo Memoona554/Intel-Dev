@@ -36,6 +36,7 @@ import PhpDeveloper from './pages/PhpDeveloper';
 import LaravelDeveloper from './pages/LaravelDeveloper';
 import AngularDeveloper from './pages/AngularDeveloper';
 import PythonDeveloper from './pages/PythonDeveloper';
+import ProjectManager from './pages/ProjectManager';
 import ScrollToTop from './ScrollToTop';
 import Blog from './pages/Blog';
 import { useEffect } from 'react'
@@ -90,6 +91,7 @@ function App() {
         <Route path='/staff-augmentation/laravel' element={<LaravelDeveloper></LaravelDeveloper>}></Route>
         <Route path='/staff-augmentation/angular' element={<AngularDeveloper></AngularDeveloper>}></Route>
         <Route path='/staff-augmentation/python' element={<PythonDeveloper></PythonDeveloper>}></Route>
+        <Route path='/staff-augmentation/project-manager' element={<ProjectManager></ProjectManager>}></Route>
 
 
       </Routes>

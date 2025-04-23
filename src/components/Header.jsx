@@ -87,7 +87,7 @@ function Header() {
                         items: [
                             { name: "Angular Developers", href: "/staff-augmentation/angular" },
                             { name: "Python Developers", href: "/staff-augmentation/python" },
-                            { name: "Project Manager/Scrum Master", href: "#" },
+                            { name: "Project Manager/Scrum Master", href: "/staff-augmentation/project-manager" },
                             { name: "DevOps Engineer", href: "#" },
                             { name: "Blockchain Developers", href: "#" },
                         ],
